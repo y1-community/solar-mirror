@@ -1,0 +1,174 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+// 2026-07-05 — versionName/versionCode stamped from SOURCE_DATE_EPOCH at build start (not git commit time).
+// syncReleaseVersion → sync-gradle-version.sh; must match OTA tag, About UI, and Reach client version.
+// When changing: CI records SOURCE_DATE_EPOCH at checkout in .github/workflows/build-release.yml.
+
+def platformKeystore = file("${rootProject.projectDir}/.gradle/platform.keystore")
+
+// 2026-08-01 — Single-APK installability: AOSP platform (test-key) signing is used only when the
+// platform keys/keystore are configured or explicitly requested. Machines without them
+// (phones / emulators / desktop) fall back to the normal Android debug key, so a single
+// installable APK builds with zero special setup. Request explicitly with
+//   -PplatformSigningRequested=true   or   SOLAR_PLATFORM_SIGNING=true
+// Reversal: delete block; preBuild then fails again without SOLAR_PLATFORM_KEY_PK8/PEM.
+def platformSigningRequested = {
+    def prop = project.findProperty("platformSigningRequested")
+    if (prop != null) return prop.toString().equalsIgnoreCase("true")
+    def env = System.getenv("SOLAR_PLATFORM_SIGNING")
+    if (env != null && !env.isEmpty()) return env.equalsIgnoreCase("true")
+    def pk8 = System.getenv("SOLAR_PLATFORM_KEY_PK8")
+    def pem = System.getenv("SOLAR_PLATFORM_KEY_PEM")
+    if (pk8 != null && !pk8.isEmpty() && pem != null && !pem.isEmpty()) return true
+    return platformKeystore.isFile()
+}()
+
+tasks.register("ensurePlatformKeystore") {
+    doLast {
+        // No-op when platform signing isn't wanted — phones/emulators build with the debug key.
+        if (platformSigningRequested && !platformKeystore.isFile()) {
+            exec {
+                workingDir rootProject.projectDir
+                commandLine "bash", "scripts/ensure-platform-keystore.sh"
+            }
+        }
+    }
+}
+
+tasks.register("syncY1Assets") {
+    doLast {
+        exec {
+            workingDir rootProject.projectDir
+            commandLine "bash", "solar-rom/scripts/sync-y1-assets.sh"
+        }
+    }
+}
+
+tasks.register("syncReleaseVersion") {
+    doLast {
+        try {
+            exec {
+                workingDir rootProject.projectDir
+                environment "SOLAR_RELEASE_CHANNEL", System.getenv("SOLAR_RELEASE_CHANNEL") ?: ""
+                commandLine "bash", "solar-rom/scripts/sync-gradle-version.sh"
+            }
+        } catch (Exception e) {
+            // Version stamping only matters when a release APK is involved. Pure debug builds
+            // (phones/emulators without python3/git) must still be able to assemble; any task
+            // set that could produce a release/bundle (assemble, build, *Release, *Bundle)
+            // rethrows so a stale versionName never ships silently.
+            boolean releaseInvolved = gradle.startParameter.taskNames.any {
+                def t = it.toLowerCase()
+                t.contains("release") || t.contains("bundle") || t == "assemble" || t == "build"
+            }
+            if (releaseInvolved) throw e
+            logger.warn("syncReleaseVersion skipped (debug-only build): " + e.getMessage())
+        }
+    }
+}
+
+tasks.named("preBuild").configure { dependsOn("ensurePlatformKeystore", "syncY1Assets") }
+
+android {
+    namespace 'com.solar.launcher'
+    compileSdk 35
+
+    signingConfigs {
+        platform {
+            storeFile platformKeystore
+            storePassword "android"
+            keyAlias "platform"
+            keyPassword "android"
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.solar.launcher"
+        minSdk 17
+        targetSdk 35
+        versionCode 3488287
+        versionName "20260819-1007"
+        buildConfigField "boolean", "FEATURE_OTA_UPDATE", "true"
+        buildConfigField "String", "OTA_UPDATES_URL", "\"https://thesolarproject.github.io/solar-update/updates.xml\""
+        def podcastIndexKey = project.findProperty("PODCAST_INDEX_API_KEY") ?: ""
+        def podcastIndexSecret = project.findProperty("PODCAST_INDEX_API_SECRET") ?: ""
+        buildConfigField "String", "PODCAST_INDEX_API_KEY", "\"${podcastIndexKey}\""
+        buildConfigField "String", "PODCAST_INDEX_API_SECRET", "\"${podcastIndexSecret}\""
+
+        def reachDirectoryUrl = project.findProperty("REACH_DIRECTORY_URL") ?: ""
+        def reachDirectoryToken = project.findProperty("REACH_DIRECTORY_TOKEN") ?: ""
+        buildConfigField "String", "REACH_DIRECTORY_URL", "\"${reachDirectoryUrl}\""
+        buildConfigField "String", "REACH_DIRECTORY_TOKEN", "\"${reachDirectoryToken}\""
+
+        // 2026-07-16 — Worker in cloudflare/solar-diag/; issues on thesolarproject/solar-diag. Ingest token only.
+        def solarDiagUrl = project.findProperty("SOLAR_DIAG_URL") ?: ""
+        def solarDiagToken = project.findProperty("SOLAR_DIAG_TOKEN") ?: ""
+        buildConfigField "String", "SOLAR_DIAG_URL", "\"${solarDiagUrl}\""
+        buildConfigField "String", "SOLAR_DIAG_TOKEN", "\"${solarDiagToken}\""
+
+        def lastfmApiKey = project.findProperty("LASTFM_API_KEY") ?: ""
+        def lastfmApiSecret = project.findProperty("LASTFM_API_SECRET") ?: ""
+        buildConfigField "String", "LASTFM_API_KEY", "\"${lastfmApiKey}\""
+        buildConfigField "String", "LASTFM_API_SECRET", "\"${lastfmApiSecret}\""
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        debug {
+            signingConfig platformSigningRequested ? signingConfigs.platform : signingConfigs.debug
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig platformSigningRequested ? signingConfigs.platform : signingConfigs.debug
+        }
+    }
+    buildFeatures {
+        buildConfig true
+        aidl true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    sourceSets {
+        main {
+            java.srcDirs += 'src/api21/java'
+            java.srcDirs += "${rootDir}/solar-rom/vendor/global-input-policy"
+            java.srcDirs += "${rootDir}/solar-rom/vendor/solar-home-policy"
+        }
+        test {
+            java.srcDir "${rootDir}/solar-rom/vendor/xposed/solar-context-bridge/src/extract"
+            java.srcDirs += "${rootDir}/solar-rom/vendor/solar-home-policy"
+        }
+    }
+}
+
+afterEvaluate {
+    tasks.named("preReleaseBuild").configure { dependsOn("syncReleaseVersion") }
+    // adb / local debug APKs get the same UTC build-start stamp as release.
+    tasks.named("preDebugBuild").configure { dependsOn("syncReleaseVersion") }
+}
+
+dependencies {
+    implementation project(':solar-ota-lib')
+    implementation project(':solar-overlay-ui')
+    implementation 'org.conscrypt:conscrypt-android:2.5.3'
+    // 2026-07-05 — okhttp 3.12.x last branch for API 17; 3.13+ requires API 21.
+    implementation 'com.squareup.okhttp3:okhttp:3.12.13'
+    implementation 'net.jthink:jaudiotagger:3.0.1'
+    testImplementation libs.junit
+    testImplementation 'org.json:json:20240303'
+    testImplementation 'net.sf.kxml:kxml2:2.3.0'
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation 'androidx.test:runner:1.5.2'
+    androidTestImplementation 'androidx.test:core:1.5.0'
+    androidTestImplementation 'androidx.test:rules:1.5.0'
+}
+// 파일 맨 밑에 추가: 최신 라이브러리 버전 체크 안전장치를 강제로 끄는 코드
+tasks.withType(com.android.build.gradle.internal.tasks.CheckAarMetadataTask).configureEach {
+    enabled = false
+}
