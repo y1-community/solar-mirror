@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-03T15:20:37Z",
+  "generated_at": "2026-11-03T15:37:26Z",
   "source_repo": "thesolarproject/solar",
   "mirror_repo": "y1-community/solar-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -42,7 +42,47 @@
       "layout": "beside_app"
     }
   ],
-  "releases": [],
+  "releases": [
+    {
+      "tag": "y2-release",
+      "title": "Portable Flashing Package: Solar Y2 ROM v20261023-0720",
+      "source_title": "Solar Y2 ROM v20261023-0720",
+      "source_url": "https://github.com/thesolarproject/solar/releases/tag/y2-release",
+      "published_at": "2026-09-28T16:36:49Z",
+      "prerelease": false,
+      "source_notes": "Solar Y2 ROM for Innioasis Y2 (MT6582 ATA). Built from 944d14b.",
+      "assets": [
+        {
+          "name": "rom_y2-windows.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "windows",
+          "size": 614555018,
+          "sha256": "54f56868bcf7290d85c472f79e5b5f0d933ebe83abf45c95563e68f9a2690198",
+          "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-windows.zip"
+        },
+        {
+          "name": "rom_y2-linux.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux",
+          "size": 791414180,
+          "sha256": "dd26b1a77bf0d486a0a96d99fdd9ccf7302efaacebb536759b05a350925d0f22",
+          "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-linux.zip"
+        },
+        {
+          "name": "rom_y2-macos.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "macos",
+          "size": 631109747,
+          "sha256": "f87a68a8552a55b1b018182b6e6c73e10ea7ce3c7c0168d7fa937359c6e6599b",
+          "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_y2.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/stats.txt"
+    }
+  ],
   "source_readme": {
     "path": "README.md",
     "source_path": "README.md",
