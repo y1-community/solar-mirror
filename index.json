@@ -1,39 +1,11 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-03T15:37:26Z",
+  "generated_at": "2026-11-03T18:29:39Z",
   "source_repo": "thesolarproject/solar",
   "mirror_repo": "y1-community/solar-mirror",
   "title_prefix": "Portable Flashing Package: ",
   "updater_repo": "y1-community/updater-ce-neo",
   "platforms": [
-    {
-      "key": "windows",
-      "os": "windows",
-      "arch": "x86-64",
-      "suffix": "-windows.zip",
-      "layout": "sp_flash_tool"
-    },
-    {
-      "key": "windows-arm64",
-      "os": "windows",
-      "arch": "arm64",
-      "suffix": "-windows-arm64.zip",
-      "layout": "sp_flash_tool"
-    },
-    {
-      "key": "linux",
-      "os": "linux",
-      "arch": "x86-64",
-      "suffix": "-linux.zip",
-      "layout": "sp_flash_tool"
-    },
-    {
-      "key": "linux-arm64",
-      "os": "linux",
-      "arch": "arm64",
-      "suffix": "-linux-arm64.zip",
-      "layout": "sp_flash_tool"
-    },
     {
       "key": "macos",
       "os": "macos",
@@ -53,27 +25,11 @@
       "source_notes": "Solar Y2 ROM for Innioasis Y2 (MT6582 ATA). Built from 944d14b.",
       "assets": [
         {
-          "name": "rom_y2-windows.zip",
-          "source_asset": "rom_y2.zip",
-          "platform": "windows",
-          "size": 614555018,
-          "sha256": "54f56868bcf7290d85c472f79e5b5f0d933ebe83abf45c95563e68f9a2690198",
-          "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-windows.zip"
-        },
-        {
-          "name": "rom_y2-linux.zip",
-          "source_asset": "rom_y2.zip",
-          "platform": "linux",
-          "size": 791414180,
-          "sha256": "dd26b1a77bf0d486a0a96d99fdd9ccf7302efaacebb536759b05a350925d0f22",
-          "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-linux.zip"
-        },
-        {
           "name": "rom_y2-macos.zip",
           "source_asset": "rom_y2.zip",
           "platform": "macos",
-          "size": 631109747,
-          "sha256": "f87a68a8552a55b1b018182b6e6c73e10ea7ce3c7c0168d7fa937359c6e6599b",
+          "size": 558556147,
+          "sha256": "1bdd8d741a1aa3bf3e348f4bd4cb57bac2516691e26d30671a545a35dc91a046",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-macos.zip"
         }
       ],
