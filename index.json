@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-05T01:14:01Z",
+  "generated_at": "2026-11-05T01:56:56Z",
   "source_repo": "thesolarproject/solar",
   "mirror_repo": "y1-community/solar-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -98,76 +98,94 @@
       "source_notes": "> **Solar** is a custom firmware and launcher for the Innioasis Y1 \u2014 a full interface replacement with podcast downloads, a global quick menu, **Reach** (Deezer + Soulseek), **Stem Player** (stem separation powered by [Lalal.ai](https://www.lalal.ai)), Y1 theme support, and **Rockbox-Y1** on the same ROM (switch without reboot).\r\n\r\n### Features\r\n\r\n- \ud83c\udf9b\ufe0f **Stem Player** \u2014 Gen1-style vocal/drums/bass/melody mixing on the wheel; separate local tracks with **Lalal.ai** stem separation (cache local stems; mash up 1\u20133 songs)\r\n- \ud83c\udfb5 **Reach** \u2014 search, play and download music from Deezer and Soulseek\r\n- \ud83c\udf99\ufe0f **Podcasts** \u2014 search and download episodes to your Y1 over the internet\r\n- \u26a1 **Quick menu** \u2014 global context menu for playback, queue, Wi\u2011Fi, Bluetooth, and more\r\n- \ud83c\udfa8 **Y1 themes** \u2014 install and apply themes from the original Y1 firmware\r\n\r\n## Assets\r\n\r\n- `app-release.apk` \u2014 signed Solar launcher\r\n- `rom.zip` \u2014 Y1 type A ATA firmware (2.0.0+, MT6572, SP Flash Tool included)\r\n- `rom_type_b.zip` \u2014 Y1 type B ATA firmware (before 2.0.0, MT6572, SP Flash Tool included)\r\n- `rom_y2.zip` \u2014 Y2 ATA firmware (MT6582, desparsed ext4, permissive root)\r\n- `rom_a5.zip` \u2014 Timmkoo A5 ATA firmware (MT6572, A5 keylayouts, family pin, SP Flash Tool included, no Rockbox bake)\r\n\r\n## Recent commits\r\n\r\n- 63a4857 Merge pull request #75 from thesolarproject/optimize-fm-presets-db-3443063346962454810\r\n- 508e91b Fix N+1 database updates in FmPresetStore by wrapping inserts and updates in database transactions.\r\n- 5f51eae Bump stable version for next release.\r\n- e5b4829 Merge pull request #71 from thesolarproject/fix-queue-performance-mix-rows-3017496182364856590\r\n- 6802496 Fix performance issues when viewing the playback queue with stems/Mix rows enabled.\r\n- 27a819e Bump stable version for next release.\r\n- 33331da Align Y2 verifier with Solar-only ROMs\r\n- 230fb40 Fit ROM userdata images to scatter partitions\r\n- 4a2fe2f Fix writable ext4 mounts for noninteractive ROM builds\r\n- 9f487c6 Sync latest Solar launcher and ROM build work\r\n",
       "assets": [
         {
-          "name": "rom-windows.zip",
-          "source_asset": "rom.zip",
-          "platform": "windows",
-          "size": 1148268571,
-          "sha256": "7f352d5e2ccb4fed54b7e0cacfc86c94e2dec576c4156594f75347c74a0b3a8b",
-          "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom-windows.zip"
-        },
-        {
           "name": "rom-linux.zip",
           "source_asset": "rom.zip",
           "platform": "linux",
-          "size": 1299579290,
-          "sha256": "5f2af5b17c71dd82d819c5fdea1078141f8ca41866fcced88abed320852f35d4",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 1297654343,
+          "sha256": "325dbddd971146f1cad864ea345fed70a036ae6d499dd898d932dbd6d4b38b51",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom-linux.zip"
         },
         {
           "name": "rom-macos.zip",
           "source_asset": "rom.zip",
           "platform": "macos",
-          "size": 1098692072,
-          "sha256": "5f4f5e8b34f7e10018fbf3955f401aedc38e9113e6834b2b8de98fc3ff7344e3",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 1066043791,
+          "sha256": "a413445296a21fb06f932b3891ac5f01220af6cf1a439ffc9117814c43e9ef3e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom-macos.zip"
         },
         {
-          "name": "rom_a5-windows.zip",
-          "source_asset": "rom_a5.zip",
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
           "platform": "windows",
-          "size": 460378209,
-          "sha256": "e0dd196e817283ba8299fae8ae3128ae143551d61aad10758bfd5c0b2c783ef5",
-          "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_a5-windows.zip"
+          "model": "Y1",
+          "type": "Type A",
+          "size": 1146439179,
+          "sha256": "05972fc8a6b14915c23dbca13cc0df6dae6a997e9773dd896d31061af99a3462",
+          "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom-windows.zip"
         },
         {
           "name": "rom_a5-linux.zip",
           "source_asset": "rom_a5.zip",
           "platform": "linux",
-          "size": 611688928,
-          "sha256": "44c0b57279ad900241cab4fef250214071c4d7f1c9c30bb285cb59d0b492f040",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 609763981,
+          "sha256": "c44b8a6b26685219d0e74ff3abae5a55f2f3a777d0c7f87ad960703081b21531",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_a5-linux.zip"
         },
         {
           "name": "rom_a5-macos.zip",
           "source_asset": "rom_a5.zip",
           "platform": "macos",
-          "size": 410801693,
-          "sha256": "ec86e548c771dd94ade0e6e71dbcc343605198893677c8a3393a1e24a4c2dd1b",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 378153412,
+          "sha256": "5cd5a3389d52e2a936710567b7515ac4cd5c9ffec83b41f9473b3f88289e3d68",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_a5-macos.zip"
         },
         {
-          "name": "rom_type_b-windows.zip",
-          "source_asset": "rom_type_b.zip",
+          "name": "rom_a5-windows.zip",
+          "source_asset": "rom_a5.zip",
           "platform": "windows",
-          "size": 655101149,
-          "sha256": "23a635c44e6c9048bceb7b1c9302558562e04c527386cfa0483f35080674df64",
-          "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_type_b-windows.zip"
+          "model": "Y1",
+          "type": "Type A",
+          "size": 458548817,
+          "sha256": "839bfd7c4e6117ad87c8e88611d96d1d4e967166f9912117d51d8990ccb0d0ba",
+          "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_a5-windows.zip"
         },
         {
           "name": "rom_type_b-linux.zip",
           "source_asset": "rom_type_b.zip",
           "platform": "linux",
-          "size": 806411868,
-          "sha256": "26d84f19d5c40051658a1c134f587412c8b39d7a1b05a593d0fc5a7155f6628a",
+          "model": "Y1",
+          "type": "Type B",
+          "size": 804486921,
+          "sha256": "dd4bd4211fda2983d159978b7130a036ee0f5d040f3c3328b84571e29a31f876",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_type_b-linux.zip"
         },
         {
           "name": "rom_type_b-macos.zip",
           "source_asset": "rom_type_b.zip",
           "platform": "macos",
-          "size": 605524656,
-          "sha256": "2209d889d4ce7a9641bfba20f3257515ab4a11442a7500af7fb20f8127e9ec1e",
+          "model": "Y1",
+          "type": "Type B",
+          "size": 572876375,
+          "sha256": "c745c34fd001ca42ac27aef9600aa11c2d60dfc0012b8930413d273ab2f3b655",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_type_b-macos.zip"
+        },
+        {
+          "name": "rom_type_b-windows.zip",
+          "source_asset": "rom_type_b.zip",
+          "platform": "windows",
+          "model": "Y1",
+          "type": "Type B",
+          "size": 653271757,
+          "sha256": "31e287c60a59d0b25c097dea5ce0aacdbe8b67674ed3f9fe5f660ae655999e1a",
+          "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_type_b-windows.zip"
         }
       ],
       "original_assets": [
