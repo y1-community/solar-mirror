@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-05T14:22:27Z",
+  "generated_at": "2026-11-06T14:39:53Z",
   "source_repo": "thesolarproject/solar",
   "mirror_repo": "y1-community/solar-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -59,7 +59,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 757518415,
-          "sha256": "08dcd4a0336e6d26a1c22058b0ecfeeaa943885c7863121ee8b8fbe9aef61184",
+          "sha256": "5e670419ad583531aa5bb6efce645c3ce729f43f239d9583a0c084f240fcac76",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-linux.zip"
         },
         {
@@ -68,8 +68,8 @@
           "platform": "macos",
           "model": "Y2",
           "type": "Stock",
-          "size": 525907855,
-          "sha256": "c5ba75c5787535522ec3098633545350078849d085b86f66a11dbd5a9eeeebfc",
+          "size": 616203457,
+          "sha256": "5dcd93c664c24ba1c47bbd5f2ab27a298a9926d8213fc6f2f4628def85eb638c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-macos.zip"
         },
         {
@@ -78,8 +78,8 @@
           "platform": "windows",
           "model": "Y2",
           "type": "Stock",
-          "size": 608745382,
-          "sha256": "5eb0c6b2c846de393a5b8ed91db20a02d223d4145a781fd000cd152697e1d999",
+          "size": 641675343,
+          "sha256": "576b0342434cfce7fff38bdcae8bf55229a7f481316cdf9cc72f92b3ab9ef555",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-windows.zip"
         }
       ],
@@ -104,7 +104,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 1297654343,
-          "sha256": "5de9609d49d4d7a4baa67d1ff05772d2cedb00f65c87598dfb706619bed3bfcc",
+          "sha256": "eec9037eef2948b49404c38295f78d0d04251b859a9eecf64e0175040b8a27e2",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom-linux.zip"
         },
         {
@@ -113,8 +113,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 1066043791,
-          "sha256": "41bb5467911efb6e91b7ab54a5350253410550f5426ad485a0081d3372da0659",
+          "size": 1156339393,
+          "sha256": "32940ec8b991a68119b7307a2e41712bc92db640163750d3fdcde23161b3df77",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom-macos.zip"
         },
         {
@@ -123,8 +123,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 1148881310,
-          "sha256": "d49679d6d5cc657adedba7aa2b6445aebefa9c63b3a54dbef96b1a73e34b8eb6",
+          "size": 1181811271,
+          "sha256": "78447dcfbf58d987abfe50456ec2bae76ec7f2b33be7d88fba351811aaa959a1",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom-windows.zip"
         },
         {
@@ -134,7 +134,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 609763981,
-          "sha256": "21893676454f81d62e37c8e655818a33efdb40847e382bfc65df659665f74abd",
+          "sha256": "e5c701a7d3e01dd06a544f6d795044e9bf956bf25a356e69bfa6876ca22e12c1",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_a5-linux.zip"
         },
         {
@@ -143,8 +143,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 378153412,
-          "sha256": "7c417db4357fa3d9a8eab32a1e43f2341fbbfc9239fb90dfe4ebba58a9c8da49",
+          "size": 468449014,
+          "sha256": "f4f472ddb41ce48212cf0f595c93576a02f8070d13465df38f7e1bbf4e80879d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_a5-macos.zip"
         },
         {
@@ -153,8 +153,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 460990948,
-          "sha256": "a7144460ff63302f98d860055a0c84424b6288f4d2c55c9d0529fbd34d8c84fa",
+          "size": 493920909,
+          "sha256": "2ad147409ad9984cc2e27684f7ca3f6ccf89d48bb262b5fa453ddf0963412895",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_a5-windows.zip"
         },
         {
@@ -164,7 +164,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 804486921,
-          "sha256": "d87c1dc1969588429c98adc885d9c95fcdd1108203b3d8748258010b9c698244",
+          "sha256": "063e837cb2b3141bb8fea57cf10892303bbb2ed1f21b39d445deeedf4c23257e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_type_b-linux.zip"
         },
         {
@@ -173,8 +173,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 572876375,
-          "sha256": "cb536d23747f59162bca644d147c5bb15d73344642f8ac1932966cf7f2998edd",
+          "size": 663171977,
+          "sha256": "2894c1f92553ae5615d7975c7244c291aba28c8f33125ef1e2340f0ce75a4ec2",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_type_b-macos.zip"
         },
         {
@@ -183,8 +183,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 655713888,
-          "sha256": "4316435357922fc323435850f0795e5c53630c5202d5deaebe7e9ff8117f9b43",
+          "size": 688643849,
+          "sha256": "83813d00b0828feb11d32e5582118d91cb1d60e23dc2b44e3151264f1fabe35e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_type_b-windows.zip"
         }
       ],
@@ -212,7 +212,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 950762918,
-          "sha256": "d05c80618e2e5463d264e5f0b0d0eea215ce1bc29d88eda658bcc5bcb4044e9f",
+          "sha256": "91d4adda3e46059fe203f3f6c130ba3da063f6256a0610d978233b2e587322dd",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-base/rom_y2-linux.zip"
         },
         {
@@ -221,8 +221,8 @@
           "platform": "macos",
           "model": "Y2",
           "type": "Stock",
-          "size": 719152362,
-          "sha256": "195d6cae842859f4af4cc500724b845c8d4324a17b8ce6d46f9dc9f1965bc98c",
+          "size": 809447964,
+          "sha256": "819b592f5cea6bb757e58c6b0980bedccc41ef696cd706ba1fc9ee2633c7d1c0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-base/rom_y2-macos.zip"
         },
         {
@@ -231,8 +231,8 @@
           "platform": "windows",
           "model": "Y2",
           "type": "Stock",
-          "size": 801989885,
-          "sha256": "3a1fcb42a5259950252226875d7efdf930510beabac93d8b4dfc292e1c62876b",
+          "size": 834919846,
+          "sha256": "3a30e0e44cb6612c8ac9c316d322e7b20567c3d266f2e4e963abefb72b572930",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-base/rom_y2-windows.zip"
         }
       ],
@@ -257,7 +257,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 1297372565,
-          "sha256": "bca416dcccc8927914f508e687d811cd6459c78879aba39ca86a0a4ab8495a32",
+          "sha256": "01f208ac77bec9ba5ecca7f9757da436394844b2b44f9e3da43f1785dd104a2c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/type-a-base/rom-linux.zip"
         },
         {
@@ -266,8 +266,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 1065762028,
-          "sha256": "933b86cd26061e61ca8191577e4516232f317aec0fda48a08ff2a1066dd2a079",
+          "size": 1156057630,
+          "sha256": "a0cceed9391d5837d55c036073e181743f6931c6cb57f92b6f25aa0090163b4b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/type-a-base/rom-macos.zip"
         },
         {
@@ -276,8 +276,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 1148599532,
-          "sha256": "510d91a8b5bb15c7c5d60bd98f0d7f27f9e53ec95ccd68a69b18e31b5228065e",
+          "size": 1181529493,
+          "sha256": "3a8bc7320c18ff616093aaa633c2e54f183301e9e683d7544faefe3d52ba80b4",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/type-a-base/rom-windows.zip"
         }
       ],
@@ -302,7 +302,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 860040218,
-          "sha256": "baacb6d0f7faa7abf588749b269f93efdf8f4d477e438268701093187f740096",
+          "sha256": "e00c8837ed5b231d68613c91689c24759acff3cc653539bccd73ffc42d9e61a8",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260716-0131/rom-linux.zip"
         },
         {
@@ -311,8 +311,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 628429655,
-          "sha256": "02a7f44143017e04ea4d46c9bf05c77ed61dec8db57d5cd495cc2a3b07378ee1",
+          "size": 718725257,
+          "sha256": "2455cbd25e7faa947110518868f04a4c189f62943e4c6cac02fa0e3ab4365261",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260716-0131/rom-macos.zip"
         },
         {
@@ -321,8 +321,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 711267185,
-          "sha256": "b23679154c484c4b48e583d4d8352de6fdd8f0398f78bfe9fb7e6266831ad810",
+          "size": 744197146,
+          "sha256": "49a145fe9ddb91caab50a1eb484abb29f28f36d182715f42652c1c49ee19259b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260716-0131/rom-windows.zip"
         },
         {
@@ -332,7 +332,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 860902963,
-          "sha256": "a0c94eea9142cf9b281cf4d750328d2c5fcca37d797c2725829baf0ff777708e",
+          "sha256": "1588de55ddd4f04053e289ca7ce5d09fdf0c45810e7fa8a40ce94130a9a905fc",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260716-0131/rom_type_b-linux.zip"
         },
         {
@@ -341,8 +341,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 629292406,
-          "sha256": "2638ea2776fc05ab827f515c15207c9f328cba363c632e70ab2bcfd548c82e29",
+          "size": 719588008,
+          "sha256": "75f4a58e55224c8c0ca32ffe226c5a4d446e1d3cd943e819f218da76470926b1",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260716-0131/rom_type_b-macos.zip"
         },
         {
@@ -351,8 +351,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 712129930,
-          "sha256": "27b6c0a08951c3b17e9fa494b2030ed39202016a7681a49bd02aa165cd647c3b",
+          "size": 745059891,
+          "sha256": "7623e43f50a74e78d3ed40bd5689a173dd535e9f755e8ddf8a18d4bb516c038c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260716-0131/rom_type_b-windows.zip"
         },
         {
@@ -362,7 +362,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 950762936,
-          "sha256": "1e2665ca137c895be0795800f8a3a496aa8f6a1bc35f832d9e88f8696775b89b",
+          "sha256": "f951305fd7f66e89850f5d5813861d059646a5090b796fa041522910808b8989",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260716-0131/rom_y2-linux.zip"
         },
         {
@@ -371,8 +371,8 @@
           "platform": "macos",
           "model": "Y2",
           "type": "Stock",
-          "size": 719152375,
-          "sha256": "0434c40f619d4ceccd10f0fa83104861a23f10e9612f132bb449160428c11739",
+          "size": 809447977,
+          "sha256": "32bf7d2ad94b15dc4034042675fe980422c34171a7d0625d427aa4186a5037be",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260716-0131/rom_y2-macos.zip"
         },
         {
@@ -381,8 +381,8 @@
           "platform": "windows",
           "model": "Y2",
           "type": "Stock",
-          "size": 801989903,
-          "sha256": "96a56ec78016ac82e7ae27c485ab85eb0f7961426f56dcce48fda7a86ed9a6a0",
+          "size": 834919864,
+          "sha256": "63498f2ed33f226638281486f7224e9911316e47a4d420048e99d60864c707b7",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260716-0131/rom_y2-windows.zip"
         }
       ],
@@ -409,7 +409,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842261146,
-          "sha256": "c545384356847cb8c122a38846d326a05de6006dba06fe4179f4d69b4c689cd0",
+          "sha256": "6fd4b2cead39c51f236f9e02bd7c62d6b48ea59f3e572e4657b7338318e91552",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260702-1521/rom-linux.zip"
         },
         {
@@ -418,8 +418,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608849991,
-          "sha256": "27ca6901e27b368e7e40f21c38e88e5ed86e87badd9dedf50244f794767ef3a2",
+          "size": 699145593,
+          "sha256": "6c01f4d1446b60167d84c17d631bb5503676047b0d7a1ed447226fd558ec6bb5",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260702-1521/rom-macos.zip"
         },
         {
@@ -428,8 +428,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693488113,
-          "sha256": "00e78f66e761f5bb5c3f7a12b481ac1d1a082477806820416cce91cbb7a70c1f",
+          "size": 726418074,
+          "sha256": "553fee8c8f5eb0f440459dcf863e67e702d43c91a080f0296280cbdd6a7bac68",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260702-1521/rom-windows.zip"
         },
         {
@@ -439,7 +439,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 795077376,
-          "sha256": "6440e74494a2b52e421e96e9db22942c47564d34461ff3a79c02adf3d61d1fd0",
+          "sha256": "5a05867530f2503840f5cda2ce3e859a7b1c0be8c7d393ef96c4f486ea8a2b23",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260702-1521/rom_type_b-linux.zip"
         },
         {
@@ -448,8 +448,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561666228,
-          "sha256": "12ffae4161544a9a0557dc5aa54f6d6af27a9cac507335c8a886bf1d83fb7e3e",
+          "size": 651961830,
+          "sha256": "542f0720e2aea5d2fabd8deadebbb44ee8ad7a4b42b2ce35e1b76610552eae32",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260702-1521/rom_type_b-macos.zip"
         },
         {
@@ -458,8 +458,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646304343,
-          "sha256": "bb378429f618577d4e5919e20f45330e3ee785dfbd3c77d28b73d9d3cb0eda24",
+          "size": 679234304,
+          "sha256": "1b75ef96cb94a7e85916b5027573d8d6b1429b02e1c1a843a1f8958c8b668d37",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260702-1521/rom_type_b-windows.zip"
         }
       ],
@@ -486,7 +486,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842248912,
-          "sha256": "8b0b17e59704fc9d4db271bc8daf4fac8ac7d8de307095715cba60cca2c62eee",
+          "sha256": "218270b51269050f729094cf4058cfb477c732cc4f9d39e053ccf743194d61f4",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260702-1512/rom-linux.zip"
         },
         {
@@ -495,8 +495,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608837750,
-          "sha256": "c4eb2df2bfa2c7a6be690cf5cbfc7bb82840b7c25e979def9313f2396800954a",
+          "size": 699133352,
+          "sha256": "00f66958ca8151469fd8013be8a0dcb3da35683fff19be39541fa88b5f9743e1",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260702-1512/rom-macos.zip"
         },
         {
@@ -505,8 +505,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693475879,
-          "sha256": "62278aa3dc7770cb7d58a8b1961108945a09ad764070d59e8d9349c55448eaa8",
+          "size": 726405840,
+          "sha256": "e751ffeaffd972e45e1f3e8e0af3766a529d099593168f93412d220b4d007332",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260702-1512/rom-windows.zip"
         },
         {
@@ -516,7 +516,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 793739585,
-          "sha256": "4bc4f45944db85c8b0b50e1fd7944637098f1bc04625b28eba90f4d702649c83",
+          "sha256": "d9dfa8565532c92d7c7e7842fb39965901fcac5f70035eef5beb21b09c760ca3",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260702-1512/rom_type_b-linux.zip"
         },
         {
@@ -525,8 +525,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 560328430,
-          "sha256": "851b2b3673fa6451b1c9a1af6c5e1fbc23e6d277a18adda81cac2495943faa44",
+          "size": 650624032,
+          "sha256": "1b6eaa4fcb11c37f1da7d73abfee08c3b26a17c5ad99ed58024041dd1e191c99",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260702-1512/rom_type_b-macos.zip"
         },
         {
@@ -535,8 +535,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 644966552,
-          "sha256": "e7fbaeffefd559f6e4ed60df5c0862a29aa8edea5490f6e40b5462eea1653543",
+          "size": 677896513,
+          "sha256": "16830975321460fdc70e7f1bded5e79880ad115619c5cbbcf7d146913dbf2d16",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260702-1512/rom_type_b-windows.zip"
         }
       ],
@@ -563,7 +563,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842205331,
-          "sha256": "54369dac7d025f36928d388f3776d5cd186f7f4a709732f11dc3868367d39e4a",
+          "sha256": "44273f5873c7243fa223547db4e927ca92c5f09dae9ac5e77df98c994da48753",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260701-1453/rom-linux.zip"
         },
         {
@@ -572,8 +572,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608794164,
-          "sha256": "6b3c1d04406085f841908ec3517eb7849ff46242b258b8ba3056b3ae128b3cca",
+          "size": 699089766,
+          "sha256": "c8453b2094cd0b246485bcb0c23fe1a0e2317025eb386e8a1634be8a0ef32867",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260701-1453/rom-macos.zip"
         },
         {
@@ -582,8 +582,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693432298,
-          "sha256": "0b5b6373f7eafba0626efb1eb76d260e4ac8c2b4f0794f771e5d9f21547ea04c",
+          "size": 726362259,
+          "sha256": "029c137cbfc8289ab3e0fc0c79d2b6ef8d4114aa3ddac39f4a34cce55ec77e0f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260701-1453/rom-windows.zip"
         },
         {
@@ -593,7 +593,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 793744621,
-          "sha256": "f58dbb75aad3a0462352941a105a35c5177cb15a5af05216bf5defc33561b2b9",
+          "sha256": "6377104381e40f066b7bc96869082448cc8ca77dac91ccfa41b2317f17cf4950",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260701-1453/rom_type_b-linux.zip"
         },
         {
@@ -602,8 +602,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 560333461,
-          "sha256": "783f50ce7f0ce4e60c1a16cf2719b3183feca14cb4051c8307c92d44ef1f98b9",
+          "size": 650629063,
+          "sha256": "74bade3944849be27af8f402085d36f8faf1db9238c5e7db62215c26e95b3bb9",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260701-1453/rom_type_b-macos.zip"
         },
         {
@@ -612,8 +612,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 644971588,
-          "sha256": "618fe9d276c04b4a5be08802cce85af36b7f2c7eb4028f88f14a416d85244a26",
+          "size": 677901549,
+          "sha256": "0c2dc3eadd8675361bb945f4fc3e9977dcf678b45e0a949b5eee1f7ca4e7e9c5",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260701-1453/rom_type_b-windows.zip"
         }
       ],
@@ -640,7 +640,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842246122,
-          "sha256": "6a7fcf3707a834f652c76c2e0c5271bed2ed9618bf796192b7c0f9d03c4ce597",
+          "sha256": "5d101baedc0181099ca4af9c6580f5d677926e9066618e7bbee8fd8f53f268e2",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260701-1454/rom-linux.zip"
         },
         {
@@ -649,8 +649,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608834949,
-          "sha256": "adbbf51c9a5fb1c055da623bc1037b01a27d52457b07b3245128a42442c8725f",
+          "size": 699130551,
+          "sha256": "c8cdcccc953365ab6b5c136580a21e62ee428bc9d6f73614beab53fac6bdee94",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260701-1454/rom-macos.zip"
         },
         {
@@ -659,8 +659,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693473089,
-          "sha256": "4f6c28a3399b85ac69543c0eef1899a6932d9dc92f65af30aef13a924619b90b",
+          "size": 726403050,
+          "sha256": "1d590e821b0bf0893dd2d105a7608dbf271edf388fb5124600aedd81e8cf8b5d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260701-1454/rom-windows.zip"
         },
         {
@@ -670,7 +670,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 794908266,
-          "sha256": "a384caf3ec906f34ba1cec5a3707591b00e5b2fd6eed443d3039ea991734d6df",
+          "sha256": "35a45e0c541faa2496d4f3c307b78f9575164955bad479064adc595fb0f8bee7",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260701-1454/rom_type_b-linux.zip"
         },
         {
@@ -679,8 +679,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561497100,
-          "sha256": "39e14a5929b2f9493408dc2dea4a24d28fc7a93c556c54584a25b8da05a85564",
+          "size": 651792702,
+          "sha256": "f4db8b66a1d977bcacc5aa16202ac6561b2c6fb7c6132f17f822a742d8917a5c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260701-1454/rom_type_b-macos.zip"
         },
         {
@@ -689,8 +689,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646135233,
-          "sha256": "88b86add69faa93695cefb5f14b04b6a7694e805a050b90098ed2b558fa8ed6e",
+          "size": 679065194,
+          "sha256": "0f363f0089042650a642f470cb38f91b4ddcef0b6da7ef32fca2204628423090",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260701-1454/rom_type_b-windows.zip"
         }
       ],
@@ -717,7 +717,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842268831,
-          "sha256": "3f62c75c502d0ae83450073e432a60644c08fb632c318d28163dc69b7a7c5e12",
+          "sha256": "8f883cdb74029afc485c436fd4dde76387987c94f9f731bb35ed82260b7eaa06",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1236/rom-linux.zip"
         },
         {
@@ -726,8 +726,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608857666,
-          "sha256": "a7c50541551259c3a94056cab491160d2c54b83a117c9206e25676de337d70a9",
+          "size": 699153268,
+          "sha256": "fd0bfb144f0bee340327663054e7de12a624f44bc38f2ac1dbae1bee91c54c67",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1236/rom-macos.zip"
         },
         {
@@ -736,8 +736,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693495798,
-          "sha256": "af8a3097338fc353df37bfa973d6bac947588f56c4cf25f47c7ff1f90d1942b5",
+          "size": 726425759,
+          "sha256": "e0f0042a3abad0c5d886d6e0a0e7911826b80ab3c3e4480bf107e51006fff3f0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1236/rom-windows.zip"
         },
         {
@@ -747,7 +747,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 793969393,
-          "sha256": "f546e4a5fc76b6d4be72f25908d3b8219893f3c93ff3d33539a2ced0eed147be",
+          "sha256": "6934dcdcfdd162252ab2d61c8e1e03e14ecb578623c988264253befd73fefc61",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1236/rom_type_b-linux.zip"
         },
         {
@@ -756,8 +756,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 560558234,
-          "sha256": "254762bc23f28cf566202f02506624f2d956fc5b856d90820fe21da4b64f8eee",
+          "size": 650853836,
+          "sha256": "5f80b8d7ce379ca2572b0952e729b8e4c76f5ff58b174a0a0891ab15700c671b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1236/rom_type_b-macos.zip"
         },
         {
@@ -766,8 +766,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 645196360,
-          "sha256": "4fccf410c150e44633cd96242210e0ecf43c1d98092276321ce1b98b61375411",
+          "size": 678126321,
+          "sha256": "741f58bf0ec0e0288dfb0188551e3041ae78e50645fb4fb78d097f628c0f7387",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1236/rom_type_b-windows.zip"
         }
       ],
@@ -794,7 +794,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842275714,
-          "sha256": "178a606ea7c7a27757f3afb4db8be95cff4208980ff7f8ec5e77d1f679385011",
+          "sha256": "16c031db5927102064cd403b8b9329cbb54201dea580378e88105b4f8e41ecb5",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1236/rom-linux.zip"
         },
         {
@@ -803,8 +803,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608864542,
-          "sha256": "8686c70d791c66569800fcaa5e8954851a8dd4d4004dc5dff2c1e5a6fd73e50a",
+          "size": 699160144,
+          "sha256": "eb1fe974858794d81a30025d15fc24951774e7eb9cb47dfe6e712f8409caadf3",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1236/rom-macos.zip"
         },
         {
@@ -813,8 +813,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693502681,
-          "sha256": "df636ad095dc05158b0b96db6e35289c7c004d846b877afe5b10ceb52923e762",
+          "size": 726432642,
+          "sha256": "d75b248643a91a117729f708fe6a6efd7fd37adf61acf1fd4c0cafb80cb7e067",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1236/rom-windows.zip"
         },
         {
@@ -824,7 +824,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 794997120,
-          "sha256": "004f7d44ecdc496be8b7474173136d0b26b6a1c40540fc43c9461f21a0fbc5d1",
+          "sha256": "d3fcb1579efa6428a6c69b2bd14ea1b6eef6ec744245e59accab779d709643a0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1236/rom_type_b-linux.zip"
         },
         {
@@ -833,8 +833,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561585954,
-          "sha256": "badbd59ad2dfa196c096dc3a5661a4908e24a630988cc298d10e7b9fd28fc8d3",
+          "size": 651881556,
+          "sha256": "bb40772828eb872bedf06dc93b667037463c6105e6e04cba4c4f9fa0f8dcee29",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1236/rom_type_b-macos.zip"
         },
         {
@@ -843,8 +843,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646224087,
-          "sha256": "8a878056081e94dbe317aedc9c516c2df79558758c031f89f5accd0cd89a7179",
+          "size": 679154048,
+          "sha256": "7dce8b451df8d0b8f7be2ca7ec22259ef45c3bb80cd84175a7887b92bfd995cc",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1236/rom_type_b-windows.zip"
         }
       ],
@@ -871,7 +871,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842210432,
-          "sha256": "30617f7f2947c3bce2fc3a6f7884cc97ab46fade2467e039a53e9cc82cf40d5d",
+          "sha256": "89aef203b22cc83f01dbac1c35781c9e31b8e161f1994881bc3fc89509e36085",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1125/rom-linux.zip"
         },
         {
@@ -880,8 +880,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608799266,
-          "sha256": "4e2f3da66dfc753188d518dccdbf0d8806101e6e06ea11ffe17ec8755d3f9270",
+          "size": 699094868,
+          "sha256": "aa16712ca27a2e879c89afcfb44e74db80d546dd4bb2a8f619381a0a4ee6618b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1125/rom-macos.zip"
         },
         {
@@ -890,8 +890,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693437399,
-          "sha256": "b1d3c828a1decd275e1beb4f3eac4489f3e847acf167f7c674995063035ccb9d",
+          "size": 726367360,
+          "sha256": "5975396a8c632c6e57f5781819ca653303404532a05c84b83417c9c572b6f8d6",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1125/rom-windows.zip"
         },
         {
@@ -901,7 +901,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 793703004,
-          "sha256": "2b5dca6941e63e428a8d5272139a935e66fdd0678f60d317254a872ff5046f51",
+          "sha256": "86f769ff5c800d8c1b197e9c3ae0679f2059aa849b6706ada335e45dec580ed1",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1125/rom_type_b-linux.zip"
         },
         {
@@ -910,8 +910,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 560291844,
-          "sha256": "9e4d1303654c2677899e17acab39b70e12a28762da7e97421bed313c47ea86a2",
+          "size": 650587446,
+          "sha256": "6bc37366e46af8b80efce1b1eedfdfc3f6ea3a2cac4923b56d3ec9aa70953f29",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1125/rom_type_b-macos.zip"
         },
         {
@@ -920,8 +920,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 644929971,
-          "sha256": "5de6d79ffeb959fa9e12d209ee24f2d75719442831c318b1d1beb6f895c06653",
+          "size": 677859932,
+          "sha256": "9fd6295b9499d9af66c179b2afb59ba9a7a9216582355fae0de86d2d492bc693",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1125/rom_type_b-windows.zip"
         }
       ],
@@ -948,7 +948,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842265976,
-          "sha256": "b110f5902f27d1bbe3de7010a6f2165cbd4a6d7dc50c336df5c1b95831382cd6",
+          "sha256": "b72fd8abad15950e61a4e736692bb0eefccf6948ae3c8ee4fb41247659a990e7",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1125/rom-linux.zip"
         },
         {
@@ -957,8 +957,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608854801,
-          "sha256": "b028980e0c328c9f6cc7f0b9dbfbaef75ae4cacddefb07b1ab0ca6302ac382bb",
+          "size": 699150403,
+          "sha256": "7eaf22247fec7b64592924d8c2bb75b93c4851382ca6cc1b9f80a196baca724f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1125/rom-macos.zip"
         },
         {
@@ -967,8 +967,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693492943,
-          "sha256": "0016734bd80b4403cf2bf94985b9e2c12c8abc3080030eee8416a1c943d68174",
+          "size": 726422904,
+          "sha256": "430f7a89bd0c062d8db389b7ccfb934aaad54f503337ff58045219d9ff4fbe29",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1125/rom-windows.zip"
         },
         {
@@ -978,7 +978,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 794965797,
-          "sha256": "d3807a7b14c8ab7ccc18cea2e90bb1d911b9c51b61b6b84f2ed649ba884a1ac4",
+          "sha256": "b2756d21815e6b90bc01a0aedb70fdc3aa24c7302757bf7827ff3e4ebb301c0d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1125/rom_type_b-linux.zip"
         },
         {
@@ -987,8 +987,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561554628,
-          "sha256": "d0edc660b9b20b15c416bc01295eca6d07c611815ff28220c5b5a63f3c11c100",
+          "size": 651850230,
+          "sha256": "ff2ffda059d07ae97c144a23233cf1cf2b4e72a1a48c9908376d03d276ff8dbb",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1125/rom_type_b-macos.zip"
         },
         {
@@ -997,8 +997,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646192764,
-          "sha256": "d894300c8d0236da5e80e38dd59a38c533029944742387c9dc837c4fb4e48777",
+          "size": 679122725,
+          "sha256": "2ed4424e3875868605d2172bba7484ec543ea16505c254e7cc97596968fdb08e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1125/rom_type_b-windows.zip"
         }
       ],
@@ -1025,7 +1025,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842224765,
-          "sha256": "5eb8c4622862078fe0b5e29fe317ed29075b7fc4d53705f396a974d805ce8714",
+          "sha256": "39c5d0069b8a00cebad3ae24c08710301b7b31786b0d24fc775b7617e52842f9",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1120/rom-linux.zip"
         },
         {
@@ -1034,8 +1034,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608813599,
-          "sha256": "cf70ad27e85aa3d4875b56dde80f23d1a86c9677d4931ce6dabd7242f69145be",
+          "size": 699109201,
+          "sha256": "8b5749ff1b441bdc617c371d073387453fef5fad1d25c15830b3713a9b5dfc58",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1120/rom-macos.zip"
         },
         {
@@ -1044,8 +1044,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693451732,
-          "sha256": "e659b5450430afb2b8ffb29be96df4bd857d941049fc4b3cd4fa3750ac43405e",
+          "size": 726381693,
+          "sha256": "b5e8d341cb32531b0f8beae962ab5dfdf289feff46535ddf74d8030b4cb03767",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1120/rom-windows.zip"
         },
         {
@@ -1055,7 +1055,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 793710254,
-          "sha256": "3f35679c88b89c8c20d24db49f11c1a7ca8c6ec72380bd201731cfac95df9986",
+          "sha256": "06f0bb6794a881f8abefd50f3d2daf8f085425371c3cec9de6252a9a682162dd",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1120/rom_type_b-linux.zip"
         },
         {
@@ -1064,8 +1064,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 560299094,
-          "sha256": "5d759ab5bd809ae1919b41d4214c0317594d2861993fce4d0f952c1f64c9eaab",
+          "size": 650594696,
+          "sha256": "5d0fcbcb04359423a66c9ced4e832e17508d0acc5b1e2e29481b9c94ddc6c509",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1120/rom_type_b-macos.zip"
         },
         {
@@ -1074,8 +1074,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 644937221,
-          "sha256": "f9a347ffdb1895522704f40fbaf89313309c407ef0c0061b2b225522b6e06665",
+          "size": 677867182,
+          "sha256": "cfae70caf826c4cb0991480e63defbe97924b90e140f0387901ce3136ef76605",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1120/rom_type_b-windows.zip"
         }
       ],
@@ -1102,7 +1102,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842258764,
-          "sha256": "f3c1f7787f74171802b8de9b32065d9e91554c2a4c16a6c6daeb4c8bc567120d",
+          "sha256": "f4a835a7fa3b361434828fb934da6a6532054a1cd5c8491971d8e4e6a9fa9caa",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1120/rom-linux.zip"
         },
         {
@@ -1111,8 +1111,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608847591,
-          "sha256": "8f9bdcd133011a47ac4bba22b367b08b8632162c82960997d39e85c4e1bddf79",
+          "size": 699143193,
+          "sha256": "f673b9fb7753283951ed48f5e30cc709afc7256a29a419357a1a1bbfde5e1fc5",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1120/rom-macos.zip"
         },
         {
@@ -1121,8 +1121,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693485731,
-          "sha256": "7540f9f87c394b3cd154eace72f510919488b2aafc81af3417104a3427f5f734",
+          "size": 726415692,
+          "sha256": "a1c27b16bf3cb947de9776d87da9ce22e629b3102c09b47167050dda4bad8b89",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1120/rom-windows.zip"
         },
         {
@@ -1132,7 +1132,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 794956478,
-          "sha256": "c3d6d9df7fba57fc4896e960dc3463f556d8faa2d2160d2fe2a4be94023cbfaf",
+          "sha256": "45887778a67c3880e65a744552d9ad4ce5e4eb645f3f50960fa36189f063b0cb",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1120/rom_type_b-linux.zip"
         },
         {
@@ -1141,8 +1141,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561545311,
-          "sha256": "6a295f3f6a1eea2c39b479c429d06757f1b95aec33d1e0bed2f78e93058d1e4d",
+          "size": 651840913,
+          "sha256": "b06ba713b7c52ab466f98deb9af24685fb44cd94e025ec1e6d7be97cc367600b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1120/rom_type_b-macos.zip"
         },
         {
@@ -1151,8 +1151,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646183445,
-          "sha256": "901d899053992b71a1995e18228759654d22f9def0dd7bbfe3bbbdfff2bbd7c3",
+          "size": 679113406,
+          "sha256": "72bc177e65203c54dc7ac25c44a90c2e3f048eb79c472b440bbcfc82c6d78f41",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1120/rom_type_b-windows.zip"
         }
       ],
@@ -1179,7 +1179,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842234247,
-          "sha256": "b376bd8b897b1ae527ca8dd8ef7a301751e65c113927e230427459755e68b997",
+          "sha256": "fe97aae918fa0aaeaf9dc97e7fbd601826173bc42aa8dac2f398ba2cedb3dbd8",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1110/rom-linux.zip"
         },
         {
@@ -1188,8 +1188,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608823074,
-          "sha256": "48af084a92ef0f7f7af56095ba9193d7eea1ef19d796ed1ff649f4ee27a8be75",
+          "size": 699118676,
+          "sha256": "69bb043fb6f30368f38d47178c9e1f15e57b6a84a493728a8d7dbe697a8e6f95",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1110/rom-macos.zip"
         },
         {
@@ -1198,8 +1198,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693461214,
-          "sha256": "7d2accf80cd4661a9b42fe16b93a34bdd42ea8e5ec3869dfc4af2a3b8831b8c4",
+          "size": 726391175,
+          "sha256": "6f3ff36de9b541c8d563d5b6403089d9c9c0e4721f297d75217f4f332fc57352",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1110/rom-windows.zip"
         },
         {
@@ -1209,7 +1209,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 795079562,
-          "sha256": "06b06944dc3485497111c91b6a043327da99320c9d268624e5c0d467507a8f7b",
+          "sha256": "d1b9ac34354897c65c92ba7cdc8d0b17e350be25955b7bb89811384daa0f2bf6",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1110/rom_type_b-linux.zip"
         },
         {
@@ -1218,8 +1218,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561668395,
-          "sha256": "810b9221d6d35b1bd0b273ac93ac2ca0db2fa457fecc4fbc74b2113a32ccf56a",
+          "size": 651963997,
+          "sha256": "1d1fadda24476682b7f00aa6bfb75ac619f1123c03eb5409f2fa9215d1fbc839",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1110/rom_type_b-macos.zip"
         },
         {
@@ -1228,8 +1228,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646306529,
-          "sha256": "ded08939b2bdc8148efd1c7dcd99505aa289dd8738cd1141738b898c1e54c945",
+          "size": 679236490,
+          "sha256": "203945162e9206dd6f700fbe66e565d7eff5735e849bf2aec16d5182b4537dfa",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1110/rom_type_b-windows.zip"
         }
       ],
@@ -1256,7 +1256,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842207076,
-          "sha256": "c8b5672733564f452017453bbb08911dcddb806d054e5093b0fc756310f988f1",
+          "sha256": "afb9f31453c6bc44ad6d30d1d2aa197d002b90ed4abe97e9f48a92a791f8718f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1110/rom-linux.zip"
         },
         {
@@ -1265,8 +1265,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608795910,
-          "sha256": "9c885fde9f3f52cd42b6657d97a49709714a40e28e50a376a32df35b70f34be2",
+          "size": 699091512,
+          "sha256": "38e58b704a198ec80cc572591287341cc18add903adf7466074a5a5de9c26498",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1110/rom-macos.zip"
         },
         {
@@ -1275,8 +1275,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693434043,
-          "sha256": "c284f6ac2d3cb2ea1d6d8b27473f6e4fa6cf67ab4e355a7a4dca1f2bd49d3d32",
+          "size": 726364004,
+          "sha256": "925eb7e7d7e1caa4c2d9fb55f212cf2b0ba5c4ab974eb159d9497795f99b21c2",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1110/rom-windows.zip"
         },
         {
@@ -1286,7 +1286,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 794031703,
-          "sha256": "87bf1ce61ce43e69f8d492cacd14c4d859b50359a841010efe5c69d0a79fea6a",
+          "sha256": "999fd944eb728dbfbf258525fd3c7d0f8c3ffdc9d40a42a2af295938481d8b8d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1110/rom_type_b-linux.zip"
         },
         {
@@ -1295,8 +1295,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 560620543,
-          "sha256": "1ab4f3266b4b760bc45ca74c90c24ed43f7c2fd513e05e89223fc2b313a643f0",
+          "size": 650916145,
+          "sha256": "f371c562a6dde47bc4a83363c514d11219b953e0c42aecc3936afc9983151e26",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1110/rom_type_b-macos.zip"
         },
         {
@@ -1305,8 +1305,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 645258670,
-          "sha256": "283d3187897768d7fee022f41e2db2e9732d2934c965bb1c71bd7f6a4cb81199",
+          "size": 678188631,
+          "sha256": "4d32e9891040dd68c98866b63136210bb1bfd53cd89b1bd1970def8b3ad10af2",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1110/rom_type_b-windows.zip"
         }
       ],
@@ -1333,7 +1333,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842197621,
-          "sha256": "01b0b7fbabd29612e2c8ee40b8fb61a4cabaca5f87cece04ca5332b37e9f1a49",
+          "sha256": "5fcbdb24c524df44c7362664ca0baffed8b5e8b6729fc1c67e036ac83b4040c0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1102/rom-linux.zip"
         },
         {
@@ -1342,8 +1342,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608786447,
-          "sha256": "b21991afe38118899cea873661149517fec711ef919bdebdd31238fd1cad011d",
+          "size": 699082049,
+          "sha256": "3525aa708cdf9daf974447aa8ded5da6ec8f29839b4f09122043359da12ce42e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1102/rom-macos.zip"
         },
         {
@@ -1352,8 +1352,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693424588,
-          "sha256": "be75ac784d39ff8e72e7e1b7440ddaa825fb18d835d28b9b67789c0c53317b1e",
+          "size": 726354549,
+          "sha256": "385e6d5e7fe5eea605faf1f97a123336e15f997cbe5bce31b0efb5426da9f037",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1102/rom-windows.zip"
         },
         {
@@ -1363,7 +1363,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 794022094,
-          "sha256": "792d20fafa95d097a5540438f316df41943e1f31a859c8a878601af309e99aee",
+          "sha256": "9e17dbf9c11a1311481dd2861c2eac7c9a47ef93d02f1fe95bff4ba0bc4c932e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1102/rom_type_b-linux.zip"
         },
         {
@@ -1372,8 +1372,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 560610926,
-          "sha256": "2a8e0415cee8534eb6ba115d939b452f334d02aa74d9d1255da31f78ee89cd0f",
+          "size": 650906528,
+          "sha256": "c2bf8027b024681e7fa8f90397cbb8604e45fdc9776ab5470b9c05afa153e79e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1102/rom_type_b-macos.zip"
         },
         {
@@ -1382,8 +1382,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 645249061,
-          "sha256": "c14be46151fcd7d2d6cf86daa54d628deebc3f73dee699d6904d29f992a0b9af",
+          "size": 678179022,
+          "sha256": "04074398041349f2be5a9d2e3d2473ab28e3e176d74283fc0a2a2e2b64e34cab",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1102/rom_type_b-windows.zip"
         }
       ],
@@ -1410,7 +1410,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842226851,
-          "sha256": "f16e590b5005683c576838f5f6d45f7bd0d3b356ab47111459abf6cd3de4f35b",
+          "sha256": "23c8527eb64ee767f8572fcf5803bf5564282ef9886612cffd5085c890bb0e8b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1102/rom-linux.zip"
         },
         {
@@ -1419,8 +1419,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608815686,
-          "sha256": "ae2c7849ea9e45d22aedca60bb1e860c4ba9401a0c47d1c267e523bf6f3b3007",
+          "size": 699111288,
+          "sha256": "767dab6cb512a23444f14d2619067f4b21c9dfbca4f948d808b2aa41e17f2c74",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1102/rom-macos.zip"
         },
         {
@@ -1429,8 +1429,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693453818,
-          "sha256": "8bd3c0f9d640c5e5d86f9bd138a392424e552628925a7b6941c2b96204f94451",
+          "size": 726383779,
+          "sha256": "7736e93c4e7333f63c98eb77c02b885b32bb35152139f1d88593e2157fb11480",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1102/rom-windows.zip"
         },
         {
@@ -1440,7 +1440,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 798652982,
-          "sha256": "09bc5e5af65a44c5a32494c84af325bb1ca7503b1a1d0f05de9ddc1848102f45",
+          "sha256": "1b46e1c354d81022bae721a3701bfa47b47eefc0dd9116391b0fb2dc31def8e1",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1102/rom_type_b-linux.zip"
         },
         {
@@ -1449,8 +1449,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 565241823,
-          "sha256": "3ec29f8786e0ec831b4b72533ba49ce26063a2d25f46227db15e664ccdecf99c",
+          "size": 655537425,
+          "sha256": "38d46c78e626c5cc9dbadf1c5427a8967a6de25e3055d3c2ca991764a353ddb9",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1102/rom_type_b-macos.zip"
         },
         {
@@ -1459,8 +1459,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 649879949,
-          "sha256": "479965d6bef8dab9e90280ab0d48e0f7dd290471fc596b95af0c019dc8813017",
+          "size": 682809910,
+          "sha256": "c4235df98b8bd2f8255cf2e46555fe41b56e6c17a87522e082ebfe72f64e0957",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1102/rom_type_b-windows.zip"
         }
       ],
@@ -1487,7 +1487,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842321540,
-          "sha256": "9d482a6f072cffe4549071e0f0f9fc79a4ed1f96503ce329d299a8e7035cd541",
+          "sha256": "95f8e42963555953744d680990afc47d2fd61c792a266c11428f36b65c450ce6",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1035/rom-linux.zip"
         },
         {
@@ -1496,8 +1496,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608910368,
-          "sha256": "94d65574a61d9d045229df2858792d25d9465c55ad67a6e717e7eb6f8219437e",
+          "size": 699205970,
+          "sha256": "6bd5d15e154e375ffd98233e9e7940b5e100abeb805d7702c95a11f2678d5740",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1035/rom-macos.zip"
         },
         {
@@ -1506,8 +1506,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693548507,
-          "sha256": "bf58fc18a1a308ac257eb17b5e91552790dbadc523b304f97c9b4eb2def91a62",
+          "size": 726478468,
+          "sha256": "eda21b09967c146cbdb891b87244ce28f98e2356e238d89a4e1a4e9e25ff7761",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1035/rom-windows.zip"
         },
         {
@@ -1517,7 +1517,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 798678951,
-          "sha256": "0ee28a8fd9c84516403fcea29be9f6bde4e3bda58997673946b807e3c517c0ce",
+          "sha256": "bd94bfd872971cb289d3cee9c1d576e8fae296a3caabab0ad7c40762676d5ba2",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1035/rom_type_b-linux.zip"
         },
         {
@@ -1526,8 +1526,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 565267785,
-          "sha256": "a004833e8f2cff805d92d7ab2a781cad315e49d132395163c5f7b532bc5875c8",
+          "size": 655563387,
+          "sha256": "f053efd3ec852b6d1b7323e0edd883e2f7089ad79ef6f6907906f7d128997f34",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1035/rom_type_b-macos.zip"
         },
         {
@@ -1536,8 +1536,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 649905918,
-          "sha256": "40d215a1377ed03e5c040efa998497936a651a9ab61d7d02ba8cc965c65f2fdf",
+          "size": 682835879,
+          "sha256": "1b788f28dc6a1f0633d5173c9e57aa7d0e640b8fbc15c3d004b83777c25cbc7f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1035/rom_type_b-windows.zip"
         }
       ],
@@ -1564,7 +1564,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842195709,
-          "sha256": "e3b19dd90720701786b6fc50527c4b8d86d2ab1e12cbdb984632722a0b898194",
+          "sha256": "7b97cb105a0f154349d440b39eb716c37df512af19663ff01840898743f5d1e4",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1024/rom-linux.zip"
         },
         {
@@ -1573,8 +1573,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608784537,
-          "sha256": "c763d774323e555103373b891e9285b5e487191517604a965cffae8b1c7c6afd",
+          "size": 699080139,
+          "sha256": "23de68e1d605dbbb962670d2e56ae263b5ab4f76664b2d65fe1d54c7f38e6756",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1024/rom-macos.zip"
         },
         {
@@ -1583,8 +1583,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693422676,
-          "sha256": "88822c04fb45f68a6c7a1b3a8cf1a252e57173282698d6e8e0b15994d1c99ac1",
+          "size": 726352637,
+          "sha256": "19ec70af8580715c6e7325880f3b4bfd6da586748e50c8cb06f72d2cb21bbc78",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1024/rom-windows.zip"
         },
         {
@@ -1594,7 +1594,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 795014865,
-          "sha256": "4c7d101e5d819091a72e5adf6d70b28973bffe941c064f69b8fcb52a143185ad",
+          "sha256": "e8201f8cc81d4575125ecd29db31965f1ff430e2471e6d2803805a647c25e52c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1024/rom_type_b-linux.zip"
         },
         {
@@ -1603,8 +1603,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561603699,
-          "sha256": "227e2b17b506498d7299b2c6277556c8ff53ddbb099c4bba1ce0e7186e62f52d",
+          "size": 651899301,
+          "sha256": "b4d853f4ce1c1a1a2cc9769f0c22cd61e38f9989524de9eb5c5d3fe3c7485dc5",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1024/rom_type_b-macos.zip"
         },
         {
@@ -1613,8 +1613,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646241832,
-          "sha256": "ad018c2cc019938683b3295a0da1c6eda923c7496075ef73b324ae3dc17ef10e",
+          "size": 679171793,
+          "sha256": "bfb60268d910e79cfa32fd1bfa6cf47fd2fd9325614416201ba365387e32e76c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1024/rom_type_b-windows.zip"
         }
       ],
@@ -1641,7 +1641,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842210044,
-          "sha256": "546dffd21d28ffdd3a7c5607b3c67ea466793b4d7810fe88770b2cfc376e4db7",
+          "sha256": "ad32c92b787e80d96d7b248a2f6cdc2876fed72d7ada1e946ee32396258e3201",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1023/rom-linux.zip"
         },
         {
@@ -1650,8 +1650,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608798879,
-          "sha256": "8b718438cf18ad7e6c4ccc344f664d177110a5e562acc8be60e78c8ccaa64c55",
+          "size": 699094481,
+          "sha256": "edf2534718ef46756f2489dc0b43cb1f42267a9ecaecab3f4451758e4bcbef63",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1023/rom-macos.zip"
         },
         {
@@ -1660,8 +1660,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693437011,
-          "sha256": "db7ec4c71c4add14085a811ec64395335e7f0b4beb02b6718d8ce54549af8908",
+          "size": 726366972,
+          "sha256": "c8ff9af216a0907175c654d39ed1cd35ac55c3623208eb454ede734bcdcd4ae3",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1023/rom-windows.zip"
         },
         {
@@ -1671,7 +1671,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 793717464,
-          "sha256": "3abd91eb3326d9aa942463c887350a65d69dcda9d447548a10c273559ca8dbc9",
+          "sha256": "a0bcbeccc7c681b436b5b9f3d3515323c826cb2aa407f52d3cc4346f8048c8a0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1023/rom_type_b-linux.zip"
         },
         {
@@ -1680,8 +1680,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 560306305,
-          "sha256": "7f35e79bc157c580a6dd89ee3ad0c794997f5ea0b87ebe88272129169a0e2307",
+          "size": 650601907,
+          "sha256": "83cd977c290fcc090346961a2048594cb6bacff53b8b397a3a929673e579ed90",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1023/rom_type_b-macos.zip"
         },
         {
@@ -1690,8 +1690,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 644944431,
-          "sha256": "e49b0d3f15948081d0c26977c26fa8ef40b57956d7b85fecb10f305b1d9a5c63",
+          "size": 677874392,
+          "sha256": "53040e05d45291d56198bf093b9c8f1690943d8112e605b334995b2c927d6638",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1023/rom_type_b-windows.zip"
         }
       ],
@@ -1718,7 +1718,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 843774183,
-          "sha256": "42321d1c7e691c70ba097eb901b970fa51b95cddfd7ae73c582ef7dfcf88f1ee",
+          "sha256": "99490ecad0ea29daae8c80dcc1cd00f5c9f4f337741eea46f3cf0b1b68995ebb",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1005/rom-linux.zip"
         },
         {
@@ -1727,8 +1727,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 610363009,
-          "sha256": "ce9bcdd85d442209096c36200b3dcbb9e2f1c80d75376e8d4ba986ed45b9ccde",
+          "size": 700658611,
+          "sha256": "6901efd6e8d130f97fda5521645993dde7df415d148c13cbf4749402298c8dfb",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1005/rom-macos.zip"
         },
         {
@@ -1737,8 +1737,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 695001150,
-          "sha256": "f4ddc2f20d94c0ed5bd1a3ee4a84377f3ed5c4ca8d3ab881edc0177f530bed11",
+          "size": 727931111,
+          "sha256": "4c322f070678a476b6f1ec949df37622f0b753e4eac52180962ce4d8bf5e4c0e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1005/rom-windows.zip"
         },
         {
@@ -1748,7 +1748,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 793674182,
-          "sha256": "a4b523e0a8dc61c0e7210f8ede0dfb59dafe5847a483982c78d71e7eb6e076c8",
+          "sha256": "3c7660c1f5ca8d5af607e920cf57f22577d8835054cc20024f2718768f228331",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1005/rom_type_b-linux.zip"
         },
         {
@@ -1757,8 +1757,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 560263014,
-          "sha256": "857ba5c84bf5cbda489f772f5c3a29b896583ea570b01e5abf56c7553d7f4c6b",
+          "size": 650558616,
+          "sha256": "ebf8464aaecf930019f8e0bbd64dd24ac19f9eaeffbeb70c463b4947b73be452",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1005/rom_type_b-macos.zip"
         },
         {
@@ -1767,8 +1767,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 644901149,
-          "sha256": "7079752d4e5d839eaf61ceeeea4cc023f567cfa5264bf78d379bbfcaa4e15c97",
+          "size": 677831110,
+          "sha256": "5509c99528e45f1e51a3deade778f436e28f052f14aed18b9fe9ffcc5e6ba95e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1005/rom_type_b-windows.zip"
         }
       ],
@@ -1795,7 +1795,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842208310,
-          "sha256": "b9dfc002a1e28dd53bac3c8140f828fe14e1415a720d4f3d158934fc449adf03",
+          "sha256": "358e8595fb1bbf769c362945302d686c192706f54d6c777942401ff533623f35",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1005/rom-linux.zip"
         },
         {
@@ -1804,8 +1804,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608797144,
-          "sha256": "c760c9d26cfba2f564c0f9ce22350167537334a0adfba1aa351ac89f44e72357",
+          "size": 699092746,
+          "sha256": "e92584905e2bc6190464d4ec6d158a0e667ba041c5794c4309f4a32d071e9d52",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1005/rom-macos.zip"
         },
         {
@@ -1814,8 +1814,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693435277,
-          "sha256": "8383d6f71d410d4ae3ff6cb60c937e4d21ef10ac09df18ef4e7ee25662c7f7a3",
+          "size": 726365238,
+          "sha256": "c68383c9fdc22dbfc6fc93c7d7979027c786af7f0b41893defb969455b136f30",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1005/rom-windows.zip"
         },
         {
@@ -1825,7 +1825,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 797819557,
-          "sha256": "978ff1034f6a2b2260cb8859fe896a6fb2a0e14c9dd0040ef1a4e96161e4557d",
+          "sha256": "76d143297b16bc401336aef3daaef8d76a01fd7cff4364db4ececad301059a9f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1005/rom_type_b-linux.zip"
         },
         {
@@ -1834,8 +1834,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 564408397,
-          "sha256": "870de6bdd79b53364deb4001bd18a1bb6e6a14c9c91a283396376ff8ef9b5afb",
+          "size": 654703999,
+          "sha256": "fbf5d8b98b2c50f4ffa1d2dda16d882a1ea58f2f0b3dae8c2de519d6a98c086c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1005/rom_type_b-macos.zip"
         },
         {
@@ -1844,8 +1844,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 649046524,
-          "sha256": "929c49a1207fa444aa5ba3a05a93c637045d84024d15e17d3a8a5f029765d721",
+          "size": 681976485,
+          "sha256": "0869a3ec21458f2c885e58972f3dabe9388bc810ec0dc954acf2f663cc496bba",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1005/rom_type_b-windows.zip"
         }
       ],
@@ -1872,7 +1872,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842199984,
-          "sha256": "071a6224c3bf0e116b3adcd16946d08b6472b495bcdc000ccee6561a6d2484e3",
+          "sha256": "8535ca4e60dc17f79b43839c19487b297532f681b35dfe615343326d747530ca",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0957/rom-linux.zip"
         },
         {
@@ -1881,8 +1881,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608788810,
-          "sha256": "7d89a5c15e50d5bda50ae6476e1899fabb19ac0d05488c09bcbb6ad438804b7f",
+          "size": 699084412,
+          "sha256": "ba0753716f8c68a220bec1622249b8515601f7bbf268b982bb7d2a658990d821",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0957/rom-macos.zip"
         },
         {
@@ -1891,8 +1891,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693426951,
-          "sha256": "890e2b582ee1176f1d0e7d1ff6a59605e49094c752daa78aea139d2b9ce50af1",
+          "size": 726356912,
+          "sha256": "a87de2b2fdbc5e4d23760cba36ae41d938262ed0bada2abe98bc05260448f961",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0957/rom-windows.zip"
         },
         {
@@ -1902,7 +1902,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 787469991,
-          "sha256": "031e9c8a2c9c3c20d3ca7c931e2af61abe4a639257f889c9ddfc1992ac4f8d63",
+          "sha256": "3d4350f0a3a73746a6d160ec1c62973176717328a5ca1457d196d46248a4eef0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0957/rom_type_b-linux.zip"
         },
         {
@@ -1911,8 +1911,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 554058823,
-          "sha256": "0f9fdbf44d195983d7daec832591fe6517baaf5ea1673fcce17ec0376aadc31f",
+          "size": 644354425,
+          "sha256": "b4e50a8d88ec774b59b7a2b8e43e0e53a300c23f70458a050d0545a9cc97a6fb",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0957/rom_type_b-macos.zip"
         },
         {
@@ -1921,8 +1921,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 638696958,
-          "sha256": "6e7ebc1e778ed0a15b64f248de5f403b9e6941f739e71bb85544e01303e90933",
+          "size": 671626919,
+          "sha256": "5865ab5c5172819882617ee5b154f570982426935751cde0ec65e891cf786315",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0957/rom_type_b-windows.zip"
         }
       ],
@@ -1949,7 +1949,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842243608,
-          "sha256": "67790f454c5ddbef38e30e5e7c3478de40cf5e0f5e31bdfd8811c70a580dc2fb",
+          "sha256": "09734565db9571dfb8f32efee8f62962f0982bb434f949ef39c5c96663f05102",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0956/rom-linux.zip"
         },
         {
@@ -1958,8 +1958,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608832441,
-          "sha256": "c1dd90715a0bbe9384732d04145738f675f2e9a720b33b346ba4145ce50b9c79",
+          "size": 699128043,
+          "sha256": "7d62fb3c1a9e6c817e90948d6dc25734010436e744cd665abc2b76042295d472",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0956/rom-macos.zip"
         },
         {
@@ -1968,8 +1968,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693470575,
-          "sha256": "e96c5c7dcc253de709699bd1bd047cf0b52b08cd0b51c3c20b4b43301f203eae",
+          "size": 726400536,
+          "sha256": "aaf26045136a0b863a1afa32cdab35eb26a9c259dc4bfcabd1283771edaa02b5",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0956/rom-windows.zip"
         },
         {
@@ -1979,7 +1979,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 794967059,
-          "sha256": "6becffb594963eb96c767343e413593a6f938da4a3d7145927ce5f207e84d906",
+          "sha256": "b56a97cbccea76e365859fcd292202b0c79b1c9ff8604025de2d610341184250",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0956/rom_type_b-linux.zip"
         },
         {
@@ -1988,8 +1988,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561555898,
-          "sha256": "8a390ff9cfdc9e40ee0eeb25bbc79063229661ccbf3c9683476de77438558435",
+          "size": 651851500,
+          "sha256": "d8ac0a0e10d80c05d5e2646105e596ebfddc36774e81ffd15b40cac291d332d3",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0956/rom_type_b-macos.zip"
         },
         {
@@ -1998,8 +1998,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646194026,
-          "sha256": "ab2a6d22d4bb33fba2870def4c81d83d14f69456b9e633e4d2791fdef2830283",
+          "size": 679123987,
+          "sha256": "6115b0ff6b004cb8dc514542ae48e1b94d0c68cb2ffde2e311f48563e365f161",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0956/rom_type_b-windows.zip"
         }
       ],
@@ -2026,7 +2026,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842278256,
-          "sha256": "03a0d1d304e83e9f95e7638d4f17f56a48769428d7af4874fdb80077a3df0d14",
+          "sha256": "320ea57e3721c48d1bcac2ebf271619ffd0c02eec396820f77eb3f59e773353e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0636/rom-linux.zip"
         },
         {
@@ -2035,8 +2035,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608867090,
-          "sha256": "49f6c469ee500095202fdbefab928856bee58ba93996b5a7ff93c8866c724193",
+          "size": 699162692,
+          "sha256": "59d938062fdaff8aa75d1fc0e2392f574a880f07da52f0dd423894d40d597cbb",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0636/rom-macos.zip"
         },
         {
@@ -2045,8 +2045,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693505223,
-          "sha256": "3904176f3771107219f8ddfc648949eca923d40fae463eb7c4e575798a96c833",
+          "size": 726435184,
+          "sha256": "746938485973432e8b1213f0752d2f206965dd1d371884e40454b750f9428510",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0636/rom-windows.zip"
         },
         {
@@ -2056,7 +2056,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 797795762,
-          "sha256": "e8d677f1ecbeaa22362619c9500a52dae977e870fdf57e077802cbcff6244c19",
+          "sha256": "db9641f83847e7430fce047e5718cf5672dcdc4767f947f027253886bfb4779c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0636/rom_type_b-linux.zip"
         },
         {
@@ -2065,8 +2065,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 564384602,
-          "sha256": "999ae9a93b3af22bb1936126cef1a8559bb8b941ebd6f25428aef8374401d64a",
+          "size": 654680204,
+          "sha256": "1d9db304577b0f45f6e18bd11686e9464bd902e857d3d59e18015ef8a42124ec",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0636/rom_type_b-macos.zip"
         },
         {
@@ -2075,8 +2075,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 649022729,
-          "sha256": "526d001fe63ca2cb8f98973b468855163ba057694fe5c1430cc69c197ee690f4",
+          "size": 681952690,
+          "sha256": "179f600d1a9e1edba9bec18c6d7506c453538040f1a1c4ecc3c3d0b8d13da2d3",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0636/rom_type_b-windows.zip"
         }
       ],
@@ -2103,7 +2103,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 843779907,
-          "sha256": "d000989216dd3394f41dd167bcab2d50715938aa4de5ee7e5c1b59f7641d3dc7",
+          "sha256": "5139c794bb9f5153ff0911b14e42d9ab764e4843d4e3c6db45044488a0b582e4",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0636/rom-linux.zip"
         },
         {
@@ -2112,8 +2112,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 610368735,
-          "sha256": "1826939ba24c344a53485660a1f08bd97c0e6484c6ec81d51afc7fdc8ee039cc",
+          "size": 700664337,
+          "sha256": "dfa63898378bbae4a325e230f4629fd029fbba08cb8b046f7f93f817cdfde370",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0636/rom-macos.zip"
         },
         {
@@ -2122,8 +2122,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 695006874,
-          "sha256": "4adb8689be94c318e7034a54cb84a383bbf384948b277d7d50afa0945ad412a0",
+          "size": 727936835,
+          "sha256": "c1e5acb2ca99c6e01e4f5fadfd568f8b3ac213e97be09c80aec702286f9d030c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0636/rom-windows.zip"
         },
         {
@@ -2133,7 +2133,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 793791477,
-          "sha256": "4cdd473dc14c028d5def9bf0f052fb8cf48d7db35615ca2d364a1d55dba2e800",
+          "sha256": "72f8750e7f4915d7174b121e1a9a6267345c326796564297f5fb06d689ec8429",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0636/rom_type_b-linux.zip"
         },
         {
@@ -2142,8 +2142,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 560380311,
-          "sha256": "9b3c48ea809645cc87eabae7d597cdd124e471a531977ccbd5d99adc4b6193ee",
+          "size": 650675913,
+          "sha256": "f9d81c233d043c4172c9e7b7c8e0e5aafd12098749470081a67d4b1fd0b54d8a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0636/rom_type_b-macos.zip"
         },
         {
@@ -2152,8 +2152,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 645018444,
-          "sha256": "b457b66d8c53b3657858da36301cdfa827debda0bb42259a6277f8ed2a8ac02e",
+          "size": 677948405,
+          "sha256": "f5d6e262fa950b61d1603b7779009de3f804883912ca9291b54ab25d554cd96f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0636/rom_type_b-windows.zip"
         }
       ],
@@ -2180,7 +2180,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842242710,
-          "sha256": "af33682bf56bf9d52224e88b7b326629921d290222b7fcb7e47cd8bcfe662656",
+          "sha256": "bcdc6bd33fe85accaf3cf9a0eaf9c30c0afe3da153cdfafeb87f2f398bc9c237",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0550/rom-linux.zip"
         },
         {
@@ -2189,8 +2189,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608831545,
-          "sha256": "97c400ca39c720a94efda6e780b9740ce8917adebe0cc803388f0a5e2fe4bc72",
+          "size": 699127147,
+          "sha256": "ea3f88db243acfd8794ee1e64539357def8399b5194ecdf6aab33f22e0ca70bf",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0550/rom-macos.zip"
         },
         {
@@ -2199,8 +2199,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693469677,
-          "sha256": "2f88459ba4b584166af4c02a46ea6863b576b0d168a4ff262108e4742bb2a210",
+          "size": 726399638,
+          "sha256": "a7e4f0cdfa9b6db215f6f319c4c0cd689acbda6fff23761219fb99eed280a027",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0550/rom-windows.zip"
         },
         {
@@ -2210,7 +2210,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 794983334,
-          "sha256": "69cec5d2760b013d2f5cee9e76577d6be902c39a4a6df2b6226c0cc73cd8a94b",
+          "sha256": "a33ad1c34b95bc7186153d5cfdc3daf003c777aca8190cd76aef630f34f817b0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0550/rom_type_b-linux.zip"
         },
         {
@@ -2219,8 +2219,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561572175,
-          "sha256": "029400f3f8437ea798d25cfc20753f564bab508126db28e3dbd279ee90cf5a79",
+          "size": 651867777,
+          "sha256": "546b19e53693f4c8cc50dcddd0abc84bf186c8cef11b1852f32762acaf517e4c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0550/rom_type_b-macos.zip"
         },
         {
@@ -2229,8 +2229,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646210301,
-          "sha256": "824eac4b0ecfb394624ea06fd11077773d53b14bde766c396797bb8b458dcebb",
+          "size": 679140262,
+          "sha256": "09e1a6607c83ba8f6b5efa9b75050b6deef890a5978e41f2e5a5648bf9f31852",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0550/rom_type_b-windows.zip"
         }
       ],
@@ -2257,7 +2257,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842220491,
-          "sha256": "a43b488d47e3b3b4e66042cfd33f004adf7b2af717141dba7a30d15149c8f6ae",
+          "sha256": "d4051bc1bd0be0fdf2e47c0b0eb2f6e6816a5aa3012f4ddf68155070d4e4bf22",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0549/rom-linux.zip"
         },
         {
@@ -2266,8 +2266,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608809316,
-          "sha256": "e9121708df0c899d2aa58a5d4af29dd522145e94182e44f6c068f5cc318c2cb4",
+          "size": 699104918,
+          "sha256": "68f246f93008fc9a2a80fe1b466a3ef45cbce2538ca38e6f4ad69eb07c563a3c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0549/rom-macos.zip"
         },
         {
@@ -2276,8 +2276,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693447458,
-          "sha256": "5e1b4d9907b57d8a3c554e542a3fff4ff74b23f4520292c9332971edb2728263",
+          "size": 726377419,
+          "sha256": "53211d396d9ba4afb21a665c51de431cb9e5638cdbacf9db11678f052df74ff4",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0549/rom-windows.zip"
         },
         {
@@ -2287,7 +2287,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 793970554,
-          "sha256": "2ea6bf6ad5cf5bb3c2e6e090ef9ca054d008325ab9593a9f247cf87fdd61d40f",
+          "sha256": "c04f55810e749c4c5d497e8091040222769ad2cdf10b0966f3f71351dec056f4",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0549/rom_type_b-linux.zip"
         },
         {
@@ -2296,8 +2296,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 560559385,
-          "sha256": "b0cc99b4eca62f6f08bdf9b87d69766e00f034f6307ba3a97a73a4e34152df89",
+          "size": 650854987,
+          "sha256": "37033ad141a95a375aa8d2f0f7ecc3215c2b52eb0214bbbe59ca21aa9d2a3a5d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0549/rom_type_b-macos.zip"
         },
         {
@@ -2306,8 +2306,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 645197521,
-          "sha256": "7e9fbdd54d0cc678aa082ec6a78c0fbd959d07a93f053051cd88c7f37acc2c72",
+          "size": 678127482,
+          "sha256": "fc58bbb515f6921f44397ba69fae7aff322e880dbab8e913f6482db0851a61df",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0549/rom_type_b-windows.zip"
         }
       ],
@@ -2334,7 +2334,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842241063,
-          "sha256": "d976963a8ad64a98d2a389082367fe75df44ece64b027c9ffd12544e497e669c",
+          "sha256": "cb3d809ca622d78b9fbb75281a65947b16670b49a5c6a2f4b59461840b847126",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1616/rom-linux.zip"
         },
         {
@@ -2343,8 +2343,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608829890,
-          "sha256": "aaf4940b44b412d478c0cb873f5558e3310362e809470f6329744f49c116cc36",
+          "size": 699125492,
+          "sha256": "55e4e4a364895c538aba3150b684b75da2cc8dfb1b205df856d695002349ea08",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1616/rom-macos.zip"
         },
         {
@@ -2353,8 +2353,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693468030,
-          "sha256": "a8496d00d5ead0f395603792375ddd32b8148d062f8f0ca31f10259de0140479",
+          "size": 726397991,
+          "sha256": "1878b2bcd7d87e0c3adb2673014c1b8eae20dcd537bef3b1f47b4a54fd00ab50",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1616/rom-windows.zip"
         },
         {
@@ -2364,7 +2364,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 794986749,
-          "sha256": "ffb9b385a437b6c01bb9ff7226d71b59fede95b5c69fb89af0efd13234a0f72a",
+          "sha256": "bc9e50be263dd72a3e7675daaf8bbc502a311a36802281cb02580de46590b596",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1616/rom_type_b-linux.zip"
         },
         {
@@ -2373,8 +2373,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561575582,
-          "sha256": "acc43962a1325c61dd8e08e1623ae14a47bb1a0027663d66e322709cac293d42",
+          "size": 651871184,
+          "sha256": "d108013cb418838ef7f92442df30fecedb362d62ff2f05c016864f98f93ef518",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1616/rom_type_b-macos.zip"
         },
         {
@@ -2383,8 +2383,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646213716,
-          "sha256": "ba70bfc295989b63bc2e345c757a57d3beaf0ce6d8e8db263fc947ff62894845",
+          "size": 679143677,
+          "sha256": "2826db7e8894b3c2a7dcd5652280638ac14b2630f51c9645c615280d8da7e089",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1616/rom_type_b-windows.zip"
         }
       ],
@@ -2411,7 +2411,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842181498,
-          "sha256": "eba9831b5337f1642c615077e17ed5966585320cfbfbd858f8e4f3f655a2dde9",
+          "sha256": "b387f35f389e63e640fff2ef49e4427d5b7cf56a6cb71154302bb8beca7a2b10",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1615/rom-linux.zip"
         },
         {
@@ -2420,8 +2420,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608770331,
-          "sha256": "c8234fdcc8bae9993011925454d96ac077ec573cf90de312702293779890f258",
+          "size": 699065933,
+          "sha256": "7dd0c799c2158ffc0960707a328ee90fea3bbed2f2e76f593e2754e1c1b96ae4",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1615/rom-macos.zip"
         },
         {
@@ -2430,8 +2430,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693408465,
-          "sha256": "e08f58b443b1776371c0c8679911f3aaee289acc50af512edaf415fab79a3872",
+          "size": 726338426,
+          "sha256": "e4bee27735947e5658cb495c8d0de4150fcbd51e2758d372a72f00a4c82c12e5",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1615/rom-windows.zip"
         },
         {
@@ -2441,7 +2441,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 797771531,
-          "sha256": "056d1206d045ca1a34a053c40dae3242b8b43ae8aa42137bffc0649f429cd25a",
+          "sha256": "6c3a939a495f4c0d52deefc2722bdeae437ea44fd2ad2f685894d7431f3a86e6",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1615/rom_type_b-linux.zip"
         },
         {
@@ -2450,8 +2450,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 564360370,
-          "sha256": "8ccd305d7e7fc5cb188a701fd6acb1912d1cbc6eb91099a8b82cc75249bbc68a",
+          "size": 654655972,
+          "sha256": "6bb2e54fc6118c29a6c650e06a9a7976b507c17302016b226da2aa2012ec9baa",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1615/rom_type_b-macos.zip"
         },
         {
@@ -2460,8 +2460,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 648998498,
-          "sha256": "b2a98fad42a8cb72451742338b9018ba06a6984e622689dca40d1e382c7772be",
+          "size": 681928459,
+          "sha256": "9f7803adf2810dda04e2d7250a468a03b8ec1a6b72f609600929b7abf7cd2d81",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1615/rom_type_b-windows.zip"
         }
       ],
@@ -2488,7 +2488,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842227965,
-          "sha256": "6eda3006c22b80bd80f8301c11ecdfdfb7c161fb11cb04d2352f8639c3b1b7c0",
+          "sha256": "16c0b81c9969a390427e781f5d87ac3c36fe1a7d594e8a0e900bd67754f46ac3",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1610/rom-linux.zip"
         },
         {
@@ -2497,8 +2497,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608816799,
-          "sha256": "8545a55b2fb61b816cd4580677b8515e64740f2cdf96d85d0ec69521167d1b89",
+          "size": 699112401,
+          "sha256": "ae8bd31b6ee5683cf09b03c9af787a5455ff516d2bd26f7ff18cebfbd4e60919",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1610/rom-macos.zip"
         },
         {
@@ -2507,8 +2507,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693454932,
-          "sha256": "5aef03acd4dca290d658022c4c00410586356f0ad885150b563d4eebf8c15d66",
+          "size": 726384893,
+          "sha256": "8f9319b7fe5f38af3c310e11a406c39ef007d9e17679fb0999099d82f51e37bb",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1610/rom-windows.zip"
         },
         {
@@ -2518,7 +2518,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 794941206,
-          "sha256": "09990712c83d6e17ca0af69cce392190c62d2f8f65f67098f703e5e5a37741e1",
+          "sha256": "65b3740117eaf3827540fa64ba2555164e321ce7d175dfbfc09762a8915c0ace",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1610/rom_type_b-linux.zip"
         },
         {
@@ -2527,8 +2527,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561530046,
-          "sha256": "f628195d1dedcef84f19228ff25aa1c9802e533a625f914157c3d6c9c84688d4",
+          "size": 651825648,
+          "sha256": "9aa54879c21b7dd3c0ea7134ba0b991f80a02503e3898a024d99ec56f1f4112e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1610/rom_type_b-macos.zip"
         },
         {
@@ -2537,8 +2537,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646168173,
-          "sha256": "6d00e9aa884afb9a20e3cc4aecc6d7e97dac09b1d13d5d93e6deeeedadec8545",
+          "size": 679098134,
+          "sha256": "6aaac597e1fb7ebc55e17affe8df34a5eb2dab4e7a707b51617097419ba88082",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1610/rom_type_b-windows.zip"
         }
       ],
@@ -2565,7 +2565,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 843774023,
-          "sha256": "badec871fdce394fa08d06ea558d7ae17fac0d61c208323ae0ae525f38a16fa5",
+          "sha256": "5cd023566b07075bad46a935c29d77155c500c8f7baa129a5239a29d11739a4c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1609/rom-linux.zip"
         },
         {
@@ -2574,8 +2574,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 610362849,
-          "sha256": "7aa091a042b9a0408039971e2ca83f029714cf5a6f9af8d6da5276e26bf15f7a",
+          "size": 700658451,
+          "sha256": "9046b136a582802d92cc365e394f4fb5835a1e03c0ec6d57bf7d4b59ce05c5d4",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1609/rom-macos.zip"
         },
         {
@@ -2584,8 +2584,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 695000990,
-          "sha256": "a5eb9024217462911602e9e4dac2889dff10432be9ed8210ad3dcf5bc9d13bdd",
+          "size": 727930951,
+          "sha256": "55defc116db83ddf38d247e171c4373629162e4ced071cd6841b5cdf394ddbd1",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1609/rom-windows.zip"
         },
         {
@@ -2595,7 +2595,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 793992235,
-          "sha256": "fd17b51df53e04c2def8356e2156e04ee31d60f199ff500dedbc26dbe9bef724",
+          "sha256": "d7b3a227c1bbef751a64339dc0812659c65c275ec7793812c6d6fbb6033144c3",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1609/rom_type_b-linux.zip"
         },
         {
@@ -2604,8 +2604,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 560581067,
-          "sha256": "d7e22ea55eeccb757f71d30f363efb2117bc4711508bf02e38aea802315fdbe9",
+          "size": 650876669,
+          "sha256": "1a3a8ac6a5aa71bae927504d384e5ee404481a3f5a00725993aef362174a9eef",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1609/rom_type_b-macos.zip"
         },
         {
@@ -2614,8 +2614,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 645219202,
-          "sha256": "a8cb9f7ccf376da0f05beb31628992eeb859cca4912beff791ad2a50037972cf",
+          "size": 678149163,
+          "sha256": "fee40f0c7f0d736c2c69cc051c351c3a06922e003e8b41525f625a7f52126397",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1609/rom_type_b-windows.zip"
         }
       ],
@@ -2642,7 +2642,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842225321,
-          "sha256": "9e776b9c87ed4a785c6031bea1beff984fafc84f83a6815348c53a7efa2ac066",
+          "sha256": "b5496b48aca755a1a14395b2d3a275f28a06ccb0cfce365f30effa3ac3839bd1",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1444/rom-linux.zip"
         },
         {
@@ -2651,8 +2651,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608814154,
-          "sha256": "d68aaee29a092699d9d43370914a9700d04454c3b61a8c833cdaacddc3ad69a4",
+          "size": 699109756,
+          "sha256": "746595251b68bd89f018efb1df4252dfc51e459db89969eccb4fd60990ef35ee",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1444/rom-macos.zip"
         },
         {
@@ -2661,8 +2661,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693452288,
-          "sha256": "e734178bedce5e183ee5d1b91a11a211e307ba42ab4d6c9d518a774f0f3eec22",
+          "size": 726382249,
+          "sha256": "011f10af0b5fc14d9d8e9e7ca916ad2bb9db60cc4038f84dd628d169de9fce93",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1444/rom-windows.zip"
         },
         {
@@ -2672,7 +2672,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 793777747,
-          "sha256": "382ef1f4be88354c7440e608fe6bbcc04e061f540a10457fe69aa05b9e67f313",
+          "sha256": "c467b4e3fc660d46aecefb3a319620fb540879c1a1f4e5ec7355d9aa4ccdc49e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1444/rom_type_b-linux.zip"
         },
         {
@@ -2681,8 +2681,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 560366586,
-          "sha256": "ca76279166656ba2323694025036996ff31193495537da04181c754e9c692098",
+          "size": 650662188,
+          "sha256": "6e2a5a2270973e260ee9023f5e0f5432e0a3a1de6bff22156ca5181987db90fe",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1444/rom_type_b-macos.zip"
         },
         {
@@ -2691,8 +2691,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 645004714,
-          "sha256": "46a70e25fc009961465f061593a29711e1ad154aae0eab430fa35770286c9d1c",
+          "size": 677934675,
+          "sha256": "4d368d12399d1f59bc3ee9217f5e8156dc8c16ce382399a4f7dae4e558b18fb0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1444/rom_type_b-windows.zip"
         }
       ],
@@ -2719,7 +2719,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842254320,
-          "sha256": "f1de7b373ef079232e6144dd93cc1046cb508a6aeb76ac682b2b76a254fe584b",
+          "sha256": "b012f5216c9e437a871a0fdb8799abf6ee8d5b9754e4e7bda7575fc9726a5597",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1444/rom-linux.zip"
         },
         {
@@ -2728,8 +2728,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608843146,
-          "sha256": "6e334ec5945d504fbfa2fd00d7cc31eb5f18c869b6a70492396570af0464a469",
+          "size": 699138748,
+          "sha256": "23c7bb0e82199a48f82179e79710ac7ff36b036bdce5846bfb1fcf03d26e3397",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1444/rom-macos.zip"
         },
         {
@@ -2738,8 +2738,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693481287,
-          "sha256": "9c0b5f01a8a074e781c75c0ef85143fb52d204f52cca1557bd821b6572dd9067",
+          "size": 726411248,
+          "sha256": "7bfb8194a78bbf791b9753a6ea866a5dc45078a8a51e178526d65a3f7def331f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1444/rom-windows.zip"
         },
         {
@@ -2749,7 +2749,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 794962716,
-          "sha256": "cdb155bcbe703ba77f4e9e8bf68a7327babee207f0c4fda25aaa78f93cff133e",
+          "sha256": "de4c932dc3f572852491260495e9b733c26cdf8391c10ed896086fb1959ca8c0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1444/rom_type_b-linux.zip"
         },
         {
@@ -2758,8 +2758,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561551548,
-          "sha256": "804c7ff9b9efe40a945e55c03a3720c558c779d1764e68ec1416f7d4ca5f829f",
+          "size": 651847150,
+          "sha256": "dc7dbe89355409c984eaf6f3ec0345922c23ec8b16446b2f13ffa382b58f5a2b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1444/rom_type_b-macos.zip"
         },
         {
@@ -2768,8 +2768,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646189683,
-          "sha256": "9c2f990be8784306c716438157b46561e4e2bd7aa35acb550a73f796f2895561",
+          "size": 679119644,
+          "sha256": "4c85202b251fd647515b0790679077e8bb37f1ec4d3deb2dc5d3b142587e68a0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1444/rom_type_b-windows.zip"
         }
       ],
@@ -2796,7 +2796,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842222911,
-          "sha256": "06f922b198a0d1640402ea682e10ba38270ef34ba10d339cf83f21f74dc2c45b",
+          "sha256": "474ddcf63b84f923e1c468e7c480220f7d36842d7e305e9531fd0a93abf04389",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0955/rom-linux.zip"
         },
         {
@@ -2805,8 +2805,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608811745,
-          "sha256": "1530e0325df2ff18bc1d92fe1fa7c4fba53353d951b4769c2e7b115de7abe6b8",
+          "size": 699107347,
+          "sha256": "d169daf6be32ee65c7166c202dfdb0056c8873056fd80cec62c4830ac63a4a6c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0955/rom-macos.zip"
         },
         {
@@ -2815,8 +2815,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693449878,
-          "sha256": "ba617fb78151b9d0242f08825b675f32eac4aec994294975f44d44eed28b6f8d",
+          "size": 726379839,
+          "sha256": "f0f69252a7f5a5cc85e8faf1f78c7aec8125824fab424caffe19c9ab5f6315d6",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0955/rom-windows.zip"
         },
         {
@@ -2826,7 +2826,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 794955121,
-          "sha256": "b4c6f10618f31fd58469b2a7c71ea1ed4f93d5044fead30617183122b41bf01e",
+          "sha256": "ea44890d67721681c09ee5b9046747b6c7f1fa48e3e68c2f313cb1671e7173cd",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0955/rom_type_b-linux.zip"
         },
         {
@@ -2835,8 +2835,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561543961,
-          "sha256": "e7b4d3d5051d24a2a65ff8e4603805ea5fd5436e274aa8ca24c88898ea81edea",
+          "size": 651839563,
+          "sha256": "8c90db6ccc2e0505d63d9954193e4adeca5cefd05fa0d34a0ce19089fd264de9",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0955/rom_type_b-macos.zip"
         },
         {
@@ -2845,8 +2845,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646182088,
-          "sha256": "29df65b0628e8eafbab4cdaaa5cb321775ec527568e780c8f718434a7b3fcb19",
+          "size": 679112049,
+          "sha256": "b59c6ca44781a18687ecc1851c14d2f15bc8b16a139c0aa4da4007ad7b840602",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0955/rom_type_b-windows.zip"
         }
       ],
@@ -2873,7 +2873,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 843761636,
-          "sha256": "50af33c6a32ecc7860df2fdd365c20b164076e6115e736fcd561368e5e42919c",
+          "sha256": "1d5f1b032efc29169cc1940b0e85344cbba8704d0ffd946414ab9664ea7e7c43",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0955/rom-linux.zip"
         },
         {
@@ -2882,8 +2882,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 610350462,
-          "sha256": "886fd5d658e7c1abcd1d7c15eef89ab62d155165df4f8757c39e07fb06749e85",
+          "size": 700646064,
+          "sha256": "a08b086c1829f79e0315aa8ef8a10b962096197ed658339ce3e638db2cff61fe",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0955/rom-macos.zip"
         },
         {
@@ -2892,8 +2892,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 694988603,
-          "sha256": "e561d1e7a4f6e5d7d4f4fb5ce646532fa850acca5805412934ce01c601d4f7ca",
+          "size": 727918564,
+          "sha256": "4446677092798e96ff43fc05b40d09652f735472d43929b8dd120c0a433e213b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0955/rom-windows.zip"
         },
         {
@@ -2903,7 +2903,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 795012692,
-          "sha256": "2a4d4528b7cf07330df3bbebf61e34fd6faa919584a471ced50c6babdf00b47a",
+          "sha256": "511060d08e8692d7b806f5c6f38e5b2b4c9372c35a67fd1afc8da1c0b4d7ea4f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0955/rom_type_b-linux.zip"
         },
         {
@@ -2912,8 +2912,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561601524,
-          "sha256": "bcccb856a6d71b9b2f4efa10d4617f3ecdf67de98171ed67734dab9eff287626",
+          "size": 651897126,
+          "sha256": "0841c673206043425b18ae81a69f574fe2f9840a17a1640ee1a718a374f45244",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0955/rom_type_b-macos.zip"
         },
         {
@@ -2922,8 +2922,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646239659,
-          "sha256": "69b389504e2af4e7d6f30ad0cee47c59292c41dd64109dd3b4555ae5db24229d",
+          "size": 679169620,
+          "sha256": "9f570864287c9264da267899541fb403aed2d99dfe65d1d6cd0022714caee91a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0955/rom_type_b-windows.zip"
         }
       ],
@@ -2950,7 +2950,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842278491,
-          "sha256": "e58bd48e86875d6fd9740682cd5d3b384cdbe676f5cdb3ce00f74b15b1f0c21c",
+          "sha256": "44f224e2477aa9f8a336e4bfc98cfbf716f75faed3f7fc97b03f812e6f5c43f7",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0926/rom-linux.zip"
         },
         {
@@ -2959,8 +2959,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608867318,
-          "sha256": "e27c13a6ea865da7ef8a7cbe8aededc7ae7aac2e5e31f982e46470e5c0c30919",
+          "size": 699162920,
+          "sha256": "a231abe39fa0042328e9f1f9595291ee45f8e3b8cc24a702a3359cf345d6c679",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0926/rom-macos.zip"
         },
         {
@@ -2969,8 +2969,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693505458,
-          "sha256": "0059d597b26838618a7f0864c605a7934772e02576a4daebfe78c863a88a9d03",
+          "size": 726435419,
+          "sha256": "1174c38264c13bf0615a07e1f85436c3bb3aac812bb063340f8aad858bfb10b7",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0926/rom-windows.zip"
         },
         {
@@ -2980,7 +2980,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 797775419,
-          "sha256": "6d9f7a1f9227e4a68bd771b670f392cd25f44bffd12f0f947a2b0e6cf519754f",
+          "sha256": "75ecbf4df414d2db93efc6f8a47a438d2b731b2cd0a6fa1c0dc5097e3225d8fe",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0926/rom_type_b-linux.zip"
         },
         {
@@ -2989,8 +2989,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 564364252,
-          "sha256": "6ef55e51eb6507d6356522eac99960dc7911eb6884db764aa50405369dea7a34",
+          "size": 654659854,
+          "sha256": "d23ee6ff48c2a4034f83b41e3d61e21bf009f175a8dd47c8834ff5017a3ba129",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0926/rom_type_b-macos.zip"
         },
         {
@@ -2999,8 +2999,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 649002386,
-          "sha256": "ea0f800c73994509804aa39e74bad1d56e95c8e3526bd3d8d8520945f4ffe00d",
+          "size": 681932347,
+          "sha256": "ba91d114b4684d9bf35784dcc511dcd4a62e6dea0acfdf22e26ffb8f13243e87",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0926/rom_type_b-windows.zip"
         }
       ],
@@ -3027,7 +3027,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842250803,
-          "sha256": "7896d51566863c2b150bccc0d55340a0f2ad89f48ce831b2a24a53021b45ea6e",
+          "sha256": "f6b20a2c77e3735b842da05be8f8b7b89f72863f1277eb78be22f4b723ed907f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0057/rom-linux.zip"
         },
         {
@@ -3036,8 +3036,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608839637,
-          "sha256": "224c7390632d8e891926114ea1de6a824497fa6ab982abeab85a8b604fb758bc",
+          "size": 699135239,
+          "sha256": "2febdd1236b8ea946798cd4f1463dd441ebb47313684285cdece2aa7e63f2b1b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0057/rom-macos.zip"
         },
         {
@@ -3046,8 +3046,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693477770,
-          "sha256": "f780d01ceda78c48430b3373df5bf055432bb94e55d54b92a662662e0c89dd24",
+          "size": 726407731,
+          "sha256": "079f4f99c2f9ef2c523ca9cbbc9ae9e4713f02e095111cb364e575995c12f935",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0057/rom-windows.zip"
         },
         {
@@ -3057,7 +3057,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 794006191,
-          "sha256": "6f1cf6b9647e851a1943eb70dd84bf6864959d9d01cc6ccbd75a06dabfcc35ac",
+          "sha256": "602dbfea18b36b522158a9cb16ad7a382cd4e6562a013e87ac77d8198a178138",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0057/rom_type_b-linux.zip"
         },
         {
@@ -3066,8 +3066,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 560595031,
-          "sha256": "d80b31b338bc1843dc789ee75a0778b8993576ef7633aae75f97c93b1fa88f5e",
+          "size": 650890633,
+          "sha256": "2cdae224f2602834c45368ad9fa2204b77446d9f1ab8a861de9e3a06b8ce133a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0057/rom_type_b-macos.zip"
         },
         {
@@ -3076,8 +3076,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 645233158,
-          "sha256": "104d0c4529b6e57fab0603be8a65ebcd5648a194296f54559150de5e97650a88",
+          "size": 678163119,
+          "sha256": "44094146fbb930706b800a3358a2ef0912733807fa9def9c0ca42ad43d9c8214",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0057/rom_type_b-windows.zip"
         }
       ],
@@ -3104,7 +3104,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842253718,
-          "sha256": "d806cb251fbb8513cdbaafa9ab0928592d6793d8689c024d314a4f807d49e305",
+          "sha256": "7781ca3460465a51acbfea4d71825c2433f8f7cec7fc7c438806ab8d11635f13",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0057/rom-linux.zip"
         },
         {
@@ -3113,8 +3113,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608842544,
-          "sha256": "1b447334d20fe1765f5360b748e7d4df5ec0bc8c5fe4a2ff8f02da4b44a7c6c9",
+          "size": 699138146,
+          "sha256": "7761c09ac66b185533884e44326e45e155f7e9431f40753fa33e436676ec7211",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0057/rom-macos.zip"
         },
         {
@@ -3123,8 +3123,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693480685,
-          "sha256": "4d127b024f83b03bb26cbebfed3d566bab1eac5449b0aacc2cbe04b2f71ba9a5",
+          "size": 726410646,
+          "sha256": "f02a92fe418a6f769246fd3420d1a8727eaab4bedf19cef43b3b0e335f4638fd",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0057/rom-windows.zip"
         },
         {
@@ -3134,7 +3134,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 794978232,
-          "sha256": "b31499345ae58bcacec4e4678591c3d04f5ee3f1fc63644ffb72d32993b91344",
+          "sha256": "ae57ac27dacf76b3737123add2c1ee93fcf8c976420c94d8b815e0877aedf736",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0057/rom_type_b-linux.zip"
         },
         {
@@ -3143,8 +3143,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561567064,
-          "sha256": "1876ed0ec76caa0e593e4e0026af2cb9f164fe9ac721aa373e8c48bc11b4075f",
+          "size": 651862666,
+          "sha256": "975dc18273afe5056e123538fc740e4e851112fe86406560d8b0da1b35633aa1",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0057/rom_type_b-macos.zip"
         },
         {
@@ -3153,8 +3153,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646205199,
-          "sha256": "431ae60ac98ce72a4b0c0083fef6c3de9fb0a0550217a246200cf2e57d592db6",
+          "size": 679135160,
+          "sha256": "8b3d7e0bb34e1a9ce8965870c1d59f2ede58ba466a934943801289625ec47a9b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0057/rom_type_b-windows.zip"
         }
       ],
@@ -3181,7 +3181,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842226156,
-          "sha256": "d053b2af716c735a1760215213c60f0289176471a619808ef5bf57fa2bfa1949",
+          "sha256": "b360a4dd80374512c8e7e206210126ca5e42f5d9c0c02affe1ba4ddf24d97cf5",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1907/rom-linux.zip"
         },
         {
@@ -3190,8 +3190,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608814983,
-          "sha256": "4920243890f6aeb73ed3978d09f539361116fa334d4141d02c77ef692cf6d401",
+          "size": 699110585,
+          "sha256": "985abc8cd47bcb3867a49897b5aea583cd6957c32be98399a6a668f960ab7029",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1907/rom-macos.zip"
         },
         {
@@ -3200,8 +3200,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693453123,
-          "sha256": "134917b8cd00f17c6b9a9b93bb844ce33c9aa0c7c9ccec76db2687fbaf084691",
+          "size": 726383084,
+          "sha256": "467a839db38b14ceda3b647b999d5ad3794e1c6c1d29b475002a5259fb42d8f3",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1907/rom-windows.zip"
         },
         {
@@ -3211,7 +3211,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 794897361,
-          "sha256": "4fc10238c9e4e3aad2958bf3992ac46f7d9b689796f5b5ef48010c7bc54bab93",
+          "sha256": "3f0a909cddab2d7ea79d8374394734033192e0df55326b15fdaede3b540712d7",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1907/rom_type_b-linux.zip"
         },
         {
@@ -3220,8 +3220,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561486194,
-          "sha256": "94df03d8da3db77dee2206ebddd241f549159176364e292031c2770a4b447fd0",
+          "size": 651781796,
+          "sha256": "0d9e5dc9ca7f92e44202cbddda2062af196c8357830c7e39a4fdd587785306fa",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1907/rom_type_b-macos.zip"
         },
         {
@@ -3230,8 +3230,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646124328,
-          "sha256": "01bb64cefe9ab9502a1ff9eb63830867bb34b5a37da208ac27c5c37321751575",
+          "size": 679054289,
+          "sha256": "ea235f2d05d26113b86f1527adef7384060ef99c4c5bcb1fdc0a9910a201c7cd",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1907/rom_type_b-windows.zip"
         }
       ],
@@ -3258,7 +3258,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842180040,
-          "sha256": "ceef13378ac1107bb91866a4fc2429dce652c111f4c807ef38cdffef589039fd",
+          "sha256": "d728a9804be0e9a99c2351eb23ff9c7f75d9f5e0ebe8c8ec921f9f2ce5ee519a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1014/rom-linux.zip"
         },
         {
@@ -3267,8 +3267,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608768867,
-          "sha256": "be452e0456e20cf3a5fd5f2facbb3e37309d84aef6b248e462920ba2ca773932",
+          "size": 699064469,
+          "sha256": "8a60d3dfe8b128e80f2f25f88ca863074d8658156b4b01b43ea3a9df0992a8df",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1014/rom-macos.zip"
         },
         {
@@ -3277,8 +3277,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693407007,
-          "sha256": "f3e069b42afb447a47ea74f24d945aa5c6896b4c34834442be8a7a8fbd1be82c",
+          "size": 726336968,
+          "sha256": "3cf36b904656d92009cb229f5c4ae2117128543e1e29ae1359e80230b120a0e8",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1014/rom-windows.zip"
         },
         {
@@ -3288,7 +3288,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 797296964,
-          "sha256": "2df6f8834d85492946dfc86efcfb4c1b36023bcb0254e762fd3251d91ac556ed",
+          "sha256": "942e4c25dbc659cbfb8d8e78c4a53df30aad49b669982b099aacbe677dba1107",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1014/rom_type_b-linux.zip"
         },
         {
@@ -3297,8 +3297,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 563885797,
-          "sha256": "a86530df363866bf55466a43ebe8dcda2fa446f8e15fa8240075db81f2329976",
+          "size": 654181399,
+          "sha256": "4dab23488fb9b4aad0131ef9f9065e8e2a4b731a2d340050ff8232251fdab09b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1014/rom_type_b-macos.zip"
         },
         {
@@ -3307,8 +3307,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 648523931,
-          "sha256": "7b6c486101e9c4e3df150059aa0c2e13e97d01678f8170a75147459e45ceb049",
+          "size": 681453892,
+          "sha256": "e4ace95dd9fa8bb8950622faf025a1e0e1cc014f1d6d79ee9e551c77e8163fad",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1014/rom_type_b-windows.zip"
         }
       ],
@@ -3335,7 +3335,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842205298,
-          "sha256": "f67912612e82ab9c0754b022bac3875534876b1b9e27fbb98d20331e7266befd",
+          "sha256": "46a54ab648d572743c6ddc5b43a9713cccd366fdc8a2d186db23356441ff02f4",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260628-1014/rom-linux.zip"
         },
         {
@@ -3344,8 +3344,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608794131,
-          "sha256": "6b6005549b2aacf4b3701e96d66181317d59148fa27c967502377de2e1b2f43b",
+          "size": 699089733,
+          "sha256": "57bc76c90344e469b90b7df5dc94d3d05dc35cc524d6c9e30b9ca8f2b9a81869",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260628-1014/rom-macos.zip"
         },
         {
@@ -3354,8 +3354,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693432265,
-          "sha256": "adfd68740755c694f547b63cbeab7b3573ba4e9acfe5d42e478bf0bb861f02db",
+          "size": 726362226,
+          "sha256": "706fb2c18c80706ae10f8da6712825f4b9a284ee23762e0bd46c8002d868ebfc",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260628-1014/rom-windows.zip"
         },
         {
@@ -3365,7 +3365,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 795056871,
-          "sha256": "4086be5274a9db5ceb76bbd4d6ff7b012bffb2021efe55af93d5ae8a4dce6810",
+          "sha256": "c6186eb683eab7aed0a791a14e45a34997cbcbbd858c1d8d9b1b66af61e1370b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260628-1014/rom_type_b-linux.zip"
         },
         {
@@ -3374,8 +3374,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561645710,
-          "sha256": "0716ec700da80e66d32814b5deeee36f26e309d54018b6a01dd090adc14c88c8",
+          "size": 651941312,
+          "sha256": "05082e6eb7ec363a8b802b51f71b100555bf97d553598712d42cb2e8385f8583",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260628-1014/rom_type_b-macos.zip"
         },
         {
@@ -3384,8 +3384,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646283838,
-          "sha256": "8c3d4f5fcab8505284e86e02635c927f67c4964c03ca9117669dc599dc5b59f4",
+          "size": 679213799,
+          "sha256": "6b7e26b404e780e7278c817de4c8554e102abae508acc98f2d5ae7fa2cb2dda8",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260628-1014/rom_type_b-windows.zip"
         }
       ],
@@ -3412,7 +3412,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842291594,
-          "sha256": "2df3a1840e931c68c99da856a30aa9f367a5778738577b044d60f8d202b3e77b",
+          "sha256": "82012c349d686aa13c1eefd3cbcd2525b00574ca01f6c44dd2415029fe0d69b5",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260627-0304/rom-linux.zip"
         },
         {
@@ -3421,8 +3421,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608880428,
-          "sha256": "9794d09eb940c07c196c7a2e5245322629ca20314574461e4fd79c22db32cee1",
+          "size": 699176030,
+          "sha256": "95ff5753c822470e8f8c29017b5f9952561e51daf63c34746b9b50407cbdbbfb",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260627-0304/rom-macos.zip"
         },
         {
@@ -3431,8 +3431,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693518561,
-          "sha256": "c172d9737102e660079c203d1790e322e79320f91764f04a36447bdc0a7032a5",
+          "size": 726448522,
+          "sha256": "fa0ba041eadfd4bc06bfbaecaedc46364aaa087492a038948f6a94a8deb7fedb",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260627-0304/rom-windows.zip"
         },
         {
@@ -3442,7 +3442,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 794946660,
-          "sha256": "313cf4cc8773cdb45d5a51753293083be3a78578293dbdca591b53c215231e90",
+          "sha256": "827dbb9ffeb2694a27fbe8d00a10afdc6774b0e2ec33814d3b11380edce4ee22",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260627-0304/rom_type_b-linux.zip"
         },
         {
@@ -3451,8 +3451,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561535500,
-          "sha256": "6b8437ec921d373546fca7c8bf40709f945f435d7fd0cfec1144ab8fff31f922",
+          "size": 651831102,
+          "sha256": "3677dc42c45d3e4e324d74eed129f91a3cefe0e40033ec0d6d03d108c8b5211c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260627-0304/rom_type_b-macos.zip"
         },
         {
@@ -3461,8 +3461,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646173627,
-          "sha256": "dc534b19f4f36898e3693da9a2276a56b5cc1907755da0b975c03d104531ef93",
+          "size": 679103588,
+          "sha256": "86561bd4f0fe15de7969673376f78ed4461bf9e4596a2eaf834c63b4a9a9e9db",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260627-0304/rom_type_b-windows.zip"
         }
       ],
@@ -3489,7 +3489,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 842214412,
-          "sha256": "f86b44ce3044ec86322bfd0b9271af65b8294752a51c24804e2b47e7c3df584c",
+          "sha256": "b6bf01beb9948b4dae6d2a79a82089c11b7cec260d492252cf07ca6897ca15f2",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0304/rom-linux.zip"
         },
         {
@@ -3498,8 +3498,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 608803239,
-          "sha256": "6cfcb200bef748f637b080ef77115233874126eea205e5de4c6ab45ba28a3ebe",
+          "size": 699098841,
+          "sha256": "582d21c3d9f4cf09ea57ad2f47a69351047276d54fd34a712bcb4e006abc6a5a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0304/rom-macos.zip"
         },
         {
@@ -3508,8 +3508,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 693441379,
-          "sha256": "22deac9eafec4032c147160e7978c85546216e3cc56b87eb33f603c3568c3e63",
+          "size": 726371340,
+          "sha256": "ce61e3632ce0bbc163d67bf48ff5225ee60b5014a5b4b30976ee0446f168963e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0304/rom-windows.zip"
         },
         {
@@ -3519,7 +3519,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 795010981,
-          "sha256": "75fdc2183008a3dead0ce874800d6de7dbc1b94a88d5addcae1a3a0d0000f290",
+          "sha256": "4f79165edab3a2224409b19dfb09bbf91e787308b065171de4139167c4cfa22a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0304/rom_type_b-linux.zip"
         },
         {
@@ -3528,8 +3528,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 561599814,
-          "sha256": "03bb2a5043142c496d6d1744ba643f6e9ba56764537e764bbf08f44d453cf771",
+          "size": 651895416,
+          "sha256": "95c5bee988401742042993ee32fcf117e41d72222c74d1a39f6c38a41f0c0d1f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0304/rom_type_b-macos.zip"
         },
         {
@@ -3538,8 +3538,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 646237948,
-          "sha256": "92fc08d498af70008459d3972f5e3f0a252b8b9698e63384b4b6886cd4c66159",
+          "size": 679167909,
+          "sha256": "d68aa8274d442c2d9942e364283133c7b237bf81c757a2bbc7bd4d88d6ecb9ba",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0304/rom_type_b-windows.zip"
         }
       ],
@@ -3566,7 +3566,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 844620241,
-          "sha256": "3ecca5532456c3da8efce1326f32a956cc8c53c829c031ac7426e36c3b22ca0a",
+          "sha256": "16789fc819c4b5e053ee53938cae79e64b6c09e63a134bf76a5b6c2cacafa2fa",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0209/rom-linux.zip"
         },
         {
@@ -3575,8 +3575,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 611209068,
-          "sha256": "1e8295b3d2eb2c8966ee1671b15f77036997a62a7efc2a10ab9273df2a7c0ef8",
+          "size": 701504670,
+          "sha256": "ed054ff9c2845c89feadee936fd24e889ee6efcf27105cb794ef42bc467cb449",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0209/rom-macos.zip"
         },
         {
@@ -3585,8 +3585,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 695847208,
-          "sha256": "2a637f1d96214e60d081ad5a1a9d662e0c514ec6936d67e3b02b4ccf15c19511",
+          "size": 728777169,
+          "sha256": "2215ba7037c84c6bd1a985ba1cea8cd4cc9c6de0fd3e51668f2f5b25e63a926a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0209/rom-windows.zip"
         },
         {
@@ -3596,7 +3596,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 796990636,
-          "sha256": "b32065b5abb5d1eb153bf15eb487886cd72c95edbd1574871c20439834de8195",
+          "sha256": "b3fe1dd7d232b2701fd662d9e261046acbc9c7e0f72a8f60ec640deb617a8ae2",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0209/rom_type_b-linux.zip"
         },
         {
@@ -3605,8 +3605,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type B",
-          "size": 563579469,
-          "sha256": "1acedd5d95f1aaffff1d255dd9e05f93b1e07a6b448f8a666cd7c367f23ee065",
+          "size": 653875071,
+          "sha256": "cc733524acd657ffefdb62ab139ec4c12365984a4ce6d6ec65364efcd7f28eba",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0209/rom_type_b-macos.zip"
         },
         {
@@ -3615,8 +3615,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type B",
-          "size": 648217603,
-          "sha256": "f8b40768fa457b8a269d9d550df37611be5fd3e68ca7e0e2864de444df5b5a7f",
+          "size": 681147564,
+          "sha256": "beb77f02453c5e10a03ec2d747ed42ca0657de13140d726a66b2926fdb5ba5f8",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0209/rom_type_b-windows.zip"
         }
       ],
