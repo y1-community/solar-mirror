@@ -1,11 +1,38 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T13:18:48Z",
+  "generated_at": "2026-11-11T22:53:46Z",
   "source_repo": "thesolarproject/solar",
+  "source_fallback_repo": "",
   "mirror_repo": "y1-community/solar-mirror",
+  "mirror_fallback_repo": "ryan-specter/solar-mirror",
+  "fallback_index_url": "https://raw.githubusercontent.com/ryan-specter/solar-mirror/main/index.json",
   "title_prefix": "Portable Flashing Package: ",
   "updater_repo": "y1-community/updater-ce-neo",
   "platforms": [
+    {
+      "key": "windows",
+      "os": "windows",
+      "arch": "x86-64",
+      "suffix": "-windows.zip",
+      "layout": "sp_flash_tool",
+      "legacy": false
+    },
+    {
+      "key": "windows-arm64",
+      "os": "windows",
+      "arch": "arm64",
+      "suffix": "-windows-arm64.zip",
+      "layout": "sp_flash_tool",
+      "legacy": false
+    },
+    {
+      "key": "windows-legacy",
+      "os": "windows",
+      "arch": "x86",
+      "suffix": "-windows-legacy.zip",
+      "layout": "sp_flash_tool",
+      "legacy": true
+    },
     {
       "key": "linux",
       "os": "linux",
@@ -23,27 +50,19 @@
       "legacy": false
     },
     {
+      "key": "linux-legacy",
+      "os": "linux",
+      "arch": "x86",
+      "suffix": "-linux-legacy.zip",
+      "layout": "sp_flash_tool",
+      "legacy": true
+    },
+    {
       "key": "macos",
       "os": "macos",
       "arch": "universal",
       "suffix": "-macos.zip",
       "layout": "beside_dmg",
-      "legacy": false
-    },
-    {
-      "key": "windows",
-      "os": "windows",
-      "arch": "x86-64",
-      "suffix": "-windows.zip",
-      "layout": "sp_flash_tool",
-      "legacy": false
-    },
-    {
-      "key": "windows-arm64",
-      "os": "windows",
-      "arch": "arm64",
-      "suffix": "-windows-arm64.zip",
-      "layout": "sp_flash_tool",
       "legacy": false
     }
   ],
@@ -53,10 +72,33 @@
       "title": "Portable Flashing Package: Solar Y2 ROM v20261023-0720",
       "source_title": "Solar Y2 ROM v20261023-0720",
       "source_url": "https://github.com/thesolarproject/solar/releases/tag/y2-release",
+      "source_fallback_url": "",
       "published_at": "2026-09-28T16:36:49Z",
       "prerelease": false,
       "source_notes": "Solar Y2 ROM for Innioasis Y2 (MT6582 ATA). Built from 944d14b.",
       "assets": [
+        {
+          "name": "rom_y2-windows.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "windows",
+          "model": "Y2",
+          "type": "Stock",
+          "size": 605459972,
+          "sha256": "325886ca297092315382b13921206d3c58b7d44a45499548e41c093a739c4655",
+          "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/y2-release/rom_y2-windows.zip"
+        },
+        {
+          "name": "rom_y2-windows-legacy.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "windows-legacy",
+          "model": "Y2",
+          "type": "Stock",
+          "size": 444309499,
+          "sha256": "f1a6a88170e9e1032838a25cd5924a1efcf12925f48d473ad0f2fb64b1ddc25e",
+          "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-windows-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/y2-release/rom_y2-windows-legacy.zip"
+        },
         {
           "name": "rom_y2-linux.zip",
           "source_asset": "rom_y2.zip",
@@ -64,8 +106,9 @@
           "model": "Y2",
           "type": "Stock",
           "size": 738839768,
-          "sha256": "7a24249dca973abf7e5b71be9216a1dbc9d58490686660a553aad90cd6b1700b",
-          "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-linux.zip"
+          "sha256": "a67f72e6838c62bdeb5243773aa37341b70a8e95b1bf4341f6010d3461d43f99",
+          "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/y2-release/rom_y2-linux.zip"
         },
         {
           "name": "rom_y2-linux-arm64.zip",
@@ -74,8 +117,20 @@
           "model": "Y2",
           "type": "Stock",
           "size": 563744710,
-          "sha256": "fa0a10931036d6fd0bee974d72e1df2427788cacf74310f027e03ce640319c6c",
-          "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-linux-arm64.zip"
+          "sha256": "592e37daed099ae52129d1f68be799307f9976006229784938a248d3c5914ae3",
+          "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-linux-arm64.zip",
+          "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/y2-release/rom_y2-linux-arm64.zip"
+        },
+        {
+          "name": "rom_y2-linux-legacy.zip",
+          "source_asset": "rom_y2.zip",
+          "platform": "linux-legacy",
+          "model": "Y2",
+          "type": "Stock",
+          "size": 442723784,
+          "sha256": "bc353902a668ac5dafb267cbc2527827ecde49acba4bdb27f10ad4240e1f0550",
+          "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-linux-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/y2-release/rom_y2-linux-legacy.zip"
         },
         {
           "name": "rom_y2-macos.zip",
@@ -84,18 +139,9 @@
           "model": "Y2",
           "type": "Stock",
           "size": 490985933,
-          "sha256": "7973e4ff04701156ce0c7795c695f3e0bf20ca1cb902050d0033f325f75d6e52",
-          "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-macos.zip"
-        },
-        {
-          "name": "rom_y2-windows.zip",
-          "source_asset": "rom_y2.zip",
-          "platform": "windows",
-          "model": "Y2",
-          "type": "Stock",
-          "size": 605459972,
-          "sha256": "7c9dfa4143028cbd216e59261e52b19b65f95446df7a2ad4ea36d44779fb3373",
-          "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-windows.zip"
+          "sha256": "0b37d49f48461548ee850b428f4b0c08c5ad57f32063eec52e1e0ab7840679ce",
+          "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/y2-release/rom_y2-macos.zip"
         }
       ],
       "original_assets": [
