@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-21T10:22:59Z",
+  "generated_at": "2026-11-21T14:15:42Z",
   "source_repo": "thesolarproject/solar",
   "source_fallback_repo": "",
   "mirror_repo": "y1-community/solar-mirror",
@@ -106,7 +106,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 680489464,
-          "sha256": "080a87ea49d1bfb412a5e94babfc6a9301ca079159516948e1c3d8f80613ad5b",
+          "sha256": "582fa51912af4e7b04dfe3d0eee8ee82f5d72d71f5c8bc1f700bb7ee433148f8",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/y2-release/rom_y2-linux.zip"
         },
@@ -117,7 +117,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 505396185,
-          "sha256": "3c7fd11e0552203105867f377e6d39b4734d631791f4f214f6266b150dafffcd",
+          "sha256": "8832ac50331f4bfdd7e4d59ff3cc48e696c9ab69ca359bb40f34d4417aab1f58",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-release/rom_y2-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/y2-release/rom_y2-linux-arm64.zip"
         },
@@ -188,7 +188,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 1220148843,
-          "sha256": "73edabf307e28231151f046ce0b5e191d9d08bf80e74dbb8a5b7d4bca03c0797",
+          "sha256": "87f7a6b55a6320319e95321df992062123ffc197aa2d1056be4de6811f0232bd",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260819-0956/rom-linux.zip"
         },
@@ -199,7 +199,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 1045055564,
-          "sha256": "4a9d6af2d347efaea9a078233aaa51c0abd0b4dbc3375ba2b5053edf4bb2006d",
+          "sha256": "a792ef297e6f2ef658cd5c67b9d9c3d992f9e8b4c578dd24882771f3bf8d5075",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260819-0956/rom-linux-arm64.zip"
         },
@@ -254,7 +254,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 532842472,
-          "sha256": "82e3197eefc50b326fb816786a6ea6974d13722fe802d7728b4cdb26f3cf2c29",
+          "sha256": "4ac917f6e085e045c5677f11a50f95a6b56be677ce1c5f4efea6cb7c3d92a36d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_a5-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260819-0956/rom_a5-linux.zip"
         },
@@ -265,7 +265,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 357749193,
-          "sha256": "908d23024671a568afb21540b69713f1a86bb32a2575901bac8ec575092f98dd",
+          "sha256": "ac98662e9f52560af52562e2c1da1630c40764157076b0054eaa6bd3fe26c99f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_a5-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260819-0956/rom_a5-linux-arm64.zip"
         },
@@ -320,7 +320,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 727518006,
-          "sha256": "d94e8b1315069729357788a2e4dc5b424d7659d7bbbdfa78ddb80d46451cc4fb",
+          "sha256": "45d4892d9966530358b029e3ac30ff0c01e2352bd48627d4937ab52adbf7b986",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260819-0956/rom_type_b-linux.zip"
         },
@@ -331,7 +331,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 552424727,
-          "sha256": "57cbb9946a9937ae00765be710fa8011e9f5cfa686ad5ea536d74d87cac5fbb2",
+          "sha256": "d38259c9973f370bb6f217424072d4f45e5ef98047bfb8b1964289b50086917b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260819-0956/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260819-0956/rom_type_b-linux-arm64.zip"
         },
@@ -405,7 +405,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 873432140,
-          "sha256": "952efb77fdf2386565b403e3586233934f89ef809656e831bccf0f91470e6900",
+          "sha256": "78b14c75a97597a682885557d081c4ef328a4111641b41c0e9f73789ac9e8382",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-base/rom_y2-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/y2-base/rom_y2-linux.zip"
         },
@@ -416,7 +416,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 698338861,
-          "sha256": "6d2b89728d7189f2c42448d5a5a8fe5b8d1e7cdf4b9fc09ff498c0da41eaea0d",
+          "sha256": "4c0b650384e5f68407f918372df4e1eced93670d6dc7a2a8c943b18822e803ac",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/y2-base/rom_y2-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/y2-base/rom_y2-linux-arm64.zip"
         },
@@ -487,7 +487,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 1219878187,
-          "sha256": "6eb2e8ce4cfdf9b7c46aa371f081b3ea114d558bf7fe64288ad434360698ad49",
+          "sha256": "08c7ad32591f635c0648868b66b73fcbeecb5738057262f4b6b7dbbfe6b30f1b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/type-a-base/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/type-a-base/rom-linux.zip"
         },
@@ -498,7 +498,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 1044784908,
-          "sha256": "9c266d9f437ad1656d381f2bde9990752a1338d20589d6150ad9e58c54d03a78",
+          "sha256": "04360bb65b955ec8627ae6b8e7e77366e430fd73e8ff1e9daa04e94884fd61ba",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/type-a-base/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/type-a-base/rom-linux-arm64.zip"
         },
@@ -569,7 +569,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 782921988,
-          "sha256": "06e6644556c9bbf48d525691200ba2998f9fe7de6db5150e580bee62e933f69e",
+          "sha256": "26cdf13242e4106ee1e79847bacea514475241f2754c4f0188aea9855d05ea38",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260716-0131/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260716-0131/rom-linux.zip"
         },
@@ -580,7 +580,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 607828709,
-          "sha256": "fd363adfa474da56c602bbeaa22e626f9e3e3577bf1fe8c521421bffde0a93e5",
+          "sha256": "ccc437b7e148d59a72c4b2970ab76401782ba64ca9977502270b11c6c38c7291",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260716-0131/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260716-0131/rom-linux-arm64.zip"
         },
@@ -635,7 +635,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 783940879,
-          "sha256": "7425f2183851246a4abe65f6349c5ef00ae5529ca0bec5a5456d0a4d3211da30",
+          "sha256": "ae327d58cfe1d81361f8b5c3dac902972107a685f021860ab54027d846479b98",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260716-0131/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260716-0131/rom_type_b-linux.zip"
         },
@@ -646,7 +646,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 608847600,
-          "sha256": "75f873eb986cf95095484a3aae2bc557d55b49076564888bf4b2023a60825bd2",
+          "sha256": "d49a338f1a39addbe8fbd7c1c49fb830f970179fce42ff8d6afa48a3e3d9e19e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260716-0131/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260716-0131/rom_type_b-linux-arm64.zip"
         },
@@ -701,7 +701,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 873432158,
-          "sha256": "f09fe577bf538806e245a3c913fa343e8aa4b82cfb6a19cd80582aa55cdddb96",
+          "sha256": "ce86b70fc5b9e1e274bc69ff1da7b69a0eed3801433fee5692713b6d06f0928d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260716-0131/rom_y2-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260716-0131/rom_y2-linux.zip"
         },
@@ -712,7 +712,7 @@
           "model": "Y2",
           "type": "Stock",
           "size": 698338879,
-          "sha256": "5afa6c66d9c2a24d5a65f5388554db8ccffdb2c14b69bb09e75cd5184acc39dc",
+          "sha256": "9ab17f58c826ba5b19e2445d54f79e5ca1eff693643e3f7e499f369b5bdcef82",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260716-0131/rom_y2-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260716-0131/rom_y2-linux-arm64.zip"
         },
@@ -785,7 +785,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755658415,
-          "sha256": "ae7f8a8d19ebf65dbcb3b487a6722917b9cb6d072f52731c8da408b86d75b2c9",
+          "sha256": "71ee42146d1ef3d6decea1c33ff45737dbdf5621326a2e523f9480ad602b9023",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260702-1521/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260702-1521/rom-linux.zip"
         },
@@ -796,7 +796,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580565136,
-          "sha256": "7381ef6300daae5857de7b0f2ccbb5533cb754b7d3c3d808783d02bec4b16f61",
+          "sha256": "ce05c8549fd66555e12ee2482e8aa3de78ce43882a9e000fa154cefe20dafd9b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260702-1521/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260702-1521/rom-linux-arm64.zip"
         },
@@ -851,7 +851,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708605075,
-          "sha256": "4ea0773057cba0ad1e22e004c25f37d092d65802dd4ca4f78474825562188a6a",
+          "sha256": "2568537b31ddd4698945c09980078594a5a18dcb82ed16d6e565f55e5a289cf8",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260702-1521/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260702-1521/rom_type_b-linux.zip"
         },
@@ -862,7 +862,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533511796,
-          "sha256": "09a3d53822aad1679aa537ecf9409095a50dd16d403b86fe790743fbb7896cc5",
+          "sha256": "9d9bd0bdfb58bd9dffea63d834fba6c07a4ef7f11d55d2cc0396958047410479",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260702-1521/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260702-1521/rom_type_b-linux-arm64.zip"
         },
@@ -935,7 +935,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755641439,
-          "sha256": "d2dd8b3983c435bc7c3d5b3e2b28b87cf77094243c287f36561d25f73440f7a3",
+          "sha256": "6aad2775b7f2b4cec01d1ce1ac5b395eed8c2974e6a563186d01b83b024279b0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260702-1512/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260702-1512/rom-linux.zip"
         },
@@ -946,7 +946,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580548160,
-          "sha256": "b8b2a346e882f6ad02ebdfa5f8828a442ddbefeec3219b64f399a80ad50331f0",
+          "sha256": "10c81c9fe97df2d4c065efbe5a594fe419abb1ff48e12bd6cf41d7e9102695f7",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260702-1512/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260702-1512/rom-linux-arm64.zip"
         },
@@ -1001,7 +1001,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 707264186,
-          "sha256": "55be8a4077cb90a990ef76e84157543d2bb7bdb51d6f22a1da9627f198f3d9d3",
+          "sha256": "a582a1380eb7f0b14f8b76cc77c57f96ff00dcd2c82c7cf1f8dbe681d39cda8d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260702-1512/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260702-1512/rom_type_b-linux.zip"
         },
@@ -1012,7 +1012,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 532170907,
-          "sha256": "a2cf0f36f0998bbf05a2d3c5c36fac5946594ca105b8f307b2280b6bdf186f18",
+          "sha256": "e4e8886fb328b2e6960a91b4ef76510f1c7d75c2d2d79a0887fd7275f3b0e8e7",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260702-1512/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260702-1512/rom_type_b-linux-arm64.zip"
         },
@@ -1085,7 +1085,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755602180,
-          "sha256": "fde90fe9d5c4e4040ad2e144703053db41974c83e7bfaa8da4142628e457463c",
+          "sha256": "0f49877b66f2f687b651978f63f8762c6d2b6581a130c3efa7d7ee537c0c79d2",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260701-1453/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260701-1453/rom-linux.zip"
         },
@@ -1096,7 +1096,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580508901,
-          "sha256": "16a6ff32d0c0c8a43c5476ddc1eb8c8f3c844cc36deb22eba9e5dd633d1dfd03",
+          "sha256": "3f31a38cb9c44a4e0d572aecfedefb525a72942d3427cee72974a6a27a9c1f65",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260701-1453/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260701-1453/rom-linux-arm64.zip"
         },
@@ -1151,7 +1151,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 707263004,
-          "sha256": "ba37724a089168b078f4007c6dfcbc3e3faf4b0846a62eb9c9967fe74b9b3237",
+          "sha256": "565bcce3bf9bca232746486b143e7389f65f0b5f436aff1dab7a528a8888b3d6",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260701-1453/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260701-1453/rom_type_b-linux.zip"
         },
@@ -1162,7 +1162,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 532169725,
-          "sha256": "bf3abc40025685c7ae505ff8c4e91241a0016ac9d0274195c8e08995839f0df3",
+          "sha256": "5381f5fe8f46627c9987d9791b5f071624120014653668e743dee5330c851359",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260701-1453/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260701-1453/rom_type_b-linux-arm64.zip"
         },
@@ -1235,7 +1235,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755635031,
-          "sha256": "07f904d801f4676d080ff258d30ec413276c3bd8e87676c86b65f20ac69655df",
+          "sha256": "a110655113f2537d3e436e328c4a59fd04c848da2fa2df94c2bdfe178af5a671",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260701-1454/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260701-1454/rom-linux.zip"
         },
@@ -1246,7 +1246,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580541752,
-          "sha256": "358f8b851cda893df836957e43fd0877d7ca3890f64675ef2801c851fdc6648c",
+          "sha256": "3d67559bb9baa7e640bdafc3d2ec2a2e8f3d4fc18364bf14700c6001f58ab962",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260701-1454/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260701-1454/rom-linux-arm64.zip"
         },
@@ -1301,7 +1301,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708432496,
-          "sha256": "02561fccc18926b781cacc785162fd7fbbe963f608a17067b624fe3b541ed5f7",
+          "sha256": "25309eaf0b5bcadd83f6e129a2ca6599fc4799d09188657f6d9da55281accc58",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260701-1454/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260701-1454/rom_type_b-linux.zip"
         },
@@ -1312,7 +1312,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533339217,
-          "sha256": "074b23cd3cd9fafc6a2122bc1748b9c148b417831800e9da36725249658ebbcd",
+          "sha256": "aacc4e6681907ad94a83f336703cdec173da26830bc73b365e397a370dff228a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260701-1454/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260701-1454/rom_type_b-linux-arm64.zip"
         },
@@ -1385,7 +1385,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755663381,
-          "sha256": "b72d2ccbb562f6f2e0eeca4a03b8117aaf4ab02f6638b1bdb8fe24273f7bd772",
+          "sha256": "8140a68b441775481f300f9eb0f7c2166e95c444483e61afa36d752c2830ba1c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1236/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1236/rom-linux.zip"
         },
@@ -1396,7 +1396,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580570102,
-          "sha256": "1c5a84fbc27251b43724bc736cd4d501af4f27f59d062bc870fb607aadf40173",
+          "sha256": "6e11d6311e1b767915d72d11c7134cefbe2b0c84702d2bd6ea5bb738935e5438",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1236/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1236/rom-linux-arm64.zip"
         },
@@ -1451,7 +1451,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 707494510,
-          "sha256": "3ec3b95d2322d907a050702c4b092d83e11972ff814905ad355a540823690e5c",
+          "sha256": "9c6c2d1c10ed5f900e7225b739c188610412f05ca465ed679f4c66aff522970b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1236/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1236/rom_type_b-linux.zip"
         },
@@ -1462,7 +1462,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 532401231,
-          "sha256": "5dfbe02edf2e03d009c370a7097c1f3924bd85b906e935a5933d96dbaaca61f3",
+          "sha256": "acdfeb1105f0d38ed13f985e100879902278f568f097e40bbb9b3e6ad98255ea",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1236/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1236/rom_type_b-linux-arm64.zip"
         },
@@ -1535,7 +1535,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755669216,
-          "sha256": "514574b103b09cf6d61ce78e14b372ead2058f5767a5e8c27606828ec2daae79",
+          "sha256": "45f21393e47fcd38712cf841f87dfdcb7260e070228b6e3016b8b8d8e8a25577",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1236/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1236/rom-linux.zip"
         },
@@ -1546,7 +1546,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580575937,
-          "sha256": "ad8d97159c3420a2b708d2992eddfe574ecabf7fb384fe72d89cec8a59e25ee8",
+          "sha256": "70c976389a43d1877f609172bdd923e3f6a1bb5f5d56c93ee7030f6f6044a41a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1236/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1236/rom-linux-arm64.zip"
         },
@@ -1601,7 +1601,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708525494,
-          "sha256": "41b242d3be7b102aef3e7ff3957fff5926357a833e6e8981919c1e299de8e9de",
+          "sha256": "9477c6301de5de84690c0f79151ab898d5f9a7c7d959ca0bc5ad76f15afad31e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1236/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1236/rom_type_b-linux.zip"
         },
@@ -1612,7 +1612,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533432215,
-          "sha256": "03c08dc314b4f28a7475e16e40ecfda0db818aed49cd7188a3c38ec233df0e51",
+          "sha256": "4da1d0ca781fe4fd8d9d58b4bb8a9da5d610e47cc5f73d32595976666f3abaf4",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1236/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1236/rom_type_b-linux-arm64.zip"
         },
@@ -1685,7 +1685,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755595770,
-          "sha256": "8cf14ac96707204d8c3a3e2347f540624a28dd0d334d8c38f29ba25cd59936d4",
+          "sha256": "4c40e22a9ed3cf16e9194f74a404878d81140315488ae6bb207515603f609ed3",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1125/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1125/rom-linux.zip"
         },
@@ -1696,7 +1696,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580502491,
-          "sha256": "70c89d6d2d1b9d261641c1d2814487be64c9ca41f8e8535d35273d65c9b60980",
+          "sha256": "ce2bcabb86358c3b182db30bdfe2bfdc1240349049d29d9d5cce8d8a7e4d0b57",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1125/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1125/rom-linux-arm64.zip"
         },
@@ -1751,7 +1751,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 707227546,
-          "sha256": "8a53428d447225ce9c04658f428b867163faddfeb6c9159abde7abf30ee30c3f",
+          "sha256": "36e96e4cf4792a1919b13de143509548ee047c781e0a060a69d9ee308898e848",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1125/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1125/rom_type_b-linux.zip"
         },
@@ -1762,7 +1762,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 532134267,
-          "sha256": "715a5b2ca9fca9e67e8f053a079b315e52a488ccbc6c14c65586321f7d75be09",
+          "sha256": "22a445cf4bc0d262393c2eae34f0ba0484002da13c8b4f2c3b9f0b4ada309a72",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1125/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1125/rom_type_b-linux-arm64.zip"
         },
@@ -1835,7 +1835,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755664773,
-          "sha256": "56c2db0c47399094863b42e81f4a45e2bd518775e4787c35abfb1331e56e8027",
+          "sha256": "88cb8eb3aebb2b1eb34e5a2aebe87e42c137361d73f3593758f29b87cf8d43f8",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1125/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1125/rom-linux.zip"
         },
@@ -1846,7 +1846,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580571494,
-          "sha256": "8708676cea964b7dfef4a08167177cfbcfc1b4267efe1581563c9ceb6b959f5c",
+          "sha256": "a2881e72c3127c172b7ed17e362c204b8d27a7b9989a1cea851f6afa7ed68a99",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1125/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1125/rom-linux-arm64.zip"
         },
@@ -1901,7 +1901,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708486918,
-          "sha256": "1c149abd3d252a44e810eaa430ec0bf00dc13b8818646b31b9826f2e7ec38071",
+          "sha256": "72cfde00248e6fc3a0000fabb8c10e6a6ef2e61e2f19f1f2aa758d8f10f58965",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1125/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1125/rom_type_b-linux.zip"
         },
@@ -1912,7 +1912,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533393639,
-          "sha256": "1f67ee719199975f8206cf2706d6cd7a9616a85d58f5102b3cb776c262bb2b9e",
+          "sha256": "79c4b29bfb1f6db80dba7a24e52444f635e544c8132563b39ef94060e3bf85cf",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1125/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1125/rom_type_b-linux-arm64.zip"
         },
@@ -1985,7 +1985,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755615154,
-          "sha256": "400b44552f2f369a8698abac1bcaa2a8e705f382671ffd8798c09449cbf3550a",
+          "sha256": "ce278fedd161d55bddde67afcbabb956f351893c743a31310f01a1bd507c3859",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1120/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1120/rom-linux.zip"
         },
@@ -1996,7 +1996,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580521875,
-          "sha256": "cece5124013526682dde4909dcf7f997a3227ef16ad5d5793d4f012bab3642d1",
+          "sha256": "7e50c68f74da881b6a089b63c947d022b9470e7d03530b07ddae3cd7011eb1ae",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1120/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1120/rom-linux-arm64.zip"
         },
@@ -2051,7 +2051,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 707231137,
-          "sha256": "1849cd035a4e9dcb69ba1a0864a769fc607a1dd4350dc38817a8b927e72275c8",
+          "sha256": "b09cd204f0dae2c8a21f4265c463fa7b5164d14e0bd48d82c940d881f8115b8f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1120/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1120/rom_type_b-linux.zip"
         },
@@ -2062,7 +2062,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 532137858,
-          "sha256": "f977885765b7d350bae1c6311823421d4c825624487bb752344132564ec0726c",
+          "sha256": "a7a7c7a7e3b66c650378fcdd06f47d9853d7cfb7553357add99724ea05ba756d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1120/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1120/rom_type_b-linux-arm64.zip"
         },
@@ -2135,7 +2135,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755654919,
-          "sha256": "017b241d7355f6e85820f4ba317a50237b6aaac5a66863a14f625d2587bae6b1",
+          "sha256": "87cab700736149481fb36b0d5418404de7e2fca9ef74c816c6142cca6953e43c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1120/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1120/rom-linux.zip"
         },
@@ -2146,7 +2146,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580561640,
-          "sha256": "b6ddbb97940c281e188758243380fc446091570cbc047c44105b587880e210d4",
+          "sha256": "866736097c283b564168886b9137ca4d611a9bc73725892eb5b8a249cf3a4cab",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1120/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1120/rom-linux-arm64.zip"
         },
@@ -2201,7 +2201,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708480998,
-          "sha256": "aba03d9c0e643ed9f2e599b4a8e593e132fc935a9a96ea44fb8aadc026183c0d",
+          "sha256": "cf7607214d851742bbf7af70e13d7c278fdced73d3c141e909d480609c6b6953",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1120/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1120/rom_type_b-linux.zip"
         },
@@ -2212,7 +2212,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533387719,
-          "sha256": "5071dfcf3d82d3a852989716a0d73a612313ac03b70ce511a3f26e3df1e5a69e",
+          "sha256": "319344e6b5f9d2d3cddedcd3ff8cb13fe133e11f367eaf9ed7cbfde606743ad5",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1120/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1120/rom_type_b-linux-arm64.zip"
         },
@@ -2285,7 +2285,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755640438,
-          "sha256": "b5fcd24727ccd7dc7f1e4451b36adb85525cdb3dd6c6aafb88b6d2ae98ddcb79",
+          "sha256": "8612c9e67f0b83e662d5605746696e6af9a8e8c71f2df301ac585e44708fcc8f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1110/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1110/rom-linux.zip"
         },
@@ -2296,7 +2296,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580547159,
-          "sha256": "19672bce555767a0e163fb21257ba76023927b61e5f9cbcd0fbd87fa133b6de3",
+          "sha256": "5f93b48cf31aecf4af4f6aa3118ad1370441133022c1eed551b411ea714998d0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1110/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1110/rom-linux-arm64.zip"
         },
@@ -2351,7 +2351,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708607013,
-          "sha256": "eea53e356e1cd502aa147ceca3a43fc3c45823dcad2406b8fdd2f31faef051f8",
+          "sha256": "18125ef994d54217efa52cce3a5b0e98814d476d94c80970b8b574a62c4d29bd",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1110/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1110/rom_type_b-linux.zip"
         },
@@ -2362,7 +2362,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533513734,
-          "sha256": "ff3e938b204f86ff75d64611044b8cf3bc7636f33f9ef7e131e1931d620da52b",
+          "sha256": "6be1cc61c5c0f5d56f7a3a0a8c41fc34ba737a59150b4dcb2f78197760588fb3",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1110/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1110/rom_type_b-linux-arm64.zip"
         },
@@ -2435,7 +2435,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755602749,
-          "sha256": "06d42ff404c3268ffe3c3add8f4678abff4a6f04ff13aa43e0c151cb55de3e7d",
+          "sha256": "1a92415d5310e7ff568750e5ec120b6b713e1d7f268ea65a6446f1cd2f65e05c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1110/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1110/rom-linux.zip"
         },
@@ -2446,7 +2446,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580509470,
-          "sha256": "50cc5ea9a0c0cf5bee0c534f4883caef252feb6befb2810f2b274dcc69e954ca",
+          "sha256": "31b51fa17c9c88d26386b6258a3f452950373e867589f1b8cf3d5be22237002a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1110/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1110/rom-linux-arm64.zip"
         },
@@ -2501,7 +2501,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 707560211,
-          "sha256": "782ca573d00b087ca77d85972291f10e3cf30074d0c72a9eeee58253e7e9722f",
+          "sha256": "0adc10b0e5f297ca5d9147cf05aaf4f2d5ec712895b6d061f7eff932cbc98e5f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1110/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1110/rom_type_b-linux.zip"
         },
@@ -2512,7 +2512,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 532466932,
-          "sha256": "cb90c82543f16b40af009d00020a359fb8771b5f532c453fef9d67ea66dba800",
+          "sha256": "6c82a682eb975a64efa047cfbd3b124e8abb5b3e4bb66379b5464f4589d0a675",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1110/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1110/rom_type_b-linux-arm64.zip"
         },
@@ -2585,7 +2585,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755587605,
-          "sha256": "a89c50e8a4c835d73750ff995962f28b674103b1198ce0b0e1414d0c5a25ae20",
+          "sha256": "76a58743a397f8f988d9f1327ef402835581814c70b63588b636dbe0bb275701",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1102/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1102/rom-linux.zip"
         },
@@ -2596,7 +2596,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580494326,
-          "sha256": "0540476c8515c3541179e388507ab0be3b4e3d557b2be73fb37e0291ee55d909",
+          "sha256": "26b496a1de9fe1445921cc4777c5f591ee8bd77bf4da76f52a767899d70e1d08",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1102/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1102/rom-linux-arm64.zip"
         },
@@ -2651,7 +2651,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 707539655,
-          "sha256": "7574401cfbf849b0392170d740c6504ded1f5773a5cba6e6db98f6ae553221d6",
+          "sha256": "ce5691b445ce5b24ec219ba64bd0ee617a0fbf9c1efa2663a5838761c816981b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1102/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1102/rom_type_b-linux.zip"
         },
@@ -2662,7 +2662,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 532446376,
-          "sha256": "09fe93b5157092a84efa55feed257c47566647538b9747b861681898847c2393",
+          "sha256": "e20c635510b50dd315ae619b77cb1fa0bb82e9e6b4406e5d1a817ffd9c4f38c8",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1102/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1102/rom_type_b-linux-arm64.zip"
         },
@@ -2735,7 +2735,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755616955,
-          "sha256": "12a1ad01d399b5d7c6b3d6a1c510fa8642cb68ee7c93a57731171bf6395f3cb3",
+          "sha256": "199ea2da915d7b7bb909071ff6987632c55a793f019f7753b15224d8bce2ec3d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1102/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1102/rom-linux.zip"
         },
@@ -2746,7 +2746,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580523676,
-          "sha256": "b2a749964e212fca6a36ce215783efc4ce4e2e00a926659edf0aef52334a4de1",
+          "sha256": "cfc34fb3749b7e72542609ba36849c2bce00c1cfaad04cd867f38b7a4eb60bb8",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1102/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1102/rom-linux-arm64.zip"
         },
@@ -2801,7 +2801,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 712176829,
-          "sha256": "55dc3117b60a6aca8438ab10d01fa91d04c137df0a8d27be26a9dfb627c6da43",
+          "sha256": "5703647f2420fa7880ab109f79b93d91e4c694d9d764b1f460e9155045e963d5",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1102/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1102/rom_type_b-linux.zip"
         },
@@ -2812,7 +2812,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 537083550,
-          "sha256": "49206a78c3005fcd7c392c1a7552c40aecc174409785623ce59261beb2408326",
+          "sha256": "8bde7ad4ae65a0d06aae9c8fdf9947e0f50400b8b7b66959ae89567482762479",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1102/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1102/rom_type_b-linux-arm64.zip"
         },
@@ -2885,7 +2885,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755708967,
-          "sha256": "f46752016f5ef3cbe0f6a7ac1021c9b514613ecfa3079d9efe882ed61e563cf1",
+          "sha256": "c62df5e25f0b6a2aa383c10b95a6eb4fd04758043d923de7d2ecbd6ed255d8b2",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1035/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1035/rom-linux.zip"
         },
@@ -2896,7 +2896,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580615688,
-          "sha256": "453ed0bf1c7a0a9e0ea3698613897b121cf5d7e9ac18785c18064d92d985facb",
+          "sha256": "15fb8c940e4be5190aba657abdea7fa8e8be749b6533329e37238a69e4f6c82d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1035/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1035/rom-linux-arm64.zip"
         },
@@ -2951,7 +2951,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 712199189,
-          "sha256": "5678cb5006a2513260efd7d0967ae1a36be027eaadf74c4e08d4b5339114113e",
+          "sha256": "39bec8a6afecd041c859ad495000bcd642562b572e713b3b2c968bde386b72f0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1035/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1035/rom_type_b-linux.zip"
         },
@@ -2962,7 +2962,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 537105910,
-          "sha256": "8f1af00e34a103bcf3dbb9974eab206f27bfc230dfae644231bf8f2aded8b499",
+          "sha256": "4c98c59ec367a20ac9953c2dd477adaf5325e152dcb277cfc6d451dff58405a1",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1035/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1035/rom_type_b-linux-arm64.zip"
         },
@@ -3035,7 +3035,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755589704,
-          "sha256": "9cef2c9a5fb55a2ad65bdcf0e073d2a9a654d1f461b68def9ce05c17dbc32968",
+          "sha256": "dc4033d27ea0690fb1488d17e486f24eda8f8dd003b95aad892dc4ccc397433a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1024/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1024/rom-linux.zip"
         },
@@ -3046,7 +3046,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580496425,
-          "sha256": "d01885a508479a3da61eeeffa30cc6bf117d09d0c3cc17c1bdcd2faed2712cdc",
+          "sha256": "c7fe2c571c0c20625129e22654faa17e0243ee539746a9005a75a25570baf358",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1024/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1024/rom-linux-arm64.zip"
         },
@@ -3101,7 +3101,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708532655,
-          "sha256": "243d5acaf4e4bdea6bd7899c3ed0279dfbd775a4c64acf8391967bba1c15e4d2",
+          "sha256": "9921f9f941f9f60bbff7d17eb04b180822031fa95fb1e3197e8f000eb798ca36",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1024/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1024/rom_type_b-linux.zip"
         },
@@ -3112,7 +3112,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533439376,
-          "sha256": "e94f071f12f689c4506f6a596c05f98074f9e278574579435ef218a7eb2d0f0e",
+          "sha256": "1ed07e1827e03426c4aa1e6a841cc7c3827770e4c0256ed6c346c4ac84a3abbd",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1024/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1024/rom_type_b-linux-arm64.zip"
         },
@@ -3185,7 +3185,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755600380,
-          "sha256": "ad7273ad323de0f79fb202addedb384a0bf8939501f535a496d05eb97dec8c3d",
+          "sha256": "9b8d76f4ad55915f7785072c6aebe035a2256420ed0cf0b9512c574d1373ccce",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1023/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1023/rom-linux.zip"
         },
@@ -3196,7 +3196,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580507101,
-          "sha256": "f07e215921e081f4013bc8eb15e7bde1ed441729936b5e2161150fef935a534f",
+          "sha256": "c3bcfd7dfd3dced800eaffce76200bb0379f17fe6d85b1d1cc6de61357297e75",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1023/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1023/rom-linux-arm64.zip"
         },
@@ -3251,7 +3251,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 707233945,
-          "sha256": "6e80df354349c60b4548e4be4dc9b171a96adabd354745338e4803f9b16f1f1e",
+          "sha256": "7c1935922592d95e9d2bd54bd45f94255afef2a55fa87ad874d0def830e9e0d8",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1023/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1023/rom_type_b-linux.zip"
         },
@@ -3262,7 +3262,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 532140666,
-          "sha256": "edd083485015e2f6ce458c77d312a997fdfb7cfeef9e05f86b9443bac1b32d26",
+          "sha256": "f66425d64231c155b738a74190130f8c6453c3cabbb0109a7f66dbe21f33c03a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1023/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1023/rom_type_b-linux-arm64.zip"
         },
@@ -3335,7 +3335,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 757156610,
-          "sha256": "ff9da769ec8dae1e85cc25dfb60b48134e1d637ae1e6fd8993ed22cecefe03c5",
+          "sha256": "bce2c10ea1a8bc17d870cd43a5e40e86ba53dea50aecc3b7bdcdc73dfc8b8c3a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1005/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1005/rom-linux.zip"
         },
@@ -3346,7 +3346,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582063331,
-          "sha256": "639955be7a754a16429b79306a809c4c177e0d8566d805b5703a6ac4141043fa",
+          "sha256": "3dbb8c8b0d3fd8a948b2e3131e3ab12e46f09dda0632fa530d768fd9302eb3ff",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1005/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1005/rom-linux-arm64.zip"
         },
@@ -3401,7 +3401,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 707196348,
-          "sha256": "dcb6babc9510e76dcb6dd6aed160acc9d17675526b7ca6f08d6b9e689cfb6105",
+          "sha256": "ef720a0215c216e1aa2c0cf7e400488c63cbc7ad7ed81cec91cd958c2b97336e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1005/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1005/rom_type_b-linux.zip"
         },
@@ -3412,7 +3412,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 532103069,
-          "sha256": "e5a388884e72a7d0ef308692a92e832d728422675a70ae4a3fac21b488b32aa8",
+          "sha256": "f69897b188de304c5d6f718e492f4867ff6f918335f3e9021e5c7223490c426d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-1005/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-1005/rom_type_b-linux-arm64.zip"
         },
@@ -3485,7 +3485,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755591311,
-          "sha256": "84e43c45e276d7a93976bb5c082869db4d79f35c95c250ab78692918dd17d1ec",
+          "sha256": "33144e1c3d5dea231d2aedbe2b861c5757348318abd3d888941ae9069a79317e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1005/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1005/rom-linux.zip"
         },
@@ -3496,7 +3496,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580498032,
-          "sha256": "154dca53fad5751fb11e5cb71f8866ba8358e2993b0f62d4c18984867f1b2750",
+          "sha256": "f71d933dd5308d0ed35c811224c6262a2f542d1643a667ccdd5a7c7b5e48e2c9",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1005/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1005/rom-linux-arm64.zip"
         },
@@ -3551,7 +3551,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 711344173,
-          "sha256": "cabfa01774c4486bca75ba8d7bf6100113d0318ae29daffe8cf969c6d97c141e",
+          "sha256": "3ff8ce22f2a36901fd3e8385cb1e222b91962371b822b42d5f50a87a3b7caeef",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1005/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1005/rom_type_b-linux.zip"
         },
@@ -3562,7 +3562,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 536250894,
-          "sha256": "fa256da3ec5d8634694c00cb94c1b5bec80ce2f0d34d66885bd3c12366041fe9",
+          "sha256": "e46e5e00e5d50303e5b4364543faf410f1a41f7bc9e83946a1d2f8d2c12ba439",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-1005/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-1005/rom_type_b-linux-arm64.zip"
         },
@@ -3635,7 +3635,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755589185,
-          "sha256": "56d1f3c865b859a698d1e0005447300c81984345602f2b35c73489349d978f6b",
+          "sha256": "498e0738a24808450368cad726890935a76e8c53cf160e1ddda23a7248cb9a17",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0957/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-0957/rom-linux.zip"
         },
@@ -3646,7 +3646,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580495906,
-          "sha256": "9ddb3a0b3d22ab7299ebb63ee4e191c4c21bb7fc0d9c444493851c3777f3a9b4",
+          "sha256": "ecb0cc178b738b51cedd44d9362d1cff6af7b754b73edf4dc6eecf5952eb77ef",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0957/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-0957/rom-linux-arm64.zip"
         },
@@ -3701,7 +3701,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 700992707,
-          "sha256": "72f9e0749ce6ad80d15efcc6ff329091054c25063a3df10f59f55332bb970db0",
+          "sha256": "69f0d68abc4c874e264f51a78b051ed90e17c1db423f29bd77094d1c7c090656",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0957/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-0957/rom_type_b-linux.zip"
         },
@@ -3712,7 +3712,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 525899428,
-          "sha256": "38c423990418179f2b9b7aef942f25ef2abdc3c8880ecd9fb3238f2bf3b8add4",
+          "sha256": "70501ee7d685da95262a98d3585c1a9dfd140a962a00346d047c619ee8f522f0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0957/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-0957/rom_type_b-linux-arm64.zip"
         },
@@ -3785,7 +3785,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755638780,
-          "sha256": "799c511590ef5a1b0e01c09bb03ca35af92cf8181f00686bd642d77462d6999a",
+          "sha256": "23f28abc0c4e7a27f3d6e050bd51addceac9bfe91dc5456720d14621c7969141",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0956/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-0956/rom-linux.zip"
         },
@@ -3796,7 +3796,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580545501,
-          "sha256": "bda30bca17055491afa1ca3d2ededaad9ce12bc3c732ac8dddf46881bd0e36ee",
+          "sha256": "d93e3cb6f0d41ba6af28e2ecef03c9d2caf00f60d97cf7c39451dd49866b915b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0956/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-0956/rom-linux-arm64.zip"
         },
@@ -3851,7 +3851,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708496072,
-          "sha256": "5024562fbe2657e261b72a22a7b8bc1ea631da020e45bd7ac0a2f054adf3e798",
+          "sha256": "1e39cb72006a79896ce73089bfe2f052a94fd18d2d4eba75da36ab5413898ad1",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0956/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-0956/rom_type_b-linux.zip"
         },
@@ -3862,7 +3862,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533402793,
-          "sha256": "1e5680000e34cd9c02cdfdad8dd73ff552d4fa47f84e44f53b8a0e9779c4396a",
+          "sha256": "a0c873609ecbcee91a6927662e074c98e818098971c625be320ce8e47362a954",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0956/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-0956/rom_type_b-linux-arm64.zip"
         },
@@ -3935,7 +3935,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755672746,
-          "sha256": "3f463ba46d7e219e2c3d9149f0c2ffd13507692ca1ac34b5445486473fd8a0d4",
+          "sha256": "55f0a8d57a041a2b21d4f8e707d25f3657bde8949634fd6f5d18b9b7a76db3f7",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0636/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-0636/rom-linux.zip"
         },
@@ -3946,7 +3946,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580579467,
-          "sha256": "7b04456b3e38743f51aeaafce830a4cf68ba282a2f674468948dfb1510585c41",
+          "sha256": "89c8e5631f2a093627f172b79ce517881f4ec5b54fd1e8f3de888fa5f07947f0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0636/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-0636/rom-linux-arm64.zip"
         },
@@ -4001,7 +4001,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 711321289,
-          "sha256": "15b6eaa5bcd8cfe6c2daa2302947fb552fcefe511663a53142f9f16f4bea141c",
+          "sha256": "b2c86869c45ea9d1310a714ecea5d9b7e2b1cfe6289950b1fea6d10551e3f98c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0636/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-0636/rom_type_b-linux.zip"
         },
@@ -4012,7 +4012,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 536228010,
-          "sha256": "cea97e96986c574398335f22449127f468d727504bf2f3d283d06ae2ee708cb1",
+          "sha256": "7b31b90428442b1aca493bb21440da08a19f2b535d679deb18d757786bde0d23",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0636/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-0636/rom_type_b-linux-arm64.zip"
         },
@@ -4085,7 +4085,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 757174555,
-          "sha256": "105a97c4b3d5d0a52cf1a072967e636a60c8ad225fe5f6d4903089e799495863",
+          "sha256": "e421eeef23a3db290a23c0847a2069cb1a2254e8cc7ff6b18d8abfbafbd86a8a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0636/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-0636/rom-linux.zip"
         },
@@ -4096,7 +4096,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582081276,
-          "sha256": "17bd3f92bd5e950079cf1f65d52a2520118af5f5f82c03d6f1560bdf2c1e505e",
+          "sha256": "15afdcedd2c1e67efe24b44b8a37e84a11a6940bf72f14d7805e5384e78448f0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0636/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-0636/rom-linux-arm64.zip"
         },
@@ -4151,7 +4151,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 707316990,
-          "sha256": "4a8d3b36e0a4e2b1e71d049ea5cfd44c39e502d74eda03b73b0c1c20fbe5dcd1",
+          "sha256": "f64a6d6463554d5e4722ccd890b68f2000bc317fb1c8647a7f23382e54bb92b2",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0636/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-0636/rom_type_b-linux.zip"
         },
@@ -4162,7 +4162,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 532223711,
-          "sha256": "f2171ca26c41b643ffb6590090f707f01aa02c80834cab9d7615b5e2da95614d",
+          "sha256": "cd07d93c1ed5301039038bb15cd2d9ab0533a7efa1942ca4c508b7e183d5293d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0636/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-0636/rom_type_b-linux-arm64.zip"
         },
@@ -4235,7 +4235,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755641995,
-          "sha256": "522f91d9ba2bd72e7470778127436b79a3501d938c693791731c301fc8a6bd6e",
+          "sha256": "f6c52626a92b7975f3bc14792c7a37f7b6a1900c340afb224888f65efbdc85b6",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0550/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-0550/rom-linux.zip"
         },
@@ -4246,7 +4246,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580548716,
-          "sha256": "ce8738e65faedb130f7333bb9e7c3a6f983f87d5122b4ee9e19a0a0d13e19681",
+          "sha256": "ef975fb00332b398988db4c042eefe455ce6594acfb8bc5e408079fd8b0d1350",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0550/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-0550/rom-linux-arm64.zip"
         },
@@ -4301,7 +4301,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708502925,
-          "sha256": "62cb26eb2506fc18c38b9b1d3c3ff650ea7b6ff51fd8b57f55e35a24105e470e",
+          "sha256": "0802cfbd015c4fd4c3724746dc824da0403b1ec22163927a9deb56e9bff4fe2d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0550/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-0550/rom_type_b-linux.zip"
         },
@@ -4312,7 +4312,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533409646,
-          "sha256": "c0b44e74ddea67f391cbc6d6f08d0f516e53c11ae0c6d0d36c3ded3dc2a7ab28",
+          "sha256": "e04712a9864a171a8c3ca1fb3b44e0f67d4475af99bd8b6a414ef43ccbb43f68",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260630-0550/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260630-0550/rom_type_b-linux-arm64.zip"
         },
@@ -4385,7 +4385,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755619555,
-          "sha256": "42eadcede6b2ba99e0f141f613f29ac643acd8f9fd083e016051e938de0a4d79",
+          "sha256": "5404ee5ebc484c10b18e9b31909c1345f46a4d32b778bbca6645ea30ba717844",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0549/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-0549/rom-linux.zip"
         },
@@ -4396,7 +4396,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580526276,
-          "sha256": "21ff4019f5218fbc525458be16c78122df1cf30a3f80ebfa23509185ee271ed0",
+          "sha256": "18099d4a46de9aea83ced3115538fbeb47cf74469340f459027a7409167a6c4b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0549/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-0549/rom-linux-arm64.zip"
         },
@@ -4451,7 +4451,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 707490893,
-          "sha256": "5a5eaa924a0da9765318df38abbaaa6ba10ac1bf27d07c7c37cf143d14022fa5",
+          "sha256": "a2ffd05e1a7bcb6fa8a559f65806472790de064a824f598866418bbcf5075f8c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0549/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-0549/rom_type_b-linux.zip"
         },
@@ -4462,7 +4462,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 532397614,
-          "sha256": "e17d5f8073f3ca7e28419d5b064d1cf3fcdd8575646734304a67bc34da1dca0f",
+          "sha256": "0ca5f8d99e2186de19b99272a08a3e382461bd01f48cc601eaded6f23ce852a0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260630-0549/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260630-0549/rom_type_b-linux-arm64.zip"
         },
@@ -4535,7 +4535,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755629295,
-          "sha256": "2fcc30317a15fdc4ec92d2952a719ab426d1007e65e8a5ffa55fb913ec9e7b21",
+          "sha256": "378aa9eb4df2db41b7eb69b90bc7a1d784b1c1b9e9923dd14ff862c2f1cf5b91",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1616/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-1616/rom-linux.zip"
         },
@@ -4546,7 +4546,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580536016,
-          "sha256": "30dccce33615086289d613713d83509c997f2f933174765d6e98ce6483f50d0a",
+          "sha256": "c9144228d207c7f00d3307b2d9cef12f1a19e561f86ea3a8a545171080151570",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1616/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-1616/rom-linux-arm64.zip"
         },
@@ -4601,7 +4601,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708509641,
-          "sha256": "2bbaedf58019e4e9167de5386fb2dbff49cd9829f75ac776c770801abace7724",
+          "sha256": "5bfcc9bc047984d1f2ef41ca2e66d4228f2a1429174ef629b96d07b3cb92b6b5",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1616/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-1616/rom_type_b-linux.zip"
         },
@@ -4612,7 +4612,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533416362,
-          "sha256": "0206dd95d04956aa352cdf706a959f1cd55eb543d44bf2282281ff829987dc79",
+          "sha256": "9ab6b3b4d17beb1e9db90520515dd3931ff05b3eee60d9ac2f460730d15c7e88",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1616/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-1616/rom_type_b-linux-arm64.zip"
         },
@@ -4685,7 +4685,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755562719,
-          "sha256": "b581d408a4662ed57e3c59de6c19794d4e6b689e0168d39690907e47a9eb221f",
+          "sha256": "56253427fcdae7ff6b53b87bf2a4c56fe1b64384b1484985fd2aa7229535c3ea",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1615/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-1615/rom-linux.zip"
         },
@@ -4696,7 +4696,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580469440,
-          "sha256": "afdb6da8314a4d3d57b3db99a6930b84fb931c457acbc3daff507dc355439308",
+          "sha256": "0a7a922cba13013d062424fe8b4bfe7bd5cb1644bd5994de73c9ec98d0cb136a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1615/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-1615/rom-linux-arm64.zip"
         },
@@ -4751,7 +4751,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 711293715,
-          "sha256": "1302a6ea2f54c3fe9c011f3638d0cbe001d12142ecbdc159e08d9d44baa5a005",
+          "sha256": "5fd6e7aacfc045f5e06a746051471008b8f9d3acdf89ff257677d4d5cbeba201",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1615/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-1615/rom_type_b-linux.zip"
         },
@@ -4762,7 +4762,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 536200436,
-          "sha256": "25bca60accf0abea68a6f4f1a343aec013df2229336a0276ef90c8844ce9a39f",
+          "sha256": "75188a52c4711fe7e9c0df3bd99e753f12d24436d284ad9944efd8a1b5cadf96",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1615/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-1615/rom_type_b-linux-arm64.zip"
         },
@@ -4835,7 +4835,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755616808,
-          "sha256": "8ce455a3acafdf256cac1a0a956140b85eec939f703ab369814653bf3e361791",
+          "sha256": "667733c7933b3444696ca4e01ee1b79e37e11c0ae74dd156370dfbe762f39ff6",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1610/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-1610/rom-linux.zip"
         },
@@ -4846,7 +4846,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580523529,
-          "sha256": "74e00c78d94817e25e789f63cdee36a357fcfe7089dc7f26df1e592faaef7636",
+          "sha256": "de4495e00643c4556580f5fb30cab34689f0d801a1d7680465ca0a5c7499dfc0",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1610/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-1610/rom-linux-arm64.zip"
         },
@@ -4901,7 +4901,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708462123,
-          "sha256": "3e4b670519162a2bf92c5a01b14b5c68da95107de888f77e27cc705b33b3488b",
+          "sha256": "7bed08bea8ae857fb051568279143f0cb1be03a8c552a165e716c743242c735f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1610/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-1610/rom_type_b-linux.zip"
         },
@@ -4912,7 +4912,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533368844,
-          "sha256": "e168201d381a5437e2974b664e42476c60092a9046fb6e9d5de1289b74f781ca",
+          "sha256": "21a45fd1ae2fde61ba62bc306ef1375f5119f01d1376c846066f5bcf7d3d6335",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1610/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-1610/rom_type_b-linux-arm64.zip"
         },
@@ -4985,7 +4985,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 757170012,
-          "sha256": "a68c5114609923c23e96532488b6e1573dc7362c30164afc950304be4ab91933",
+          "sha256": "377d7fb4bd8d650ca9db506df4818ac6b9bb874577335a096b60941cf2977687",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1609/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-1609/rom-linux.zip"
         },
@@ -4996,7 +4996,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582076733,
-          "sha256": "dbde19b0477e98e2e1620ef309ce6d8e8a1ce86240f6b865e0b0a1f77a9883bd",
+          "sha256": "4a1b52f935dcba15b367434afd47053d64a7b94514fc10e47b649f96de7a7747",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1609/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-1609/rom-linux-arm64.zip"
         },
@@ -5051,7 +5051,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 707520013,
-          "sha256": "4144f2f8d43e9ddc2bbe06974306692ee876010588f33b246f57de591037351f",
+          "sha256": "93cefcaa1a3e6554ef8800fae86e5428a0b1975798544c31dae5297a3b9fcb17",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1609/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-1609/rom_type_b-linux.zip"
         },
@@ -5062,7 +5062,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 532426734,
-          "sha256": "525bd947a851a811b31e56d179444565031a11e8c21f7d41fffced949920ec57",
+          "sha256": "06317ef391bd53a76b1e7eed76353331401bd523bd33713b9cfef60878bbb062",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1609/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-1609/rom_type_b-linux-arm64.zip"
         },
@@ -5135,7 +5135,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755615670,
-          "sha256": "e23eb9759c2f1e5d8ed935f82fab6267c8ba7d17df2268008d8039b3f6d72607",
+          "sha256": "231444e63c4a5cdecd0088f32f70bd1743cbd41ae001d8cddae6353f5626554c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1444/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-1444/rom-linux.zip"
         },
@@ -5146,7 +5146,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580522391,
-          "sha256": "bce18c9d52fcc97c5376dc581f471873a358800261f53f619c5082eaa04d04ad",
+          "sha256": "c96b878ba65fba328cfec1341497b514853ea8631cdaa21d100b8aa771d9a0e3",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1444/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-1444/rom-linux-arm64.zip"
         },
@@ -5201,7 +5201,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 707305908,
-          "sha256": "60e2700e2bb331788fd76ba028e0c7b5e24b30316f60077d1b18e46a59910722",
+          "sha256": "9d685cffbe7e8603993a28f6bbe4bc605676be743d0aca506507efb8f343f885",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1444/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-1444/rom_type_b-linux.zip"
         },
@@ -5212,7 +5212,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 532212629,
-          "sha256": "ef5419ea363471904c070846d39bc1ad22a6021d0e1f73f911732cc0ca7bf55d",
+          "sha256": "6b69425f1f122a878a639ad929e60fae9cdf8590c85221693af521ce00367706",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-1444/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-1444/rom_type_b-linux-arm64.zip"
         },
@@ -5285,7 +5285,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755636438,
-          "sha256": "4e520facc9e9216b66be5aa7a0049f75c63336f6c3da255ae82e2c26d3e0a6a1",
+          "sha256": "8e5494b05dfefb1ef3c13ae7f9ac042e731cc238cbd76690b05a3cf23129601c",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1444/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-1444/rom-linux.zip"
         },
@@ -5296,7 +5296,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580543159,
-          "sha256": "2790105add05d49e33f4164a8a8cd7a5d564c4b411737ba02e11b2818d5c4863",
+          "sha256": "1bd64615ed87dc966298818232ead0206cf7e777c064dbbc795655c7aac27c25",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1444/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-1444/rom-linux-arm64.zip"
         },
@@ -5351,7 +5351,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708491722,
-          "sha256": "991e3756817a61b7b0877a3b5970dff9aa19eafe03280ebde4423b67f5b4b1aa",
+          "sha256": "19209f971e813dd8d873aa1de74c5ff8a48749485c4982269b1ce40211e009ce",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1444/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-1444/rom_type_b-linux.zip"
         },
@@ -5362,7 +5362,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533398443,
-          "sha256": "bdd48e22da275ed22da08dfe92c727075f27580dd88459b4b33639dbe1a981a9",
+          "sha256": "d508a27382a52969207b76499a085b951e2fe56b99a9a01eaf6307dac551339b",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-1444/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-1444/rom_type_b-linux-arm64.zip"
         },
@@ -5435,7 +5435,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755606268,
-          "sha256": "a1a5b64c6a32ff40ddc65e72b2c489545194b0da7c16196b05127ee0696258fa",
+          "sha256": "b0addb1cdf89b1c86c4a5268fd4ef7a4844190c29438739b0c46df2c03af5f06",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0955/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-0955/rom-linux.zip"
         },
@@ -5446,7 +5446,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580512989,
-          "sha256": "cc640cd31727c1c7f8eb271e29f910b470b37554a0bdb4af9506c3f45a149886",
+          "sha256": "f627f092fb6342878ee133ea042b99352b0cfbae683e86999eeae62b33006124",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0955/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-0955/rom-linux-arm64.zip"
         },
@@ -5501,7 +5501,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708477939,
-          "sha256": "e2c16b301c98fbaec67f1e52da65c1403be373f5802c21bcc57a5231445f56f0",
+          "sha256": "72679c6205ecbd4e2f1088d01f71634340fec9e0eb45fabbbc6ce462ee99e674",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0955/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-0955/rom_type_b-linux.zip"
         },
@@ -5512,7 +5512,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533384660,
-          "sha256": "7db774e41d29d5456a7a1187aab049351c7fa0b40d6b220929c5501f4a1f53a6",
+          "sha256": "9e60cfb11bdaf69838137555bfcb47641053b77d38613d8d86e970f259d51997",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0955/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-0955/rom_type_b-linux-arm64.zip"
         },
@@ -5585,7 +5585,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 757157479,
-          "sha256": "62814ce48850050084e923d0513eb7e29ecade02dd2929e9825214c77ddaff8e",
+          "sha256": "7a3ec98e3b26a046236262a5126f1592bea39f02f0133ba0cc24f54050c57fac",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0955/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-0955/rom-linux.zip"
         },
@@ -5596,7 +5596,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582064200,
-          "sha256": "b5c1fadef496ff599a5645029b1cb7b41e1b210846563cead709c5f41a9938e6",
+          "sha256": "8875160e24069111a8a78bf55c8b1e6a543fa3a5dfb597db351819a4eb069df4",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0955/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-0955/rom-linux-arm64.zip"
         },
@@ -5651,7 +5651,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708539073,
-          "sha256": "0f3849d2126fed2b32132ed39bdf61eaae828c53dce8392a2bfc2dcb041e3d1e",
+          "sha256": "297469e0a4e159fc5856287057abdb26d447e3affea44fe43331ebc379ad6b33",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0955/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-0955/rom_type_b-linux.zip"
         },
@@ -5662,7 +5662,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533445794,
-          "sha256": "3df6108cce312149818f8f7730dcc2e0d789b85d99e5e83f64cf2e909f551e66",
+          "sha256": "ed5f22725f6a82ed91ad105c9d75d36743ddc82747c4aba27a502e8170c3e402",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0955/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-0955/rom_type_b-linux-arm64.zip"
         },
@@ -5735,7 +5735,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755660835,
-          "sha256": "1e2b0cfd88fd008d113cd9b374a5ee02badb14690a4f12508658c8816964faa4",
+          "sha256": "786141eb3d46b8f8e6f2bcdf5eff41e58b9613fe2c940065b13d7909a2ab7ef5",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0926/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-0926/rom-linux.zip"
         },
@@ -5746,7 +5746,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580567556,
-          "sha256": "677873bce41fdc9879ae8e5fc067ca2215f5a2267abe751cdf6a9661ee52c582",
+          "sha256": "a4964ea5048f38d73adea019e6965f953957949220b33b3fc8da187560e639df",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0926/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-0926/rom-linux-arm64.zip"
         },
@@ -5801,7 +5801,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 711290679,
-          "sha256": "e4f648205fbf44c37c93b319bf094e9e1a458c1f0e3db37801bb95140719fec9",
+          "sha256": "e519fb6019843988caace61681ef66171c60a44909b2f6cf909ceac2812c88c9",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0926/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-0926/rom_type_b-linux.zip"
         },
@@ -5812,7 +5812,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 536197400,
-          "sha256": "d9167285a39f0c2d8a63ac0458d6f97e46627760154d7864795eab9420a4e2d7",
+          "sha256": "2b4cbdd4ac8f1bab38d3500a6f379b6d4b14ad97bb78db4a2b9df4a2ba9f946a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0926/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-0926/rom_type_b-linux-arm64.zip"
         },
@@ -5885,7 +5885,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755635518,
-          "sha256": "7358ed48b48cafdc43f7ca11b1be161648a7667e566cf80380b43dad2092a65d",
+          "sha256": "574543cec5408369a038162ea782c67d26e85f59d7002c56909096d985e7eb79",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0057/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-0057/rom-linux.zip"
         },
@@ -5896,7 +5896,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580542239,
-          "sha256": "d96c33c74ac77ff08dfd640451cfc61956c73800b9042fe7e704d94e1d2aca8f",
+          "sha256": "aa5b3b90e28b02d4f47f4927d9465ed6e747a091c21408052b1b93425e44eb7d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0057/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-0057/rom-linux-arm64.zip"
         },
@@ -5951,7 +5951,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 707521803,
-          "sha256": "65e83dd0d520ef89cc196745dbbd3ead13cb7c67979ab32595bab352ef5b27af",
+          "sha256": "e91903b05e07e15eb68abd7ffe40881c2830e619571457feea2933a48222279f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0057/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-0057/rom_type_b-linux.zip"
         },
@@ -5962,7 +5962,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 532428524,
-          "sha256": "a94bdaa91d30b219ff5cc26ae5d514378b30ca5da9d13e26c25fa6f06315a136",
+          "sha256": "97451bd03a0c82d13e2315443293bc42f515c9deaa1fbbcf07c868789a0a2ab7",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260629-0057/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260629-0057/rom_type_b-linux-arm64.zip"
         },
@@ -6035,7 +6035,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755638664,
-          "sha256": "fb530d9d8352cd95c3ae34ace4e31a7cf346af3d6de1b8a75c15625eb9de4bf8",
+          "sha256": "1e3da782f837a5f0ad4dd11d35b14425996fee2dc6be8705b42257206ef8c4c6",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0057/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-0057/rom-linux.zip"
         },
@@ -6046,7 +6046,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580545385,
-          "sha256": "484dd6303bcd7407b026b603714321aabb36ccdf78e942cc1a98ac588dc18ee6",
+          "sha256": "6098b061bce49aa87ff051a6b6d120049d3c78872c080a95ade3a69b34b16bcf",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0057/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-0057/rom-linux-arm64.zip"
         },
@@ -6101,7 +6101,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708501436,
-          "sha256": "cc62853bbcca3cd4dcc658a07ef1ef0ff927caba9152b7491de2769e9fb87cfd",
+          "sha256": "f52a953ebb525c9a8d45abcab4f321fea572780da45b56b9e4460bfb0ccc6ed8",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0057/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-0057/rom_type_b-linux.zip"
         },
@@ -6112,7 +6112,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533408157,
-          "sha256": "c6f5e825860ab5330a7764b15e5043c36816f52985bbeb0a4992943615f3daf9",
+          "sha256": "3ea535d2b52308fb0ad68b6fe698fa6b4d535303ffc4e3e4c1e7ed5148c7aace",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260629-0057/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260629-0057/rom_type_b-linux-arm64.zip"
         },
@@ -6185,7 +6185,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755610174,
-          "sha256": "9ce3b1f4e255fe622bf34a506a2d3db3869a74f48c779238e694f77261ac51f9",
+          "sha256": "29492e84be904e213f2f701be01c55ea8d16b92f2330238373eae2cdeb9d4893",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1907/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260628-1907/rom-linux.zip"
         },
@@ -6196,7 +6196,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580516895,
-          "sha256": "cd4243d53be4a0bcb601d18e4072c3748e729d695be3726965ef43ebfd14e523",
+          "sha256": "0786f39e8d44c705435b7c3a9af6284d3361fc87642c318e6006efbcdf6f2bf1",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1907/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260628-1907/rom-linux-arm64.zip"
         },
@@ -6251,7 +6251,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708418486,
-          "sha256": "ba0d60c05e4b125090b72689e49674b5df10c8616ee663ea836a2c41a97f0600",
+          "sha256": "a0d6e18028784b4dc01c1b480b2a50b8da9316a147aeabd6ce7f09940143ef21",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1907/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260628-1907/rom_type_b-linux.zip"
         },
@@ -6262,7 +6262,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533325207,
-          "sha256": "73b44f68e5aff4791e135cd4159b854f86b0bad945b15130d19ae155f03ae396",
+          "sha256": "dd37fcd11cb30ea8c22d9efd1f2975afefc3a9303256ae5a9776488813fee99f",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1907/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260628-1907/rom_type_b-linux-arm64.zip"
         },
@@ -6335,7 +6335,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755572358,
-          "sha256": "4dfd114a8c8b1174c4e9ca667419e110ff910fd3e00b10be70d19bb5db5c8dfb",
+          "sha256": "497576697e5c3e87ce899ceaa9c078dfe105693e403a8edeb2284bcd942d2caa",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1014/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260628-1014/rom-linux.zip"
         },
@@ -6346,7 +6346,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580479079,
-          "sha256": "98c94ad83cfa76a20f5df2e52ec5b88df0ec0a38c42f55a03f969c8985c093e7",
+          "sha256": "27fde9629b2d119832ff184ffaee1250a6c1e7547c4b268d65ff5ad6bee532ef",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1014/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260628-1014/rom-linux-arm64.zip"
         },
@@ -6401,7 +6401,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 710813810,
-          "sha256": "25422877c6f725bec9c19869ae18715673442126aac4563a333d7cf1983584cc",
+          "sha256": "ec063801b953363c5e60a09bf10f91c179501e3ceb41c922e173a57b3a82db3d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1014/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260628-1014/rom_type_b-linux.zip"
         },
@@ -6412,7 +6412,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 535720531,
-          "sha256": "3638eb87a2787270e15c53e3b23b8fb7403ca3f7a90aa868831924b03b4f593a",
+          "sha256": "f1b2a2bb303bdc6b0e1819400b398efb75e9064cd36ca479b0e6a920fb957932",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260628-1014/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260628-1014/rom_type_b-linux-arm64.zip"
         },
@@ -6485,7 +6485,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755597599,
-          "sha256": "46eab0c0bb19442c66edaf6fd3b14b728816ae0592de5361c92933869ad4fbec",
+          "sha256": "66e8a8daf9bb6132f34e07f0e01d845282f0eeaa744033d1fd68967f3a9d0e61",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260628-1014/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260628-1014/rom-linux.zip"
         },
@@ -6496,7 +6496,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580504320,
-          "sha256": "98aa1ac6aa465192cb0207a32f510dcf5551c54f534653dc845619bcf211efc2",
+          "sha256": "df14ca745c5b0ee585d57bbdd80d27bf279a91ef127f83ee859855d9c200c30d",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260628-1014/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260628-1014/rom-linux-arm64.zip"
         },
@@ -6551,7 +6551,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708577664,
-          "sha256": "e981347ba52f1f9b19d03056cec269f7e77fc23a13aa5a5de6fc6fdf992f5ba2",
+          "sha256": "640a2c1c5d6eb2496ce1a6526efccc9296e6516a08a8a76f8088e437afbd4ad9",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260628-1014/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260628-1014/rom_type_b-linux.zip"
         },
@@ -6562,7 +6562,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533484385,
-          "sha256": "93bab369d8aeede65ccd4280af79b620417d2d9e75c2052ceb4420612f610b07",
+          "sha256": "57d2b846ace27d392eef596c5025e6d27d9781d97333d2aef41c21ef1916f5be",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260628-1014/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260628-1014/rom_type_b-linux-arm64.zip"
         },
@@ -6635,7 +6635,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755677203,
-          "sha256": "4875c3b0ed6cef086246effe160228b680607002651693e4419f38c6dc09906b",
+          "sha256": "578f478fe73dcb00905f28997237eee2d3dcf9b275d64b6ae60f3b145c38d604",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260627-0304/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260627-0304/rom-linux.zip"
         },
@@ -6646,7 +6646,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580583924,
-          "sha256": "e09941d1514860e958ea6d9768576940182e6e548296f26169065a52e87a94a7",
+          "sha256": "af8c6c6067ab07f340b4a1af8220b5a8fc770336c792df0c9d370b0e75f46de5",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260627-0304/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260627-0304/rom-linux-arm64.zip"
         },
@@ -6701,7 +6701,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708475374,
-          "sha256": "48aaf15b9525ce895e9e06cf8949988aa364667775b0acf78ab7e4936db19410",
+          "sha256": "bb4a68fd13bbfb125c85c83ee2bd35e6ff12856b9c7f98a23440edac821672e9",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260627-0304/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260627-0304/rom_type_b-linux.zip"
         },
@@ -6712,7 +6712,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533382095,
-          "sha256": "b4f2f9b2a6793f9322316e91e98cf5aab104e86a5b5c1b6044b5a040d07bac76",
+          "sha256": "caf37e2a0c7f6c5659bf70c08d7ac8eb3b850ec518e5c234d16888e03530222e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/20260627-0304/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/20260627-0304/rom_type_b-linux-arm64.zip"
         },
@@ -6785,7 +6785,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 755609033,
-          "sha256": "b7b32d7f2f1dd28ef6c665d3b59b3dc8b80f92eb3994a2ef4f04b65a323751bf",
+          "sha256": "30a079ae0c3efcbcb314bd8450bda44807ae95a5203fecb853b52381a075d7a8",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0304/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260627-0304/rom-linux.zip"
         },
@@ -6796,7 +6796,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 580515754,
-          "sha256": "1ef08f747e1e59bc7098c435ad8eaf4d991c79a3546940fc590c244d1149b189",
+          "sha256": "3a40895e18a6bc5c49bfcdf5a5866c623edebe5a6daa8b2d0972ecd2f8607c4e",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0304/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260627-0304/rom-linux-arm64.zip"
         },
@@ -6851,7 +6851,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 708528479,
-          "sha256": "ed8e0e8ec9b8468223e280c03471a77c3faf8d66ff8ba6bed85d91647ce1c68b",
+          "sha256": "bb1cade638dbd7f85485a9a6d0380c0f00aebfb2e9df2db5da3bbbe49dc3170a",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0304/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260627-0304/rom_type_b-linux.zip"
         },
@@ -6862,7 +6862,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 533435200,
-          "sha256": "1a16b9891a390d321da7c7cb8b2eca1fa4db186e0c0ef966e809c7e12c5c6639",
+          "sha256": "3713f884c39c475b43f789046a0bbed2289514835267386714191ee30be46214",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0304/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260627-0304/rom_type_b-linux-arm64.zip"
         },
@@ -6935,7 +6935,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 758026999,
-          "sha256": "54dcabd29a83dc6533fb139565109814a44bac2886b65fd6e6aa309f8c73a8e8",
+          "sha256": "945fd7c5982904654e779cb4aaf486112991c53453063804ea8a625199ffbae1",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0209/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260627-0209/rom-linux.zip"
         },
@@ -6946,7 +6946,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 582933720,
-          "sha256": "bc2f00612e6fb665be04b6e596aa7b93155d7c45debdbf8aa7030c5264fdbddd",
+          "sha256": "5363fe58be8de0a40ac8679ee1bf50b2635bb1dd7e2040ff292c3f5ecc24a780",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0209/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260627-0209/rom-linux-arm64.zip"
         },
@@ -7001,7 +7001,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 710512299,
-          "sha256": "82631397586d32c3e9676f7e55d209d44cae78c9d17763f2f3cf55c086a6acd5",
+          "sha256": "7d38c0ccfc46cfcd716a4d9c7d8da05cf53615ec072ce9f9da7bea0876e04599",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0209/rom_type_b-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260627-0209/rom_type_b-linux.zip"
         },
@@ -7012,7 +7012,7 @@
           "model": "Y1",
           "type": "Type B",
           "size": 535419020,
-          "sha256": "a872e0fc6498eeb6cdf0a1987c7ee05ea274334810090f64c7785788da4beb46",
+          "sha256": "b43744054eb8e687c73e1f8082b291e073e7610ba9ce00b3382df5a12c48c7f9",
           "url": "https://github.com/y1-community/solar-mirror/releases/download/nightly-20260627-0209/rom_type_b-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/solar-mirror/releases/download/nightly-20260627-0209/rom_type_b-linux-arm64.zip"
         },
