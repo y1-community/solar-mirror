@@ -4,6 +4,8 @@
   "branch": "main",
   "updater_repo": "y1-community/updater-ce-neo",
   "post_install": [],
+  "post_install2": [],
+  "icon": "https://github.com/thesolarproject/solar/raw/main/app/src/main/assets/logo/square_full_logo_colour.png",
   "title_prefix": "Portable Flashing Package: ",
   "copy_original_assets": true,
   "source_readme": {
