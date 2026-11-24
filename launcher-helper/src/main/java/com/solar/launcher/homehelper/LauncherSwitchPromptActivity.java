@@ -65,17 +65,13 @@ public final class LauncherSwitchPromptActivity extends Activity {
         String t = HomeTargetPolicy.normalizeTarget(target);
         int res;
         if (restart) {
-            if (HomeTargetPolicy.TARGET_ROCKBOX.equals(t)) {
-                res = R.string.prompt_restarting_rockbox;
-            } else if (HomeTargetPolicy.TARGET_JJ.equals(t)) {
+            if (HomeTargetPolicy.TARGET_JJ.equals(t)) {
                 res = R.string.prompt_restarting_jj;
             } else {
                 res = R.string.prompt_restarting_solar;
             }
         } else {
-            if (HomeTargetPolicy.TARGET_ROCKBOX.equals(t)) {
-                res = R.string.prompt_switching_rockbox;
-            } else if (HomeTargetPolicy.TARGET_JJ.equals(t)) {
+            if (HomeTargetPolicy.TARGET_JJ.equals(t)) {
                 res = R.string.prompt_switching_jj;
             } else {
                 res = R.string.prompt_switching_solar;

@@ -26,7 +26,6 @@ public final class RescueExecutor {
 
         CompanionRescueHoldState.signalRestarting();
         String solar = GlobalInputPolicy.SOLAR_PKG;
-        String rockbox = GlobalInputPolicy.ROCKBOX_PKG;
         if (runShell("sh /system/etc/solar/solar-rescue-exec.sh")) {
             return;
         }
@@ -36,9 +35,6 @@ public final class RescueExecutor {
 
         // APK fallback — best-effort without root.
         if (ctx != null) {
-            if (rockbox.equals(foregroundPkg)) {
-                runShell("pm disable " + rockbox);
-            }
             runShell("am force-stop " + solar);
             Intent launch = ctx.getPackageManager().getLaunchIntentForPackage(solar);
             if (launch != null) {

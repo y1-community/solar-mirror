@@ -419,54 +419,6 @@ install_launcher_helper_system() {
     sudo chown root:root "$mount_sys/app/SolarHomeHelper.apk"
 }
 
-# 2026-07-15 — Y1 ATA base may omit Rockbox; pull stock APK+so from rockbox-y1 cache (no Y2 resign).
-# Was: Y1 rockbox always came from type-a/b base zip. Now: heal if missing after ATA switch.
-install_rockbox_stock_y1() {
-    local mount_sys="$1"
-    local cache
-    chmod +x "$SCRIPT_DIR/fetch-rockbox-y1-y2-assets.sh"
-    cache="$("$SCRIPT_DIR/fetch-rockbox-y1-y2-assets.sh")"
-    [ -f "$cache/org.rockbox.apk" ] && [ -f "$cache/librockbox.so" ] \
-        || die "fetch-rockbox-y1-y2-assets.sh did not populate org.rockbox.apk + librockbox.so"
-    echo "==> Installing stock org.rockbox.apk + librockbox.so (Y1 from rockbox-y1 asset cache)"
-    sudo cp "$cache/org.rockbox.apk" "$mount_sys/app/org.rockbox.apk"
-    sudo cp "$cache/librockbox.so" "$mount_sys/lib/librockbox.so"
-    sudo chmod 644 "$mount_sys/app/org.rockbox.apk" "$mount_sys/lib/librockbox.so"
-    sudo chown root:root "$mount_sys/app/org.rockbox.apk" "$mount_sys/lib/librockbox.so"
-}
-
-install_rockbox_from_y1_base() {
-    local mount_sys="$1"
-    local cache patched staged_libs staged_rb
-    chmod +x "$SCRIPT_DIR/fetch-rockbox-y1-y2-assets.sh" \
-        "$SCRIPT_DIR/build-rockbox-solar.sh" \
-        "$SCRIPT_DIR/fetch-rockbox-y1-source.sh" \
-        "$SCRIPT_DIR/patch-rockbox-y2.sh" \
-        "$SCRIPT_DIR/extract-rockbox-staged-assets.sh"
-    cache="$("$SCRIPT_DIR/fetch-rockbox-y1-y2-assets.sh")"
-    [ -f "$cache/org.rockbox.apk" ] && [ -f "$cache/librockbox.so" ] \
-        || die "fetch-rockbox-y1-y2-assets.sh did not populate org.rockbox.apk + librockbox.so"
-    patched="$WORK_DIR/org.rockbox-y2.apk"
-    staged_libs="$WORK_DIR/rockbox-staged-libs"
-    staged_rb="$WORK_DIR/rockbox-staged-dot-rockbox"
-    echo "==> Y2 Rockbox — manifest-only resign + Xposed RockboxCompatHooks + staged lib patch"
-    "$SCRIPT_DIR/build-rockbox-solar.sh" "$patched" y2
-    "$SCRIPT_DIR/extract-rockbox-staged-assets.sh" "$patched" "$staged_libs" "$staged_rb"
-    echo "==> Installing patched org.rockbox.apk + staged libs/.rockbox"
-    sudo cp "$patched" "$mount_sys/app/org.rockbox.apk"
-    sudo cp "$cache/librockbox.so" "$mount_sys/lib/librockbox.so"
-    sudo mkdir -p "$mount_sys/etc/solar/rockbox-libs" "$mount_sys/etc/solar/rockbox-dot-rockbox"
-    sudo cp -a "$staged_libs/." "$mount_sys/etc/solar/rockbox-libs/"
-    sudo cp -a "$staged_rb/." "$mount_sys/etc/solar/rockbox-dot-rockbox/"
-    sudo chmod 644 "$mount_sys/app/org.rockbox.apk" "$mount_sys/lib/librockbox.so"
-    sudo chmod -R 755 "$mount_sys/etc/solar/rockbox-libs" "$mount_sys/etc/solar/rockbox-dot-rockbox"
-    sudo chown -R root:root "$mount_sys/app/org.rockbox.apk" "$mount_sys/lib/librockbox.so" \
-        "$mount_sys/etc/solar/rockbox-libs" "$mount_sys/etc/solar/rockbox-dot-rockbox"
-    # #region agent log
-    debug_rom_log "A" "build-rom.sh:install_rockbox" "Y2 Rockbox installed" \
-        "patched_apk=$patched" "has_libmisc=$(unzip -l "$patched" 2>/dev/null | grep -c libmisc.so || echo 0)"
-    # #endregion
-}
 
 # 2026-07-15 — ATA bases (Y1 A/B, Y2, A5) keep SP Flash Tool tree for download-and-flash UX.
 # Was: zip -j ./* (flat firmware; dropped Flash Tool folders). Now: recursive pack minus build intermediates.
@@ -596,6 +548,10 @@ require_cmd cmp
 require_cmd openssl
 require_cmd sudo
 
+# 2026-11-24 — Base firmware / APK downloads are 270–530 MB; a single mid-transfer drop
+# used to kill the whole release. Retry transient network errors instead.
+CURL_RETRY=(--retry 5 --retry-delay 5 --retry-all-errors --connect-timeout 30)
+
 resolve_latest_solar_tag() {
     local release_url tag
     release_url="$(
@@ -618,7 +574,7 @@ download_solar_apk() {
 
     if [ -n "$apk_url" ]; then
         echo "Downloading $(basename "$apk_url")"
-        curl -fsSL -o "$dest" "$apk_url"
+        curl -fsSL "${CURL_RETRY[@]}" -o "$dest" "$apk_url"
         return
     fi
 
@@ -637,7 +593,7 @@ download_solar_apk() {
 
     apk_url="https://github.com${apk_url}"
     echo "Downloading $(basename "$apk_url") from release ${tag}"
-    curl -fsSL -o "$dest" "$apk_url"
+    curl -fsSL "${CURL_RETRY[@]}" -o "$dest" "$apk_url"
 }
 
 SOLAR_SYS="$REPO_ROOT/solar-rom/system"
@@ -958,58 +914,6 @@ audit_rom_contents() {
         fi
     fi
 
-    # ponytail: codec plugins ship inside org.rockbox.apk (lib/armeabi/*.so) — must survive ROM build.
-    if [ "$rockbox_on_rom" = "1" ] && [ -f "$sys_mount/app/org.rockbox.apk" ]; then
-        rb_so_count=$(unzip -l "$sys_mount/app/org.rockbox.apk" 2>/dev/null \
-            | grep -c 'lib/armeabi/.*\.so' || true)
-        if [ "${rb_so_count:-0}" -lt 35 ]; then
-            echo "audit fail: org.rockbox.apk has ${rb_so_count:-0} native libs (expected >=35 from rockbox-y1 base)" >&2
-            errors=$((errors + 1))
-        fi
-        # grep -q closes the pipe early; with pipefail unzip gets SIGPIPE and falsely fails — use -c.
-        rb_misc_count=$(unzip -l "$sys_mount/app/org.rockbox.apk" 2>/dev/null \
-            | grep -c 'lib/armeabi/libmisc.so' || true)
-        if [ "${rb_misc_count:-0}" -lt 1 ]; then
-            echo "audit fail: org.rockbox.apk missing lib/armeabi/libmisc.so (asset bootstrap)" >&2
-            errors=$((errors + 1))
-        fi
-        # Y2: unpatched rockbox-y1 sharedUserId blocks PM install on MT6582 — mandatory in CI.
-        if [ "$TYPE" = "y2" ]; then
-            # shellcheck source=lib-android-tools.sh
-            source "$SCRIPT_DIR/lib-android-tools.sh"
-            AAPT="$(find_android_build_tool aapt)" || {
-                echo "audit fail: aapt required for Y2 org.rockbox.apk sharedUserId audit (set ANDROID_HOME)" >&2
-                errors=$((errors + 1))
-                AAPT=""
-            }
-            if [ -n "$AAPT" ] && "$AAPT" dump xmltree "$sys_mount/app/org.rockbox.apk" AndroidManifest.xml 2>/dev/null \
-                    | grep -q 'sharedUserId'; then
-                echo "audit fail: org.rockbox.apk still has sharedUserId (run patch-rockbox-y2.sh)" >&2
-                errors=$((errors + 1))
-            fi
-        fi
-    fi
-
-    if [ ! -f "$sys_mount/etc/solar/sync-rockbox-assets.sh" ]; then
-        echo "audit fail: /system/etc/solar/sync-rockbox-assets.sh missing (Rockbox plugin sync)" >&2
-        errors=$((errors + 1))
-    fi
-
-    if [ "$TYPE" = "y2" ] && [ "$rockbox_on_rom" = "1" ]; then
-        if [ ! -f "$sys_mount/etc/solar/rockbox-y2-config.cfg" ]; then
-            echo "audit fail: /system/etc/solar/rockbox-y2-config.cfg missing (Y2 dual-storage)" >&2
-            errors=$((errors + 1))
-        fi
-        if [ ! -f "$sys_mount/etc/solar/rockbox-dot-rockbox/rocks/viewers/db_folder_select.rock" ]; then
-            echo "audit fail: staged rockbox-dot-rockbox missing db_folder_select.rock" >&2
-            errors=$((errors + 1))
-        fi
-        if [ ! -f "$sys_mount/etc/solar/rockbox-libs/librockbox.so" ]; then
-            echo "audit fail: staged rockbox-libs missing librockbox.so" >&2
-            errors=$((errors + 1))
-        fi
-    fi
-
     if [ ! -f "$sys_mount/etc/solar/apply-preferred-home-boot.sh" ]; then
         echo "audit fail: /system/etc/solar/apply-preferred-home-boot.sh missing" >&2
         errors=$((errors + 1))
@@ -1038,17 +942,6 @@ audit_rom_contents() {
         errors=$((errors + 1))
     fi
 
-    if [ ! -f "$sys_mount/etc/solar/disable-rockbox-for-solar.sh" ]; then
-        echo "audit fail: /system/etc/solar/disable-rockbox-for-solar.sh missing (legacy forwarder)" >&2
-        errors=$((errors + 1))
-    fi
-
-    # 2026-07-19 — switch-to-rockbox no longer packed; keep switch-to-stock for Solar HOME.
-    if [ -f "$sys_mount/etc/solar/switch-to-rockbox.sh" ]; then
-        echo "audit fail: switch-to-rockbox.sh must not ship (Solar-only HOME)" >&2
-        errors=$((errors + 1))
-    fi
-
     if [ ! -f "$sys_mount/etc/solar/switch-to-stock.sh" ]; then
         echo "audit fail: /system/etc/solar/switch-to-stock.sh missing" >&2
         errors=$((errors + 1))
@@ -1061,11 +954,6 @@ audit_rom_contents() {
     elif ! grep -qE 'solar-launcher-exec\.sh|apply_competition|set_preferred_home' \
             "$sys_mount/etc/solar/switch-to-stock.sh" 2>/dev/null; then
         echo "audit fail: switch-to-stock.sh must delegate to solar-launcher-exec or apply HOME" >&2
-        errors=$((errors + 1))
-    fi
-
-    if [ ! -f "$sys_mount/etc/solar/sync-rockbox-libs.sh" ]; then
-        echo "audit fail: /system/etc/solar/sync-rockbox-libs.sh missing (Rockbox codec sync)" >&2
         errors=$((errors + 1))
     fi
 
@@ -1229,19 +1117,11 @@ audit_rom_contents() {
         [ -f "$sys_mount/app/SolarContextBridgeY1.apk" ] || { echo "audit fail: SolarContextBridgeY1.apk missing" >&2; errors=$((errors + 1)); }
     fi
     [ -f "$sys_mount/app/SolarThemeFont.apk" ] || { echo "audit fail: SolarThemeFont.apk missing" >&2; errors=$((errors + 1)); }
-    [ -f "$sys_mount/app/SolarRockboxIme.apk" ] || { echo "audit fail: SolarRockboxIme.apk missing" >&2; errors=$((errors + 1)); }
     [ -f "$sys_mount/app/SolarNotPipeBridge.apk" ] || { echo "audit fail: SolarNotPipeBridge.apk missing" >&2; errors=$((errors + 1)); }
     [ -f "$sys_mount/app/io.github.gohoski.notpipe.apk" ] || { echo "audit fail: io.github.gohoski.notpipe.apk missing" >&2; errors=$((errors + 1)); }
-    if [ "$TYPE" = "y2" ]; then
-        [ -f "$sys_mount/app/SolarRockboxCompat.apk" ] || { echo "audit fail: SolarRockboxCompat.apk missing" >&2; errors=$((errors + 1)); }
-    fi
     if [ -f "$sys_mount/etc/init.d/99XposedInit.sh" ]; then
         if ! grep -q 'com.solar.launcher.xposed.themefont' "$sys_mount/etc/init.d/99XposedInit.sh" 2>/dev/null; then
             echo "audit fail: 99XposedInit.sh must enable com.solar.launcher.xposed.themefont" >&2
-            errors=$((errors + 1))
-        fi
-        if ! grep -q 'com.solar.launcher.xposed.rockbox.ime' "$sys_mount/etc/init.d/99XposedInit.sh" 2>/dev/null; then
-            echo "audit fail: 99XposedInit.sh must enable com.solar.launcher.xposed.rockbox.ime" >&2
             errors=$((errors + 1))
         fi
         if ! grep -q 'com.solar.launcher.xposed.notpipe' "$sys_mount/etc/init.d/99XposedInit.sh" 2>/dev/null; then
@@ -1251,10 +1131,6 @@ audit_rom_contents() {
         if [ "$TYPE" = "y2" ]; then
             if ! grep -q 'com.solar.launcher.xposed.bridge.y2' "$sys_mount/etc/init.d/99XposedInit.sh" 2>/dev/null; then
                 echo "audit fail: 99XposedInit.sh must enable com.solar.launcher.xposed.bridge.y2" >&2
-                errors=$((errors + 1))
-            fi
-            if ! grep -q 'com.solar.launcher.xposed.rockbox.compat' "$sys_mount/etc/init.d/99XposedInit.sh" 2>/dev/null; then
-                echo "audit fail: 99XposedInit.sh must enable com.solar.launcher.xposed.rockbox.compat" >&2
                 errors=$((errors + 1))
             fi
         else
@@ -1345,14 +1221,14 @@ if [ -n "$LOCAL_BASE_ZIP" ] && [ -f "$LOCAL_BASE_ZIP" ]; then
     cp "$LOCAL_BASE_ZIP" "$BASE_DIR/rom.zip"
 elif [ -n "$LOCAL_BASE_ZIP" ] && [[ "$LOCAL_BASE_ZIP" == http://* || "$LOCAL_BASE_ZIP" == https://* ]]; then
     echo "==> Downloading type-${TYPE} base firmware from SOLAR_*_BASE_ZIP URL"
-    curl -fsSL -o "$BASE_DIR/rom.zip" "$LOCAL_BASE_ZIP" \
+    curl -fsSL "${CURL_RETRY[@]}" -o "$BASE_DIR/rom.zip" "$LOCAL_BASE_ZIP" \
         || die "SOLAR_*_BASE_ZIP URL not readable: $LOCAL_BASE_ZIP"
 else
     if [ -n "$LOCAL_BASE_ZIP" ]; then
         echo "==> Ignoring non-file SOLAR_*_BASE_ZIP ($LOCAL_BASE_ZIP); using default URL"
     fi
     echo "==> Downloading type-${TYPE} base firmware"
-    curl -fsSL -o "$BASE_DIR/rom.zip" "$BASE_URL"
+    curl -fsSL "${CURL_RETRY[@]}" -o "$BASE_DIR/rom.zip" "$BASE_URL"
 fi
 unzip -q "$BASE_DIR/rom.zip" -d "$BASE_DIR"
 normalize_firmware_layout
@@ -1528,13 +1404,7 @@ sudo chown root:root "$MOUNT_SYS/etc/solar/solar-rescue-hud-watch.sh" \
     "$MOUNT_SYS/etc/solar/solar-rescue-exec.sh" "$MOUNT_SYS/etc/solar/solar-rescue-daemon.sh" \
     "$MOUNT_SYS/etc/solar/solar-launcher-exec.sh" "$MOUNT_SYS/etc/solar/solar-platform-daemon.sh"
 sudo cp "$SCRIPT_DIR/switch-to-stock.sh" "$MOUNT_SYS/etc/solar/switch-to-stock.sh"
-# 2026-07-19 — Do not pack switch-to-rockbox.sh (Solar-only HOME). Reversal: restore cp below.
-sudo rm -f "$MOUNT_SYS/etc/solar/switch-to-rockbox.sh"
-sudo cp "$SCRIPT_DIR/sync-rockbox-libs.sh" "$MOUNT_SYS/etc/solar/sync-rockbox-libs.sh"
-sudo cp "$SCRIPT_DIR/sync-rockbox-assets.sh" "$MOUNT_SYS/etc/solar/sync-rockbox-assets.sh"
-sudo cp "$REPO_ROOT/solar-rom/system/rockbox-y2-config.cfg" "$MOUNT_SYS/etc/solar/rockbox-y2-config.cfg"
 sudo cp "$SCRIPT_DIR/sync-y1-keymap.sh" "$MOUNT_SYS/etc/solar/sync-y1-keymap.sh"
-sudo cp "$SCRIPT_DIR/disable-rockbox-for-solar.sh" "$MOUNT_SYS/etc/solar/disable-rockbox-for-solar.sh"
 sudo cp "$SCRIPT_DIR/apply-preferred-home-boot.sh" "$MOUNT_SYS/etc/solar/apply-preferred-home-boot.sh"
 sudo cp "$SCRIPT_DIR/disable-large-font-accessibility.sh" "$MOUNT_SYS/etc/solar/disable-large-font-accessibility.sh"
 sudo cp "$SCRIPT_DIR/enable-gpu-performance.sh" "$MOUNT_SYS/etc/solar/enable-gpu-performance.sh"
@@ -1544,21 +1414,15 @@ sudo cp "$REPO_ROOT/app/src/main/assets/y1/solar-disable-ums.sh" "$MOUNT_SYS/etc
 sudo cp "$REPO_ROOT/app/src/main/assets/y1/y1-enable-ums.sh" "$MOUNT_SYS/etc/solar/y1-enable-ums.sh"
 sudo cp "$REPO_ROOT/app/src/main/assets/y1/y1-disable-ums.sh" "$MOUNT_SYS/etc/solar/y1-disable-ums.sh"
 sudo chmod 755 "$MOUNT_SYS/etc/solar/switch-to-stock.sh" \
-    "$MOUNT_SYS/etc/solar/sync-rockbox-libs.sh" "$MOUNT_SYS/etc/solar/sync-rockbox-assets.sh" \
     "$MOUNT_SYS/etc/solar/sync-y1-keymap.sh" \
-    "$MOUNT_SYS/etc/solar/disable-rockbox-for-solar.sh" \
     "$MOUNT_SYS/etc/solar/apply-preferred-home-boot.sh" \
     "$MOUNT_SYS/etc/solar/disable-large-font-accessibility.sh" \
     "$MOUNT_SYS/etc/solar/enable-gpu-performance.sh" \
     "$MOUNT_SYS/etc/solar/solar-usb-recovery-agent.sh" \
     "$MOUNT_SYS/etc/solar/solar-enable-ums.sh" "$MOUNT_SYS/etc/solar/solar-disable-ums.sh" \
     "$MOUNT_SYS/etc/solar/y1-enable-ums.sh" "$MOUNT_SYS/etc/solar/y1-disable-ums.sh"
-sudo chmod 644 "$MOUNT_SYS/etc/solar/rockbox-y2-config.cfg"
 sudo chown root:root "$MOUNT_SYS/etc/solar/switch-to-stock.sh" \
-    "$MOUNT_SYS/etc/solar/sync-rockbox-libs.sh" "$MOUNT_SYS/etc/solar/sync-rockbox-assets.sh" \
-    "$MOUNT_SYS/etc/solar/rockbox-y2-config.cfg" \
     "$MOUNT_SYS/etc/solar/sync-y1-keymap.sh" \
-    "$MOUNT_SYS/etc/solar/disable-rockbox-for-solar.sh" \
     "$MOUNT_SYS/etc/solar/apply-preferred-home-boot.sh" \
     "$MOUNT_SYS/etc/solar/disable-large-font-accessibility.sh" \
     "$MOUNT_SYS/etc/solar/enable-gpu-performance.sh" \
@@ -1722,11 +1586,9 @@ if [ ! -f "$SCRIPT_DIR/../vendor/xposed/XposedInstaller.apk" ]; then
     chmod +x "$SCRIPT_DIR/build-xposed-installer-apk.sh"
     "$SCRIPT_DIR/build-xposed-installer-apk.sh"
 fi
-if [ "$TYPE" != "y2" ]; then
-    echo "==> Install Xposed framework (API $XPOSED_API) — required for a, b, a5 ROM zips"
-    chmod +x "$SCRIPT_DIR/install-xposed-system.sh"
-    sudo "$SCRIPT_DIR/install-xposed-system.sh" "$MOUNT_SYS" "$XPOSED_API"
-fi
+echo "==> Install Xposed framework (API $XPOSED_API) — required for a, b, y2, and a5 ROM zips"
+chmod +x "$SCRIPT_DIR/install-xposed-system.sh"
+sudo "$SCRIPT_DIR/install-xposed-system.sh" "$MOUNT_SYS" "$XPOSED_API"
 install_notpipe_system "$MOUNT_SYS"
 install_launcher_helper_system "$MOUNT_SYS"
 
