@@ -89,8 +89,8 @@ android {
         minSdk 17
         targetSdk 35
         multiDexEnabled true
-        versionCode 3630418
-        versionName "20261126-0258"
+        versionCode 3630789
+        versionName "20261126-0909"
         buildConfigField "boolean", "FEATURE_OTA_UPDATE", "true"
         buildConfigField "String", "OTA_UPDATES_URL", "\"https://thesolarproject.github.io/solar-update/updates.xml\""
         def podcastIndexKey = project.findProperty("PODCAST_INDEX_API_KEY") ?: ""
@@ -162,6 +162,8 @@ dependencies {
     // 2026-07-05 — okhttp 3.12.x last branch for API 17; 3.13+ requires API 21.
     implementation 'com.squareup.okhttp3:okhttp:3.12.13'
     implementation 'net.jthink:jaudiotagger:3.0.1'
+    // 2026-11-26 — E-Book PDF pages: platform PdfRenderer needs API 21, pdfium works on API 14+.
+    implementation 'com.github.barteksc:pdfium-android:1.9.0'
     implementation 'androidx.multidex:multidex:2.0.1'
     // 2026-11-25 — On-device YouTube extraction (no PC/sidecar).
     implementation 'com.github.teamnewpipe:NewPipeExtractor:v0.24.6'
