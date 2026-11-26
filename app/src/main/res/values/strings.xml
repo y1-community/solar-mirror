@@ -580,6 +580,7 @@
     <string name="ebook_library_empty">No books yet</string>
     <string name="ebook_library_empty_hint">Copy EPUB or PDF files into the Ebook folder</string>
     <string name="ebook_open_failed">Could not open that book</string>
+    <string name="ebook_formatting">Formatting…</string>
     <string name="ebook_zlib_loading">Loading…</string>
     <string name="ebook_zlib_none">Nothing found</string>
     <string name="ebook_zlib_search_row">Search Z-Library</string>
@@ -588,6 +589,7 @@
     <string name="ebook_downloading">Downloading %1$s… %2$s%%</string>
     <string name="ebook_downloaded">Saved %1$s</string>
     <string name="ebook_download_failed">Download failed: %1$s</string>
+    <string name="ebook_zlib_test_ok">Signed in. %1$s downloads left today.</string>
     <string name="ebook_zlib_setup_title">Z-Library setup</string>
     <string name="ebook_zlib_setup_open">On a PC on the same Wi-Fi, open:</string>
     <string name="ebook_zlib_setup_steps">Then:</string>
